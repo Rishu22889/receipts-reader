@@ -1,10 +1,10 @@
 # Submission form: Task 2, Tarang Pharma expense receipts
 
-## 1. GitHub repo URL
+## GitHub repo URL
 
 **https://github.com/Rishu22889/receipts-reader.git**
 
-## 2. What did you build, and what decision does it support for Nilesh?
+## 1. What did you build, and what decision does it support for Nilesh?
 
 A tool that reads the receipt photo on each claim, checks it against the claim, the employee record, earlier claims and the expense policy, and returns **approve** (pay without a clerk) or **review** (a clerk checks it), with reason codes. It comes as a FastAPI service with one upload screen, a batch pipeline, and `predictions.csv` for the 190 test claims.
 
@@ -12,9 +12,9 @@ The decision it supports: **which claims Finance can pay from the photo alone.**
 
 - **129 of the 190 test claims (68%) are classified as eligible for auto-approval** and 61 (32%) go to review. These are proposed decisions, not payments; I recommend a four-week shadow pilot before any automatic payment.
 - In the two months of processed claims, the clerks approved **25 claims, ₹14,283, that the policy says should have been stopped**. These are 16 bills claimed a second time, 3 pen-altered totals and 6 over-claims, and 23 of them were under ₹2,000. The engine flags all 25 for review before payment: **about ₹7,100 a month of potentially preventable leakage in Nagpur**, estimated from the two-month historical sample. Actual avoided payments need confirming from payment records and human review, since "approved" isn't proof of payment.
-- Clerk time: about **95 hours a month company-wide, ~₹22,600 a month of capacity value, not cash** (the arithmetic is in Q7).
+- Clerk time: about **95 hours a month company-wide, ~₹22,600 a month of capacity value, not cash** (the arithmetic is in question 6).
 
-## 3. What do you expect predictions.csv to score, and why?
+## 2. What do you expect predictions.csv to score, and why?
 
 | Field | Expected | Basis |
 |---|---|---|
@@ -35,7 +35,7 @@ The decision it supports: **which claims Finance can pay from the photo alone.**
 - **Altered bills:** I report the original printed amount for the pen-altered bills (CLM-31299: 472, not 1,472). If the key uses the altered figure, those rows count as wrong.
 - **The decision key may follow a different reading of the policy,** for example on rounding or date tolerance.
 
-## 4. How do you know it works?
+## 3. How do you know it works?
 
 **What I measured against:**
 - **Reading:** 60 later training claims, never used to build the parser or the vendor list. I compared five reading methods (raw Tesseract, preprocessed Tesseract, PaddleOCR-VL, PaddleOCR-VL with retry, combined) using exact-match scoring, with "within ±₹10" reported separately.
@@ -57,14 +57,14 @@ The decision it supports: **which claims Finance can pay from the photo alone.**
 - **Unflagged errors:** one hotel check-in date was taken instead of the invoice date. That was the only wrong field value in the holdout not flagged by a check.
 - **New photos:** with only Tesseract (no GPU), it misreads small digits often. That's safe, since those claims go to review, but it lowers coverage.
 
-## 5. Did you change, narrow, or push back on Nilesh's ask?
+## 4. Did you change, narrow, or push back on Nilesh's ask?
 
 - **"Anything under ₹2,000 approved straight from the photo": narrowed.** An amount threshold alone would have auto-paid 23 of the 25 bad claims above, so approval also needs a clean read and no duplicate, alteration, vehicle, stamp or date exception. The cost is that 32% go to a clerk instead of 10%.
 - **"At least 95% accurate on the fields": reframed.** It isn't met for every field (date 85%, GSTIN 81%), and 60 receipts can't prove it for any field. I made the tool leave a field blank and route the claim to review rather than guess. Of the fields it filled, it was right on 59/59 vendors, 51/52 dates, 57/59 bill numbers, 57/58 amounts and 21/21 GSTINs (holdout of 60). I measured the clerks at 96% on the same fields (12 errors in 300). I decided this on the first day of benchmarking, when the VLM turned out to skip lines rather than misread them.
 - **"Tell me what it will save": split into two numbers.** Clerk-time capacity (~₹22,600 a month, not cash) and potentially preventable leakage (~₹7,100 a month in Nagpur, a historical estimate that needs payment records to confirm). I also flagged that approved doesn't mean paid, and that policy §5 makes recovery after the quarter unlikely.
 - **Recommended a four-week shadow pilot before any automatic payment,** because the rules were written while studying the same claims they were evaluated on.
 
-## 6. What is wrong with what you are handing us, or with the data?
+## 5. What is wrong with what you are handing us, or with the data?
 
 **In the data:**
 - **Clerk labels have errors:**
@@ -91,7 +91,7 @@ The decision it supports: **which claims Finance can pay from the photo alone.**
 - **Service limits:** session history is in memory only, with no authentication and a single process.
 - **Lodging rules are lightly tested:** the outstation, rate, guest-name and GST-invoice checks run on only 29 lodging claims, almost all over ₹2,000 and so reviewed anyway.
 
-## 7. What does checking one claim cost, and a month at 2,400 claims?
+## 6. What does checking one claim cost, and a month at 2,400 claims?
 
 **No paid API calls are made.**
 
@@ -102,14 +102,14 @@ The decision it supports: **which claims Finance can pay from the photo alone.**
   - Monthly total: roughly ₹10,700, against ₹33,250. That frees **~95 clerk-hours, ~₹22,600 of capacity**, which is not cash unless staffing changes.
 - **Queries:** each one costs ₹45 (policy §5). The tool reviews rather than queries, so this cost only arises when a clerk decides to query.
 
-## 8. What did you deliberately leave out, and why?
+## 7. What did you deliberately leave out, and why?
 
 - **No trained or fine-tuned model.** 283 historical decisions, several of them wrong, aren't a training set for what the policy says. Rules are auditable and testable.
 - **No paid vision API.** A free local model plus checks was enough, and it keeps the per-claim cost near zero and the service runnable without a key.
 - **No live GPU inference in the service, and no second VLM.** The laptop has 8 GB RAM, so PaddleOCR-VL ran in batch on Kaggle; one VLM was enough to beat Tesseract by a wide margin.
 - **No database, authentication, or payment integration.** Out of scope for a decision prototype. The bigger risk was wrong approvals, so I spent the time there.
 
-## 9. Anything you built or found that nobody asked for?
+## 8. Anything you built or found that nobody asked for?
 
 - **Duplicate-bill detection beyond image hashing:** vendor + bill number + date, which found 28 re-claimed bills where hashing found 4.
 - **Pen-alteration detection** from the receipt's own arithmetic (sub total + taxes, fuel rate × volume), which found 6 altered totals.
@@ -122,7 +122,7 @@ The decision it supports: **which claims Finance can pay from the photo alone.**
   - An automatic retry for its 11 repetition loops; one of them had invented ₹3,997,249.
 - **A rules fingerprint** in every report, so a decision can be traced to the exact rule set.
 
-## 10. What did you use AI for? (and the recording)
+## 9. What did you use AI for? (recording link here)
 
 **Recording:** **https://drive.google.com/file/d/1HIwNl8ismB1Y8hjfK5Qfkf_yj2kiDalW/view?usp=sharing**
 
@@ -146,7 +146,7 @@ The decision it supports: **which claims Finance can pay from the photo alone.**
 - the Paddle pipeline install and the custom `trust_remote_code` path;
 - the sharpness-based "unreadable" label and the border-based crop detector.
 
-## 11. Someone picks this up on Monday. The three things they need to know.
+## 10. Someone picks this up on Monday. The three things they need to know.
 
 1. **How to run it and where things are.** `pip install -r requirements.txt`, `brew install tesseract`, `uvicorn tarang.service:app --app-dir src`. The decision rules are in `src/tarang/decision_engine.py` and frozen as `95bef2d00f35`. Any change means updating `tests/test_decision_engine.py` (one test per policy row) and re-running `scripts/decision_engine.py`. `docs/POLICY_RULES.md` explains every rule.
 2. **The reader is the weak link without a GPU.** Good reading comes from PaddleOCR-VL (`kaggle/README.md`): force `use_cache=True` and float32 on a T4, and never install Paddle into the same environment. On CPU the service falls back to Tesseract, which is safe but sends most claims to review. Before production, deploy a GPU reader (`TARANG_VLM=live`).

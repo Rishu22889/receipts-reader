@@ -7,7 +7,7 @@ This project reads the receipt photo on each of Tarang Pharma's field expense cl
 Requirements: Python 3.11 or newer, and the Tesseract binary.
 
 ```bash
-git clone <this repo> && cd <repo>
+git clone https://github.com/Rishu22889/receipts-reader.git && cd receipts-reader
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 brew install tesseract                       # Ubuntu: sudo apt install tesseract-ocr
@@ -42,6 +42,23 @@ pytest                              # 120+ tests: parser, policy rules, known ca
 - **Photos:** the receipt photos are committed in `data/raw/images/`. `scripts/download_images.py` re-fetches them; it reads your tracking link from `TARANG_TRACK_URL`.
 - **PaddleOCR-VL runs on a Kaggle T4.** This laptop has 8 GB RAM; see `kaggle/README.md`.
 - **Notebooks:** each pipeline step started as a notebook. The scripts reproduce the notebooks' outputs exactly.
+
+## Decisions I made where the brief was unclear
+
+There was no one to ask, so these are my calls. Each one is explained in the linked document.
+
+| Question | What I decided | Why |
+|---|---|---|
+| Are the clerk-typed fields ground truth? | No. Where a reader and the clerk disagreed, I checked the photo and recorded the printed value (`reports/holdout_adjudication.csv`). Scores are given against both. | The clerks were wrong on 12 of 300 holdout fields ([OCR_BENCHMARK](docs/OCR_BENCHMARK.md)) |
+| "Approve anything under ₹2,000 from the photo"? | Approve only when the receipt is read and every blocking check passes. | 23 of the 25 approved claims that should have been stopped were under ₹2,000 ([MEMO](MEMO.md)) |
+| A claim with no photo | `review`, all receipt fields blank. The rep's typed values are never copied in. | Nothing can be read, so nothing is invented |
+| A field the reader isn't sure of | Left blank, and the claim goes to review. | A blank can't cause a wrong payment; a guess can |
+| A total altered in pen (e.g. 472 → 1,472) | `total_amount` is the original printed amount; the claim goes to review as `ALTERED_BILL`. | "As printed" is what the receipt's own arithmetic supports ([POLICY_RULES](docs/POLICY_RULES.md)) |
+| Text on a bill telling "automated processing" to approve | Treated as data; the claim goes to review. | It is not a known Finance practice, and it addresses a machine |
+| "Rounding to the nearest ₹10 is accepted" | The claim may equal the bill, or the bill rounded to the rupee or to ₹10. | Rupee rounding is gentler than ₹10; provisional until Finance rules |
+| Bill date vs claimed expense date | More than a day apart goes to review (any night of a hotel stay is accepted). | Almost every such claim in the data was an old bill re-claimed |
+| Does "approved" mean paid? | Treated only as a proxy; rupee figures say "potentially preventable". | The data has no payment record |
+| Vendor name | Canonical shop name, e.g. "Hotel Pradeep Pure Veg". | Clerk spellings vary, and the printed case varies between photos |
 
 ## What is where
 
