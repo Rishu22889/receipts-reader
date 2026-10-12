@@ -36,7 +36,8 @@
   .muted { color: var(--muted); font-size: 13px; }
   table { width: 100%; border-collapse: collapse; margin: 6px 0 14px; font-size: 14px; }
   th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; overflow-wrap: anywhere; }
-  th { color: var(--muted); font-weight: 600; font-size: 12px; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; white-space: nowrap; }
+  td.nowrap { white-space: nowrap; }
   .tag { display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 12px; }
   .t-ok { background: var(--ok-bg); color: var(--ok); } .t-warn { background: var(--warn-bg); color: var(--warn); } .t-bad { background: var(--bad-bg); color: var(--bad); }
   ul.reasons { margin: 0 0 14px; padding-left: 18px; } ul.reasons li { margin: 4px 0; }
@@ -134,14 +135,22 @@ $("form").onsubmit = async (ev) => {
 
 function render(j) {
   const reasons = j.reason_codes.map((c) => `<li><code>${esc(c)}</code> ${esc(REASONS[c]?.meaning || "")}</li>`).join("");
-  const checks = j.checks.filter((c) => c.check).sort((a, b) => a.passed - b.passed).map((c) =>
-    `<tr><td>${esc(c.check)}</td><td>${c.passed ? '<span class="tag t-ok">pass</span>' : '<span class="tag t-bad">fail</span>'}</td><td>${esc(c.passed ? "" : c.code)}</td><td>${esc(c.detail)}</td></tr>`).join("");
+  // a check's detail text describes the failure; on a pass, show it only where it reads as evidence (amounts, dates, plates)
+  const SAY_ON_PASS = new Set(["under_limit", "amount_read", "amount_matches_claim", "number_format", "date_matches_claim",
+                               "vendor_matches_claim", "fuel_vehicle", "memo_name", "lodging_outstation", "lodging_rate", "lodging_name", "rounding"]);
+  const checks = j.checks.filter((c) => c.check).sort((a, b) => a.passed - b.passed).map((c) => {
+    const detail = c.passed && !SAY_ON_PASS.has(c.check) ? "" : c.detail;
+    const code = c.passed ? (REASONS[c.code] && !REASONS[c.code].blocks_approval ? c.code : "") : c.code;
+    return `<tr><td>${esc(c.check)}</td><td class="nowrap">${c.passed ? '<span class="tag t-ok">pass</span>' : '<span class="tag t-bad">fail</span>'}</td><td>${esc(code)}</td><td>${esc(detail)}</td></tr>`;
+  }).join("");
   const f = j.fields, s = j.field_status;
   const rows = [["Vendor", f.vendor, s.vendor_status], ["Bill date", f.receipt_date, s.date_status], ["Bill number", f.receipt_number, s.number_status],
                 ["GSTIN", f.gstin, s.gstin_status], ["Total (Rs)", f.total_amount, s.total_status]]
     .map(([k, v, st]) => `<tr><td>${k}</td><td>${esc(v) || '<span class="muted">blank</span>'}</td><td>${statusTag(st)}</td></tr>`).join("");
   const d = j.details || {};
-  const extra = [["Vehicle on bill", d.vehicle_number], ["Guest name", d.guest_name], ["Hotel city", d.hotel_city], ["Name on memo", d.memo_name],
+  const cat = $("category").value;   // show only the details the policy uses for this category
+  const extra = [["Vehicle on bill", cat === "Fuel" ? d.vehicle_number : ""], ["Guest name", cat === "Lodging" ? d.guest_name : ""],
+                 ["Hotel city", cat === "Lodging" ? d.hotel_city : ""], ["Name on memo", cat === "Local travel" ? d.memo_name : ""],
                  ["Rotation applied", d.rotation ? `${d.rotation}°` : ""], ["Instruction-like text", d.instruction_hits]]
     .filter(([, v]) => v).map(([k, v]) => `<tr><td>${k}</td><td>${esc(v)}</td></tr>`).join("");
   $("result").innerHTML = `

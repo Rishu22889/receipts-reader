@@ -24,3 +24,7 @@ __pycache__/
 
 # Upload bundle for Kaggle, rebuilt with scripts/make_kaggle_zip.sh
 kaggle/*.zip
+
+# Screen recordings (linked from Drive, too large for the repo)
+*.mp4
+*.mov
