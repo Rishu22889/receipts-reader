@@ -1,0 +1,22 @@
+claim_id,field,reference,predicted,status,kind,flagged,issues
+CLM-30814,receipt_date,2026-06-28,,absent,missed (blank),True,low OCR confidence
+CLM-30846,receipt_date,2026-07-01,,absent,missed (blank),True,pen marks
+CLM-30846,gstin,27OILFO1994Z2ZV,,absent,missed (blank),True,pen marks
+CLM-30868,receipt_date,2026-07-05,,absent,missed (blank),True,rotated 90; pen marks
+CLM-30868,total_amount,1130.00,11307.00,uncertain,wrong value,True,rotated 90; pen marks
+CLM-30923,receipt_number,007012,067012,format_mismatch,wrong value,True,low OCR confidence
+CLM-30925,receipt_date,2026-07-02,,absent,missed (blank),True,low OCR confidence
+CLM-30925,receipt_number,008732,668732,format_mismatch,wrong value,True,low OCR confidence
+CLM-30940,vendor,Sai Palace Lodge,,absent,missed (blank),True,
+CLM-30967,receipt_date,2026-07-10,,absent,missed (blank),True,pen marks
+CLM-30978,receipt_number,006239,,absent,missed (blank),True,rotated 90
+CLM-31013,receipt_date,2026-07-11,,absent,missed (blank),True,pen marks
+CLM-31015,receipt_date,2026-07-09,2026-07-07,ok,wrong value,False,rotated 90; pen marks
+CLM-31015,gstin,27UVQFW9408Y1ZS,,absent,missed (blank),True,rotated 90; pen marks
+CLM-31035,gstin,27OUUFX7743H2ZR,,absent,missed (blank),True,pen marks
+CLM-31038,gstin,27NCRPN1784A3Z1,,absent,missed (blank),True,
+CLM-31053,receipt_date,2026-07-07,,absent,missed (blank),True,pen marks
+CLM-31063,receipt_date,2026-06-09,,absent,missed (blank),True,
+CLM-31067,total_amount,528.64,,absent,missed (blank),True,no total found?
+CLM-31079,gstin,27OUUFX7743H2ZR,,absent,missed (blank),True,
+CLM-31084,total_amount,30.00,,absent,missed (blank),True,pen marks

@@ -1,0 +1,7 @@
+claim_id,split,image_file_raw,expected_path,found_on_server,clerk_status,clerk_note,action
+CLM-30531,train,IMG_20260617_212342.jpg,data/raw/images/IMG_20260617_212342.jpg,False,queried,bill not attached,exclude from extraction scoring
+CLM-30710,train,IMG_20260627_161208.jpg,data/raw/images/IMG_20260627_161208.jpg,False,queried,bill not attached,exclude from extraction scoring
+CLM-30887,train,IMG-20260706-WA0212.jpg,data/raw/images/IMG-20260706-WA0212.jpg,False,queried,bill not attached,exclude from extraction scoring
+CLM-31190,test,IMG_20260724_170809.jpg,data/raw/images/IMG_20260724_170809.jpg,False,,,decision = review; receipt fields left blank
+CLM-31280,test,IMG_20260729_204623.jpg,data/raw/images/IMG_20260729_204623.jpg,False,,,decision = review; receipt fields left blank
+CLM-31363,test,IMG_20260802_153908.jpg,data/raw/images/IMG_20260802_153908.jpg,False,,,decision = review; receipt fields left blank

@@ -1,0 +1,9 @@
+duplicate_group,claim_id,other_claim_ids,image_file,max_hash_distance,split,emp_id,expense_date,vendor,amount_claimed,clerk_status
+1,CLM-30600,CLM-30963,IMG_20260622_130954.jpg,0,train,TPD-0388,2026-06-19,Hotel Saibaba Bhjnalaya,672.00,approved
+1,CLM-30963,CLM-30600,IMG_20260709_165630.jpg,0,train,TPD-0423,2026-06-14,Hotel Saibaba Bhojnalaya,672.00,approved
+2,CLM-30661,CLM-30804,IMG_20260624_182555.jpg,0,train,TPD-0503,2026-06-17,Annapurna Dining Hall,1559.00,approved
+2,CLM-30804,CLM-30661,IMG_20260702_150756.jpg,0,train,TPD-0452,2026-06-08,Annapurna Dining Hall,1559.00,approved
+3,CLM-30664,CLM-31475,IMG_20260625_081750.jpg,0,train,TPD-0471,2026-06-21,Cafe Coffee Corner,987.00,approved
+3,CLM-31475,CLM-30664,IMG_20260807_130914.jpg,0,test,TPD-0471,2026-07-02,Cafe Coffee Corner,987.00,
+4,CLM-31301,CLM-31480,IMG_20260729_173852.jpg,0,test,TPD-0497,2026-07-24,Hotel Pradeep Pure Veg (Ngp),735.00,
+4,CLM-31480,CLM-31301,IMG_20260807_131159.jpg,0,test,TPD-0497,2026-07-24,Hotel Pradeep Pure Veg,735.00,

@@ -1,0 +1,301 @@
+method,claim_id,vendor,vendor_status,receipt_date,date_status,receipt_number,number_status,gstin,gstin_read,gstin_status,total_amount,total_status,looped
+tesseract_raw,CLM-30807,Sandwich,unknown,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30814,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30815,Ort Rz,unknown,,absent,3789,ok,,,absent,,absent,False
+tesseract_raw,CLM-30820,Gajanan Petroleum,ok,,absent,,absent,,,absent,250.00,ok,False
+tesseract_raw,CLM-30821,Gajanan Petroleum,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30824,Laxmi Auto Fuels,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30826,,absent,,absent,661166,ok,,,absent,,absent,False
+tesseract_raw,CLM-30829,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30840,,absent,,absent,3678,ok,,,absent,,absent,False
+tesseract_raw,CLM-30846,Amount,unknown,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30849,Shivam Family Restaurant,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30857,Wot Responsible For Prohibited Items,unknown,,absent,,absent,,270UUFX7743H2Z2,invalid,,absent,False
+tesseract_raw,CLM-30863,Hotel Saibaba Bhojnalaya,ok,2026-06-30,ok,6339,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok,,absent,False
+tesseract_raw,CLM-30865,Punjabi Tadka Dhaba,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30868,,absent,,absent,8435,ok,,,absent,,absent,False
+tesseract_raw,CLM-30874,Sitabuldi Multilevel Parking,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30875,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30883,Prompt Parcel Services,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30897,Jai Ambe Fuels,ok,2026-06-30,ok,001087,ok,,,absent,300.00,verified,False
+tesseract_raw,CLM-30901,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30902,Receipt,unknown,,absent,,absent,,,absent,500.00,ok,False
+tesseract_raw,CLM-30906,Ashirwad Veg Restaurant,ok,,absent,,absent,,,absent,630.00,ok,False
+tesseract_raw,CLM-30919,Shree Sai Petroleum,ok,2026-07-08,ok,907191,format_mismatch,,,absent,300.00,verified,False
+tesseract_raw,CLM-30920,New Highway Service Station,ok,,absent,001638,ok,,,absent,482.58,verified,False
+tesseract_raw,CLM-30923,Shree Sai Petroleum,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30925,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30929,Spice Route Kitchen,ok,2026-06-30,ok,6019,ok,,DTWCRPNLTBAAZZL,invalid,,absent,False
+tesseract_raw,CLM-30934,Royal Travels,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30940,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30944,Weiqaay Wep,unknown,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30947,,absent,2026-07-02,ok,006790,ok,,,absent,300.00,verified,False
+tesseract_raw,CLM-30950,Shree Sai Petroleum,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30957,Om Sai Fuel Point,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30967,Punjabi Tadka Dhaba,ok,2026-07-10,ok,8297,ok,,,absent,,absent,False
+tesseract_raw,CLM-30978,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30980,Green Leaf Restaurant,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30982,Ashirwad Veg Restaurant,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30983,Green Leaf Restaurant,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30989,Amount,unknown,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30992,Shree Ganesh Tours & Travels,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-30996,Shree Ganesh Tours & Travels,ok,,absent,3855,ok,,,absent,3707.00,uncertain,False
+tesseract_raw,CLM-31004,Hotel Krishna Comforts,ok,2026-07-09,ok,HKC/26-27/5273,ok,27HPFCA5856Y3ZE,27HPFCA5856Y3ZE,ok_normalised,2016.00,verified,False
+tesseract_raw,CLM-31007,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31009,Laxmi Auto Fuels,inferred_gstin,2026-07-05,ok,004338,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok_normalised,1536.01,ok,False
+tesseract_raw,CLM-31010,Tvlod Anvae,unknown,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31013,Punjabi Tadka Dhaba,ok,,absent,8309,ok,,,absent,,absent,False
+tesseract_raw,CLM-31015,Hotel Shubham Residency,ok,2026-07-09,ok,HSR/26-27/4886,ok,,A7UVAFWO408Y12S,invalid,4704.00,verified,False
+tesseract_raw,CLM-31016,,absent,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31021,Shree Ganesh Tours & Travels,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31030,Hotel Saibaba Bhojnalaya,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31034,Hotel Pradeep Pure Veg,ok,2026-07-13,ok,1451,ok,27ODUFJ1789K3ZU,27ODUFJ1789K3ZU,ok_normalised,,absent,False
+tesseract_raw,CLM-31035,Freignt,unknown,,absent,,absent,,,absent,212.40,ok,False
+tesseract_raw,CLM-31038,Spice Route Kitchen,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31053,Roy. Al Eee Ls,unknown,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31057,Product Petrol,unknown,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31063,Hotel Rajdhani Dhaba,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31067,Prompt Parcel Services,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31072,Prompt Parcel Services,ok,,absent,,absent,,,absent,,absent,False
+tesseract_raw,CLM-31079,Vidarbha Express Courier,ok,2026-06-22,ok,,absent,27OUUFX7743H2ZR,27OUUFX7743H2ZR,ok_normalised,,absent,False
+tesseract_raw,CLM-31084,Sitabuldi Multilevel Parking,ok,2026-07-09,ok,115179,ok,,,absent,,absent,False
+tesseract_pre,CLM-30807,Spice Route Kitchen,ok,,absent,5968,ok,,,absent,1008.00,ok,False
+tesseract_pre,CLM-30814,Highway King Dhaba,ok,,absent,,absent,,,absent,27.00,ok,False
+tesseract_pre,CLM-30815,Shree Ganesh Tours & Travels,ok,,absent,3780,ok,,,absent,1.00,words_only,False
+tesseract_pre,CLM-30820,Gajanan Petroleum,ok,,absent,908887,format_mismatch,,,absent,0.00,ok,False
+tesseract_pre,CLM-30821,Gajanan Petroleum,ok,,absent,668812,format_mismatch,,,absent,333.16,verified,False
+tesseract_pre,CLM-30824,Laxmi Auto Fuels,ok,,absent,964308,format_mismatch,,270PAFUS220X176,invalid,300.00,ok,False
+tesseract_pre,CLM-30826,Jai Ambe Fuels,ok,,absent,,absent,,,absent,150.00,ok,False
+tesseract_pre,CLM-30829,Ashirwad Veg Restaurant,ok,,absent,6127,ok,,,absent,0.00,ok,False
+tesseract_pre,CLM-30840,Shree Ganesh Tours & Travels,ok,,absent,3678,ok,,,absent,100.00,words_only,False
+tesseract_pre,CLM-30846,Ashirwad Veg Restaurant,ok,,absent,6185,ok,,,absent,620.00,ok,False
+tesseract_pre,CLM-30849,Shivam Family Restaurant,ok,,absent,2730,ok,27XMECH9812R2ZH,27XMECH9812R2ZH,ok_normalised,483.00,ok,False
+tesseract_pre,CLM-30857,Vidarbha Express Courier,ok,,absent,VX68449901,ok,,27QUUFX7743H27R,invalid,141.60,ok,False
+tesseract_pre,CLM-30863,Hotel Saibaba Bhojnalaya,ok,2026-06-30,ok,6339,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok_normalised,220.00,inconsistent,False
+tesseract_pre,CLM-30865,Punjabi Tadka Dhaba,ok,,absent,8240,ok,,,absent,0.00,ok,False
+tesseract_pre,CLM-30868,Royal Travels,ok,,absent,8435,ok,,,absent,4120.00,uncertain,False
+tesseract_pre,CLM-30874,Sitabuldi Multilevel Parking,ok,2026-06-29,ok,113445,ok,,,absent,,absent,False
+tesseract_pre,CLM-30875,Gajanan Petroleum,ok,,absent,909019,format_mismatch,,,absent,500.00,ok,False
+tesseract_pre,CLM-30883,Book Ing Receipt,unknown,,absent,,absent,,,absent,141.60,ok,False
+tesseract_pre,CLM-30897,Jai Ambe Fuels,ok,2026-06-30,ok,681087,format_mismatch,,,absent,300.00,verified,False
+tesseract_pre,CLM-30901,Ce Bpcy Po,unknown,,absent,96125,ok,,,absent,300.00,ok,False
+tesseract_pre,CLM-30902,Laxmi Auto Fuels,ok,,absent,9E4383,format_mismatch,,,absent,500.00,ok,False
+tesseract_pre,CLM-30906,Ashirwad Veg Restaurant,ok,2026-07-08,ok,6235,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,630.00,verified,False
+tesseract_pre,CLM-30919,Shree Sai Petroleum,ok,2026-07-08,ok,007191,ok,,,absent,0.00,ok,False
+tesseract_pre,CLM-30920,New Highway Service Station,ok,,absent,001638,ok,,,absent,482.58,verified,False
+tesseract_pre,CLM-30923,Surell Sa Petroleum Do,unknown,,absent,,absent,,,absent,2949.80,ok,False
+tesseract_pre,CLM-30925,Reps Tee Ce,unknown,,absent,,absent,,,absent,,absent,False
+tesseract_pre,CLM-30929,Spice Route Kitchen,ok,2026-06-30,ok,,absent,,PIWCRPNLTBAASLI,invalid,0.00,ok,False
+tesseract_pre,CLM-30934,Royal Travels,ok,,absent,8464,ok,,,absent,20.00,words_only,False
+tesseract_pre,CLM-30940,,absent,,absent,,absent,,,absent,6272.00,ok,False
+tesseract_pre,CLM-30944,Shree Sai Petroleum,ok,,absent,606817,format_mismatch,,,absent,100.00,verified,False
+tesseract_pre,CLM-30947,Shree Sai Petroleum,ok,2026-07-02,ok,006790,ok,,,absent,300.00,inconsistent,False
+tesseract_pre,CLM-30950,Shree Sai Petroleum,ok,2026-07-05,ok,006950,ok,,,absent,500.00,verified,False
+tesseract_pre,CLM-30957,Om Sai Fuel Point,ok,2026-07-10,ok,803295,format_mismatch,,,absent,300.00,ok,False
+tesseract_pre,CLM-30967,Punjabi Tadka Dhaba,ok,,absent,8297,ok,,,absent,,absent,False
+tesseract_pre,CLM-30978,Shree Sai Petroleum,ok,2026-06-14,ok,906239,format_mismatch,,,absent,89.00,ok,False
+tesseract_pre,CLM-30980,Green Leaf Restaurant,ok,2026-06-13,ok,,absent,,,absent,630.00,ok,False
+tesseract_pre,CLM-30982,Ashirwad Veg Restaurant,ok,2026-06-21,ok,5967,ok,,27O1LLFOLY9SZ22,invalid,1102.00,ok,False
+tesseract_pre,CLM-30983,Green Leaf Restaurant,ok,2026-07-06,ok,A/6356,ok,,27YUFFZ9311K22Y,invalid,399.00,ok,False
+tesseract_pre,CLM-30989,Punjabi Tadka Dhaba,ok,,absent,8263,ok,,,absent,,absent,False
+tesseract_pre,CLM-30992,Shree Ganesh Tours & Travels,ok,,absent,,absent,,,absent,,absent,False
+tesseract_pre,CLM-30996,Shree Ganesh Tours & Travels,ok,,absent,,absent,,,absent,7.00,ok,False
+tesseract_pre,CLM-31004,Hotel Krishna Comforts,inferred_gstin,2026-07-10,ok,HKC/26-27/5273,ok,27HPFCA5856Y3ZE,27HPFCA5856Y3ZE,ok_normalised,2016.00,verified,False
+tesseract_pre,CLM-31007,' Medical Square Pay & Park,unknown,,absent,104727,ok,,,absent,20.00,ok,False
+tesseract_pre,CLM-31009,Laxmi Auto Fuels,ok,,absent,004338,ok,,,absent,536.01,verified,False
+tesseract_pre,CLM-31010,Shivam Family Restaurant,ok,,absent,,absent,,,absent,,absent,False
+tesseract_pre,CLM-31013,Punjabi Tadka Dhaba,ok,,absent,8309,ok,,,absent,330.00,ok,False
+tesseract_pre,CLM-31015,Hotel Shubham Residency,inferred_prefix,2026-07-09,ok,HSR/26-27/4886,ok,,OTUVOFW9408Y12S,invalid,4704.00,verified,False
+tesseract_pre,CLM-31016,New Highway Service Station,ok,,absent,,absent,,,absent,100.00,ok,False
+tesseract_pre,CLM-31021,Shree Ganesh Tours & Travels,ok,,absent,3894,ok,,,absent,5.00,uncertain,False
+tesseract_pre,CLM-31030,Hotel Saibaba Bhojnalaya,ok,2026-07-07,ok,6500,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok,7.00,ok,False
+tesseract_pre,CLM-31034,Hotel Pradeep Pure Veg,ok,2026-07-13,ok,1451,ok,27ODUFJ1789K3ZU,27ODUFJ1789K3ZU,ok_normalised,756.00,ok,False
+tesseract_pre,CLM-31035,Vidarbha Express Courier,ok,,absent,VX38678601,ok,,,absent,212.40,ok,False
+tesseract_pre,CLM-31038,Spice Route Kitchen,ok,,absent,6144,ok,,27NCRPNI784437Z,invalid,1113.00,inconsistent,False
+tesseract_pre,CLM-31053,Royal Travels,ok,,absent,8467,ok,,,absent,160.00,words_only,False
+tesseract_pre,CLM-31057,Shree Sai Petroleum,ok,,absent,,absent,,,absent,200.00,ok,False
+tesseract_pre,CLM-31063,Hotel Rajdhani Dhaba,ok,,absent,3278,ok,,,absent,225.00,ok,False
+tesseract_pre,CLM-31067,Prompt Parcel Services,ok,,absent,PP37248102,ok,,,absent,528.64,ok,False
+tesseract_pre,CLM-31072,Prompt Parcel Services,inferred_prefix,,absent,PP53300855,ok,,,absent,330.40,ok,False
+tesseract_pre,CLM-31079,Vidarbha Express Courier,ok,2026-06-22,ok,VX11449697,ok,,,absent,40.00,ok,False
+tesseract_pre,CLM-31084,Sitabuldi Multilevel Parking,ok,2026-07-10,ok,115179,ok,,,absent,0.00,ok,False
+paddleocr_vl,CLM-30807,Spice Route Kitchen,inferred_gstin,2026-06-24,ok,5968,ok,27NCRPN1784A3Z1,27NCRPN1784A3Z1,ok,1008.00,verified,False
+paddleocr_vl,CLM-30814,Highway King Dhaba,ok,,absent,1316,ok,,,absent,270.00,verified,False
+paddleocr_vl,CLM-30815,Shree Ganesh Tours & Travels,ok,2026-06-29,ok,3780,ok,,,absent,1080.00,verified,False
+paddleocr_vl,CLM-30820,,absent,2026-07-04,ok,008887,ok,,,absent,250.00,verified,False
+paddleocr_vl,CLM-30821,Gajanan Petroleum,ok,2026-07-03,ok,008812,ok,,,absent,333.16,verified,False
+paddleocr_vl,CLM-30824,Laxmi Auto Fuels,ok,2026-07-04,ok,004308,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok_normalised,300.00,verified,False
+paddleocr_vl,CLM-30826,Jai Ambe Fuels,ok,2026-07-01,ok,001166,ok,,,absent,150.00,verified,False
+paddleocr_vl,CLM-30829,Ashirwad Veg Restaurant,inferred_gstin,2026-07-01,ok,6127,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,388.00,ok,False
+paddleocr_vl,CLM-30840,Shree Ganesh Tours & Travels,ok,2026-06-14,ok,3678,ok,,,absent,1120.00,verified,False
+paddleocr_vl,CLM-30846,,absent,,absent,,absent,,,absent,620.00,ok,False
+paddleocr_vl,CLM-30849,Shivam Family Restaurant,ok,2026-06-26,ok,2730,ok,27XMECH9812R2ZH,27XMECH9812R2ZH,ok,483.00,verified,False
+paddleocr_vl,CLM-30857,Vidarbha Express Courier,ok,2026-06-27,ok,VX68449901,ok,27OUUFX7743H2ZR,27OUUFX7743H2ZR,ok_normalised,141.60,verified,False
+paddleocr_vl,CLM-30863,Hotel Saibaba Bhojnalaya,ok,2026-06-30,ok,6339,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok,220.00,verified,False
+paddleocr_vl,CLM-30865,Punjabi Tadka Dhaba,ok,2026-07-06,ok,8240,ok,,,absent,80.00,verified,False
+paddleocr_vl,CLM-30868,,absent,,absent,8435,ok,,,absent,11307.00,uncertain,False
+paddleocr_vl,CLM-30874,Sitabuldi Multilevel Parking,ok,2026-06-29,ok,113445,ok,,,absent,30.00,ok,False
+paddleocr_vl,CLM-30875,,absent,2026-07-05,ok,009010,ok,,,absent,500.00,verified,False
+paddleocr_vl,CLM-30883,Prompt Parcel Services,ok,2026-07-02,ok,PP57107049,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok_normalised,141.60,ok,False
+paddleocr_vl,CLM-30897,Jai Ambe Fuels,ok,2026-06-30,ok,001087,ok,,,absent,300.00,verified,False
+paddleocr_vl,CLM-30901,Jai Ambe Fuels,ok,2026-07-02,ok,001251,ok,,,absent,300.00,verified,False
+paddleocr_vl,CLM-30902,Laxmi Auto Fuels,ok,2026-07-08,ok,004383,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok,500.00,verified,False
+paddleocr_vl,CLM-30906,Ashirwad Veg Restaurant,inferred_gstin,2026-07-08,ok,6235,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,630.00,verified,False
+paddleocr_vl,CLM-30919,,absent,2026-07-08,ok,007191,ok,,,absent,300.00,verified,False
+paddleocr_vl,CLM-30920,New Highway Service Station,ok,2026-07-05,ok,001638,ok,,,absent,482.58,verified,False
+paddleocr_vl,CLM-30923,Shree Sai Petroleum,ok,2026-07-06,ok,067012,format_mismatch,,,absent,2949.80,verified,False
+paddleocr_vl,CLM-30925,Gajanan Petroleum,ok,,absent,668732,format_mismatch,,,absent,100.00,ok,False
+paddleocr_vl,CLM-30929,Spice Route Kitchen,ok,2026-06-30,ok,6019,ok,27NCRPN1784A3Z1,27NCRPN1784A3Z1,ok,420.00,verified,False
+paddleocr_vl,CLM-30934,,absent,2026-07-06,ok,8464,ok,,,absent,1020.00,verified,False
+paddleocr_vl,CLM-30940,,absent,2026-07-05,ok,SPL/26-27/2343,ok,27GFZCR8659B2Z4,27GFZCR8659B2Z4,ok,6272.00,verified,False
+paddleocr_vl,CLM-30944,Shree Sai Petroleum,ok,2026-07-03,ok,006817,ok,,,absent,100.00,verified,False
+paddleocr_vl,CLM-30947,Shree Sai Petroleum,ok,2026-07-02,ok,006790,ok,,,absent,300.00,verified,False
+paddleocr_vl,CLM-30950,Shree Sai Petroleum,ok,2026-07-05,ok,006950,ok,,,absent,500.00,verified,False
+paddleocr_vl,CLM-30957,Om Sai Fuel Point,inferred_line,2026-07-10,ok,003295,ok,,,absent,300.00,verified,False
+paddleocr_vl,CLM-30967,Punjabi Tadka Dhaba,ok,,absent,8297,ok,,,absent,50.00,verified,False
+paddleocr_vl,CLM-30978,,absent,2026-06-14,ok,,absent,,,absent,150.00,verified,False
+paddleocr_vl,CLM-30980,Green Leaf Restaurant,inferred_gstin,2026-06-13,ok,A/6178,ok,27YUFFZ9311K2ZV,27YUFFZ9311K2ZV,ok,630.00,verified,False
+paddleocr_vl,CLM-30982,Ashirwad Veg Restaurant,inferred_gstin,2026-06-21,ok,5967,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,1102.00,ok,False
+paddleocr_vl,CLM-30983,Green Leaf Restaurant,inferred_gstin,2026-07-06,ok,A/6356,ok,27YUFFZ9311K2ZV,27YUFFZ9311K2ZV,ok,399.00,verified,False
+paddleocr_vl,CLM-30989,Punjabi Tadka Dhaba,ok,2026-07-08,ok,8263,ok,,,absent,195.00,verified,False
+paddleocr_vl,CLM-30992,Shree Ganesh Tours & Travels,ok,2026-07-09,ok,3849,ok,,,absent,900.00,verified,False
+paddleocr_vl,CLM-30996,Shree Ganesh Tours & Travels,ok,2026-07-11,ok,3855,ok,,,absent,370.00,verified,False
+paddleocr_vl,CLM-31004,Hotel Krishna Comforts,ok,2026-07-10,ok,HKC/26-27/5273,ok,27HPFCA5856Y3ZE,27HPFCA5856Y3ZE,ok,,absent,True
+paddleocr_vl,CLM-31007,Medical Square Pay & Park,unknown,2026-07-02,ok,104727,ok,,,absent,20.00,ok,False
+paddleocr_vl,CLM-31009,Laxmi Auto Fuels,ok,2026-07-05,ok,004338,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok,536.01,inconsistent,False
+paddleocr_vl,CLM-31010,Shivam Family Restaurant,ok,2026-07-10,ok,2841,ok,27XMECH9812R2ZH,27XMECH9812R2ZH,ok,819.00,verified,False
+paddleocr_vl,CLM-31013,Punjabi Tadka Dhaba,ok,,absent,8309,ok,,,absent,330.00,ok,False
+paddleocr_vl,CLM-31015,Hotel Shubham Residency,inferred_line,2026-07-07,ok,HSR/26-27/4886,ok,,,absent,4704.00,verified,False
+paddleocr_vl,CLM-31016,New Highway Service Station,ok,2026-07-06,ok,001777,ok,,,absent,100.00,verified,False
+paddleocr_vl,CLM-31021,,absent,2026-07-12,ok,3894,ok,,,absent,850.00,verified,False
+paddleocr_vl,CLM-31030,Hotel Saibaba Bhojnalaya,inferred_gstin,2026-07-07,ok,6500,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok,682.00,verified,False
+paddleocr_vl,CLM-31034,,absent,2026-07-13,ok,1451,ok,,,absent,756.00,verified,False
+paddleocr_vl,CLM-31035,Vidarbha Express Courier,inferred_prefix,2026-07-08,ok,VX38678601,ok,,,absent,212.40,ok,False
+paddleocr_vl,CLM-31038,,absent,2026-07-09,ok,6144,ok,,,absent,1113.00,ok,False
+paddleocr_vl,CLM-31053,,absent,,absent,8467,ok,,,absent,260.00,uncertain,True
+paddleocr_vl,CLM-31057,Shree Sai Petroleum,ok,2026-07-10,ok,007343,ok,,,absent,200.00,verified,False
+paddleocr_vl,CLM-31063,Hotel Rajdhani Dhaba,ok,,absent,3278,ok,,,absent,325.00,ok,False
+paddleocr_vl,CLM-31067,Prompt Parcel Services,ok,2026-07-15,ok,PP37248102,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok,,absent,False
+paddleocr_vl,CLM-31072,Prompt Parcel Services,inferred_gstin,2026-07-16,ok,PP53300855,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok,330.40,ok,False
+paddleocr_vl,CLM-31079,Vidarbha Express Courier,inferred_prefix,2026-06-22,ok,VX11449697,ok,,,absent,448.40,ok,False
+paddleocr_vl,CLM-31084,,absent,2026-07-10,ok,115179,ok,,,absent,,absent,False
+paddleocr_vl_retry,CLM-30807,Spice Route Kitchen,inferred_gstin,2026-06-24,ok,5968,ok,27NCRPN1784A3Z1,27NCRPN1784A3Z1,ok,1008.00,verified,False
+paddleocr_vl_retry,CLM-30814,Highway King Dhaba,ok,,absent,1316,ok,,,absent,270.00,verified,False
+paddleocr_vl_retry,CLM-30815,Shree Ganesh Tours & Travels,ok,2026-06-29,ok,3780,ok,,,absent,1080.00,verified,False
+paddleocr_vl_retry,CLM-30820,,absent,2026-07-04,ok,008887,ok,,,absent,250.00,verified,False
+paddleocr_vl_retry,CLM-30821,Gajanan Petroleum,ok,2026-07-03,ok,008812,ok,,,absent,333.16,verified,False
+paddleocr_vl_retry,CLM-30824,Laxmi Auto Fuels,ok,2026-07-04,ok,004308,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok_normalised,300.00,verified,False
+paddleocr_vl_retry,CLM-30826,Jai Ambe Fuels,ok,2026-07-01,ok,001166,ok,,,absent,150.00,verified,False
+paddleocr_vl_retry,CLM-30829,Ashirwad Veg Restaurant,inferred_gstin,2026-07-01,ok,6127,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,388.00,ok,False
+paddleocr_vl_retry,CLM-30840,Shree Ganesh Tours & Travels,ok,2026-06-14,ok,3678,ok,,,absent,1120.00,verified,False
+paddleocr_vl_retry,CLM-30846,,absent,,absent,,absent,,,absent,620.00,ok,False
+paddleocr_vl_retry,CLM-30849,Shivam Family Restaurant,ok,2026-06-26,ok,2730,ok,27XMECH9812R2ZH,27XMECH9812R2ZH,ok,483.00,verified,False
+paddleocr_vl_retry,CLM-30857,Vidarbha Express Courier,ok,2026-06-27,ok,VX68449901,ok,27OUUFX7743H2ZR,27OUUFX7743H2ZR,ok_normalised,141.60,verified,False
+paddleocr_vl_retry,CLM-30863,Hotel Saibaba Bhojnalaya,ok,2026-06-30,ok,6339,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok,220.00,verified,False
+paddleocr_vl_retry,CLM-30865,Punjabi Tadka Dhaba,ok,2026-07-06,ok,8240,ok,,,absent,80.00,verified,False
+paddleocr_vl_retry,CLM-30868,,absent,,absent,8435,ok,,,absent,11307.00,uncertain,False
+paddleocr_vl_retry,CLM-30874,Sitabuldi Multilevel Parking,ok,2026-06-29,ok,113445,ok,,,absent,30.00,ok,False
+paddleocr_vl_retry,CLM-30875,,absent,2026-07-05,ok,009010,ok,,,absent,500.00,verified,False
+paddleocr_vl_retry,CLM-30883,Prompt Parcel Services,ok,2026-07-02,ok,PP57107049,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok_normalised,141.60,ok,False
+paddleocr_vl_retry,CLM-30897,Jai Ambe Fuels,ok,2026-06-30,ok,001087,ok,,,absent,300.00,verified,False
+paddleocr_vl_retry,CLM-30901,Jai Ambe Fuels,ok,2026-07-02,ok,001251,ok,,,absent,300.00,verified,False
+paddleocr_vl_retry,CLM-30902,Laxmi Auto Fuels,ok,2026-07-08,ok,004383,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok,500.00,verified,False
+paddleocr_vl_retry,CLM-30906,Ashirwad Veg Restaurant,inferred_gstin,2026-07-08,ok,6235,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,630.00,verified,False
+paddleocr_vl_retry,CLM-30919,,absent,2026-07-08,ok,007191,ok,,,absent,300.00,verified,False
+paddleocr_vl_retry,CLM-30920,New Highway Service Station,ok,2026-07-05,ok,001638,ok,,,absent,482.58,verified,False
+paddleocr_vl_retry,CLM-30923,Shree Sai Petroleum,ok,2026-07-06,ok,067012,format_mismatch,,,absent,2949.80,verified,False
+paddleocr_vl_retry,CLM-30925,Gajanan Petroleum,ok,,absent,668732,format_mismatch,,,absent,100.00,ok,False
+paddleocr_vl_retry,CLM-30929,Spice Route Kitchen,ok,2026-06-30,ok,6019,ok,27NCRPN1784A3Z1,27NCRPN1784A3Z1,ok,420.00,verified,False
+paddleocr_vl_retry,CLM-30934,,absent,2026-07-06,ok,8464,ok,,,absent,1020.00,verified,False
+paddleocr_vl_retry,CLM-30940,,absent,2026-07-05,ok,SPL/26-27/2343,ok,27GFZCR8659B2Z4,27GFZCR8659B2Z4,ok,6272.00,verified,False
+paddleocr_vl_retry,CLM-30944,Shree Sai Petroleum,ok,2026-07-03,ok,006817,ok,,,absent,100.00,verified,False
+paddleocr_vl_retry,CLM-30947,Shree Sai Petroleum,ok,2026-07-02,ok,006790,ok,,,absent,300.00,verified,False
+paddleocr_vl_retry,CLM-30950,Shree Sai Petroleum,ok,2026-07-05,ok,006950,ok,,,absent,500.00,verified,False
+paddleocr_vl_retry,CLM-30957,Om Sai Fuel Point,inferred_line,2026-07-10,ok,003295,ok,,,absent,300.00,verified,False
+paddleocr_vl_retry,CLM-30967,Punjabi Tadka Dhaba,ok,,absent,8297,ok,,,absent,50.00,verified,False
+paddleocr_vl_retry,CLM-30978,,absent,2026-06-14,ok,,absent,,,absent,150.00,verified,False
+paddleocr_vl_retry,CLM-30980,Green Leaf Restaurant,inferred_gstin,2026-06-13,ok,A/6178,ok,27YUFFZ9311K2ZV,27YUFFZ9311K2ZV,ok,630.00,verified,False
+paddleocr_vl_retry,CLM-30982,Ashirwad Veg Restaurant,inferred_gstin,2026-06-21,ok,5967,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,1102.00,ok,False
+paddleocr_vl_retry,CLM-30983,Green Leaf Restaurant,inferred_gstin,2026-07-06,ok,A/6356,ok,27YUFFZ9311K2ZV,27YUFFZ9311K2ZV,ok,399.00,verified,False
+paddleocr_vl_retry,CLM-30989,Punjabi Tadka Dhaba,ok,2026-07-08,ok,8263,ok,,,absent,195.00,verified,False
+paddleocr_vl_retry,CLM-30992,Shree Ganesh Tours & Travels,ok,2026-07-09,ok,3849,ok,,,absent,900.00,verified,False
+paddleocr_vl_retry,CLM-30996,Shree Ganesh Tours & Travels,ok,2026-07-11,ok,3855,ok,,,absent,370.00,verified,False
+paddleocr_vl_retry,CLM-31004,Hotel Krishna Comforts,ok,2026-07-10,ok,HKC/26-27/5273,ok,27HPFCA5856Y3ZE,27HPFCA5856Y3ZE,ok,2016.00,verified,False
+paddleocr_vl_retry,CLM-31007,Medical Square Pay & Park,unknown,2026-07-02,ok,104727,ok,,,absent,20.00,ok,False
+paddleocr_vl_retry,CLM-31009,Laxmi Auto Fuels,ok,2026-07-05,ok,004338,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok,536.01,inconsistent,False
+paddleocr_vl_retry,CLM-31010,Shivam Family Restaurant,ok,2026-07-10,ok,2841,ok,27XMECH9812R2ZH,27XMECH9812R2ZH,ok,819.00,verified,False
+paddleocr_vl_retry,CLM-31013,Punjabi Tadka Dhaba,ok,,absent,8309,ok,,,absent,330.00,ok,False
+paddleocr_vl_retry,CLM-31015,Hotel Shubham Residency,inferred_line,2026-07-07,ok,HSR/26-27/4886,ok,,,absent,4704.00,verified,False
+paddleocr_vl_retry,CLM-31016,New Highway Service Station,ok,2026-07-06,ok,001777,ok,,,absent,100.00,verified,False
+paddleocr_vl_retry,CLM-31021,,absent,2026-07-12,ok,3894,ok,,,absent,850.00,verified,False
+paddleocr_vl_retry,CLM-31030,Hotel Saibaba Bhojnalaya,inferred_gstin,2026-07-07,ok,6500,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok,682.00,verified,False
+paddleocr_vl_retry,CLM-31034,,absent,2026-07-13,ok,1451,ok,,,absent,756.00,verified,False
+paddleocr_vl_retry,CLM-31035,Vidarbha Express Courier,inferred_prefix,2026-07-08,ok,VX38678601,ok,,,absent,212.40,ok,False
+paddleocr_vl_retry,CLM-31038,,absent,2026-07-09,ok,6144,ok,,,absent,1113.00,ok,False
+paddleocr_vl_retry,CLM-31053,,absent,,absent,8467,ok,,,absent,260.00,verified,False
+paddleocr_vl_retry,CLM-31057,Shree Sai Petroleum,ok,2026-07-10,ok,007343,ok,,,absent,200.00,verified,False
+paddleocr_vl_retry,CLM-31063,Hotel Rajdhani Dhaba,ok,,absent,3278,ok,,,absent,325.00,ok,False
+paddleocr_vl_retry,CLM-31067,Prompt Parcel Services,ok,2026-07-15,ok,PP37248102,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok,,absent,False
+paddleocr_vl_retry,CLM-31072,Prompt Parcel Services,inferred_gstin,2026-07-16,ok,PP53300855,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok,330.40,ok,False
+paddleocr_vl_retry,CLM-31079,Vidarbha Express Courier,inferred_prefix,2026-06-22,ok,VX11449697,ok,,,absent,448.40,ok,False
+paddleocr_vl_retry,CLM-31084,,absent,2026-07-10,ok,115179,ok,,,absent,,absent,False
+combined,CLM-30807,Spice Route Kitchen,inferred_gstin,2026-06-24,ok,5968,ok,27NCRPN1784A3Z1,27NCRPN1784A3Z1,ok,1008.00,verified,False
+combined,CLM-30814,Highway King Dhaba,ok,,absent,1316,ok,,,absent,270.00,verified,False
+combined,CLM-30815,Shree Ganesh Tours & Travels,ok,2026-06-29,ok,3780,ok,,,absent,1080.00,verified,False
+combined,CLM-30820,Gajanan Petroleum,ok_fallback,2026-07-04,ok,008887,ok,,,absent,250.00,verified,False
+combined,CLM-30821,Gajanan Petroleum,ok,2026-07-03,ok,008812,ok,,,absent,333.16,verified,False
+combined,CLM-30824,Laxmi Auto Fuels,ok,2026-07-04,ok,004308,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok_normalised,300.00,verified,False
+combined,CLM-30826,Jai Ambe Fuels,ok,2026-07-01,ok,001166,ok,,,absent,150.00,verified,False
+combined,CLM-30829,Ashirwad Veg Restaurant,inferred_gstin,2026-07-01,ok,6127,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,388.00,ok,False
+combined,CLM-30840,Shree Ganesh Tours & Travels,ok,2026-06-14,ok,3678,ok,,,absent,1120.00,verified,False
+combined,CLM-30846,Ashirwad Veg Restaurant,ok_fallback,,absent,6185,ok_fallback,,,absent,620.00,ok,False
+combined,CLM-30849,Shivam Family Restaurant,ok,2026-06-26,ok,2730,ok,27XMECH9812R2ZH,27XMECH9812R2ZH,ok,483.00,verified,False
+combined,CLM-30857,Vidarbha Express Courier,ok,2026-06-27,ok,VX68449901,ok,27OUUFX7743H2ZR,27OUUFX7743H2ZR,ok_normalised,141.60,verified,False
+combined,CLM-30863,Hotel Saibaba Bhojnalaya,ok,2026-06-30,ok,6339,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok,220.00,verified,False
+combined,CLM-30865,Punjabi Tadka Dhaba,ok,2026-07-06,ok,8240,ok,,,absent,80.00,verified,False
+combined,CLM-30868,Royal Travels,ok_fallback,,absent,8435,ok,,,absent,11307.00,uncertain,False
+combined,CLM-30874,Sitabuldi Multilevel Parking,ok,2026-06-29,ok,113445,ok,,,absent,30.00,ok,False
+combined,CLM-30875,Gajanan Petroleum,ok_fallback,2026-07-05,ok,009010,ok,,,absent,500.00,verified,False
+combined,CLM-30883,Prompt Parcel Services,ok,2026-07-02,ok,PP57107049,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok_normalised,141.60,ok,False
+combined,CLM-30897,Jai Ambe Fuels,ok,2026-06-30,ok,001087,ok,,,absent,300.00,verified,False
+combined,CLM-30901,Jai Ambe Fuels,ok,2026-07-02,ok,001251,ok,,,absent,300.00,verified,False
+combined,CLM-30902,Laxmi Auto Fuels,ok,2026-07-08,ok,004383,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok,500.00,verified,False
+combined,CLM-30906,Ashirwad Veg Restaurant,inferred_gstin,2026-07-08,ok,6235,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,630.00,verified,False
+combined,CLM-30919,Shree Sai Petroleum,ok_fallback,2026-07-08,ok,007191,ok,,,absent,300.00,verified,False
+combined,CLM-30920,New Highway Service Station,ok,2026-07-05,ok,001638,ok,,,absent,482.58,verified,False
+combined,CLM-30923,Shree Sai Petroleum,ok,2026-07-06,ok,067012,format_mismatch,,,absent,2949.80,verified,False
+combined,CLM-30925,Gajanan Petroleum,ok,,absent,668732,format_mismatch,,,absent,100.00,ok,False
+combined,CLM-30929,Spice Route Kitchen,ok,2026-06-30,ok,6019,ok,27NCRPN1784A3Z1,27NCRPN1784A3Z1,ok,420.00,verified,False
+combined,CLM-30934,Royal Travels,ok_fallback,2026-07-06,ok,8464,ok,,,absent,1020.00,verified,False
+combined,CLM-30940,,absent,2026-07-05,ok,SPL/26-27/2343,ok,27GFZCR8659B2Z4,27GFZCR8659B2Z4,ok,6272.00,verified,False
+combined,CLM-30944,Shree Sai Petroleum,ok,2026-07-03,ok,006817,ok,,,absent,100.00,verified,False
+combined,CLM-30947,Shree Sai Petroleum,ok,2026-07-02,ok,006790,ok,,,absent,300.00,verified,False
+combined,CLM-30950,Shree Sai Petroleum,ok,2026-07-05,ok,006950,ok,,,absent,500.00,verified,False
+combined,CLM-30957,Om Sai Fuel Point,inferred_line,2026-07-10,ok,003295,ok,,,absent,300.00,verified,False
+combined,CLM-30967,Punjabi Tadka Dhaba,ok,,absent,8297,ok,,,absent,50.00,verified,False
+combined,CLM-30978,Shree Sai Petroleum,ok_fallback,2026-06-14,ok,,absent,,,absent,150.00,verified,False
+combined,CLM-30980,Green Leaf Restaurant,inferred_gstin,2026-06-13,ok,A/6178,ok,27YUFFZ9311K2ZV,27YUFFZ9311K2ZV,ok,630.00,verified,False
+combined,CLM-30982,Ashirwad Veg Restaurant,inferred_gstin,2026-06-21,ok,5967,ok,27OILFO1994Z2ZV,27OILFO1994Z2ZV,ok_normalised,1102.00,ok,False
+combined,CLM-30983,Green Leaf Restaurant,inferred_gstin,2026-07-06,ok,A/6356,ok,27YUFFZ9311K2ZV,27YUFFZ9311K2ZV,ok,399.00,verified,False
+combined,CLM-30989,Punjabi Tadka Dhaba,ok,2026-07-08,ok,8263,ok,,,absent,195.00,verified,False
+combined,CLM-30992,Shree Ganesh Tours & Travels,ok,2026-07-09,ok,3849,ok,,,absent,900.00,verified,False
+combined,CLM-30996,Shree Ganesh Tours & Travels,ok,2026-07-11,ok,3855,ok,,,absent,370.00,verified,False
+combined,CLM-31004,Hotel Krishna Comforts,ok,2026-07-10,ok,HKC/26-27/5273,ok,27HPFCA5856Y3ZE,27HPFCA5856Y3ZE,ok,2016.00,verified,False
+combined,CLM-31007,Medical Square Pay & Park,unknown,2026-07-02,ok,104727,ok,,,absent,20.00,ok,False
+combined,CLM-31009,Laxmi Auto Fuels,ok,2026-07-05,ok,004338,ok,27DPAFU4120X1ZM,27DPAFU4120X1ZM,ok,536.01,inconsistent,False
+combined,CLM-31010,Shivam Family Restaurant,ok,2026-07-10,ok,2841,ok,27XMECH9812R2ZH,27XMECH9812R2ZH,ok,819.00,verified,False
+combined,CLM-31013,Punjabi Tadka Dhaba,ok,,absent,8309,ok,,,absent,330.00,ok,False
+combined,CLM-31015,Hotel Shubham Residency,inferred_line,2026-07-07,ok,HSR/26-27/4886,ok,,,absent,4704.00,verified,False
+combined,CLM-31016,New Highway Service Station,ok,2026-07-06,ok,001777,ok,,,absent,100.00,verified,False
+combined,CLM-31021,Shree Ganesh Tours & Travels,ok_fallback,2026-07-12,ok,3894,ok,,,absent,850.00,verified,False
+combined,CLM-31030,Hotel Saibaba Bhojnalaya,inferred_gstin,2026-07-07,ok,6500,ok,27MTSPF4455T1ZB,27MTSPF4455T1ZB,ok,682.00,verified,False
+combined,CLM-31034,Hotel Pradeep Pure Veg,ok_fallback,2026-07-13,ok,1451,ok,27ODUFJ1789K3ZU,27ODUFJ1789K3ZU,ok_normalised_fallback,756.00,verified,False
+combined,CLM-31035,Vidarbha Express Courier,inferred_prefix,2026-07-08,ok,VX38678601,ok,,,absent,212.40,ok,False
+combined,CLM-31038,Spice Route Kitchen,ok_fallback,2026-07-09,ok,6144,ok,,,absent,1113.00,ok,False
+combined,CLM-31053,Royal Travels,ok_fallback,,absent,8467,ok,,,absent,260.00,verified,False
+combined,CLM-31057,Shree Sai Petroleum,ok,2026-07-10,ok,007343,ok,,,absent,200.00,verified,False
+combined,CLM-31063,Hotel Rajdhani Dhaba,ok,,absent,3278,ok,,,absent,325.00,ok,False
+combined,CLM-31067,Prompt Parcel Services,ok,2026-07-15,ok,PP37248102,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok,,absent,False
+combined,CLM-31072,Prompt Parcel Services,inferred_gstin,2026-07-16,ok,PP53300855,ok,27IRWFN4293M2Z1,27IRWFN4293M2Z1,ok,330.40,ok,False
+combined,CLM-31079,Vidarbha Express Courier,inferred_prefix,2026-06-22,ok,VX11449697,ok,,,absent,448.40,ok,False
+combined,CLM-31084,Sitabuldi Multilevel Parking,ok_fallback,2026-07-10,ok,115179,ok,,,absent,,absent,False

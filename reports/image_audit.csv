@@ -1,0 +1,474 @@
+claim_id,split,image_file,photo_available,open_status,width,height,kb,sharpness,brightness,contrast,pen_ink_pct,purple_pct,rotation,confident_words,rotation_margin,injection_hits,instruction_text,pen_marks_likely,total_keyword_found,blur_candidate,duplicate_group,duplicate_other_claims,issues
+CLM-30412,train,IMG_20260608_080820.jpg,True,ok,598.0,498.0,28.7,124.9,210.7,41.4,0.0,0.0,0.0,26.0,23.0,,False,False,True,False,,,
+CLM-30416,train,IMG_20260608_211607.jpg,True,ok,641.0,533.0,29.5,169.6,181.1,37.1,0.0,0.0,0.0,29.0,27.0,,False,False,True,False,,,
+CLM-30418,train,IMG_20260609_210118.jpg,True,ok,1400.0,838.0,74.6,704.9,171.6,84.0,0.02,0.0,0.0,77.0,56.0,,False,False,True,False,,,
+CLM-30421,train,IMG_20260610_101606.jpg,True,ok,716.0,643.0,32.1,63.7,222.2,20.7,0.076,0.0,0.0,38.0,33.0,,False,True,True,False,,,pen marks
+CLM-30424,train,IMG-20260610-WA0001.jpg,True,ok,727.0,617.0,29.8,49.9,181.0,78.3,0.0,0.0,0.0,27.0,22.0,,False,False,True,False,,,
+CLM-30425,train,IMG_20260612_125007.jpg,True,ok,724.0,682.0,35.3,113.0,234.8,22.2,0.0,0.0,0.0,27.0,23.0,,False,False,True,False,,,
+CLM-30428,train,IMG_20260611_093933.jpg,True,ok,956.0,756.0,63.7,376.8,159.2,83.1,0.0,0.0,0.0,52.0,47.0,,False,False,True,False,,,
+CLM-30430,train,IMG-20260613-WA0094.jpg,True,ok,687.0,609.0,28.0,41.7,133.6,58.9,0.0,0.0,0.0,18.0,12.0,,False,False,True,False,,,
+CLM-30432,train,IMG_20260613_195138.jpg,True,ok,742.0,622.0,26.0,109.6,219.7,36.8,0.0,0.0,0.0,37.0,34.0,,False,False,True,False,,,
+CLM-30435,train,IMG-20260612-WA0058.jpg,True,ok,826.0,802.0,79.1,286.9,181.1,76.1,0.001,0.0,0.0,41.0,36.0,,False,False,True,False,,,
+CLM-30436,train,IMG_20260612_173637.jpg,True,ok,833.0,757.0,40.7,68.5,190.6,40.4,0.0,0.0,0.0,26.0,17.0,,False,False,True,False,,,
+CLM-30437,train,IMG-20260612-WA0109.jpg,True,ok,739.0,623.0,39.0,95.6,211.4,36.9,0.109,0.0,0.0,26.0,19.0,,False,True,False,False,,,pen marks; no total found?
+CLM-30439,train,IMG_20260614_185526.jpg,True,ok,704.0,664.0,32.0,63.7,180.1,89.9,0.0,0.0,0.0,36.0,28.0,,False,False,True,False,,,
+CLM-30443,train,IMG-20260613-WA0212.jpg,True,ok,664.0,721.0,31.6,52.6,227.1,27.3,0.002,0.0,0.0,36.0,31.0,,False,False,True,False,,,
+CLM-30446,train,IMG_20260614_121336.jpg,True,ok,710.0,650.0,35.8,90.5,155.3,77.0,0.0,0.0,180.0,35.0,30.0,,False,False,True,False,,,rotated 180
+CLM-30447,train,IMG_20260613_202822.jpg,True,ok,701.0,633.0,31.5,84.0,194.7,47.6,0.004,0.0,0.0,32.0,27.0,,False,False,True,False,,,
+CLM-30451,train,IMG-20260614-WA0133.jpg,True,ok,663.0,621.0,36.2,182.1,210.1,38.0,0.0,0.0,0.0,23.0,16.0,,False,False,True,False,,,
+CLM-30454,train,IMG-20260614-WA0165.jpg,True,ok,743.0,884.0,79.6,210.8,168.6,70.4,0.0,0.0,0.0,54.0,45.0,,False,False,True,False,,,
+CLM-30458,train,IMG_20260614_134518.jpg,True,ok,543.0,392.0,20.3,92.1,224.6,36.8,0.0,0.0,0.0,10.0,9.0,,False,False,True,False,,,
+CLM-30462,train,IMG_20260615_083214.jpg,True,ok,894.0,757.0,47.6,132.9,179.1,92.5,0.014,0.0,0.0,36.0,29.0,,False,False,True,False,,,
+CLM-30465,train,IMG_20260615_192519.jpg,True,ok,815.0,770.0,35.0,57.1,221.3,19.2,0.0,0.0,0.0,34.0,29.0,,False,False,True,False,,,
+CLM-30468,train,IMG_20260614_103050.jpg,True,ok,645.0,509.0,24.9,24.2,125.7,68.7,0.076,0.0,0.0,13.0,10.0,,False,True,True,True,,,low OCR confidence; pen marks
+CLM-30469,train,IMG_20260615_132831.jpg,True,ok,650.0,524.0,26.7,166.2,154.1,80.8,0.143,0.014,0.0,26.0,20.0,,False,True,True,False,,,pen marks
+CLM-30472,train,IMG-20260614-WA0186.jpg,True,ok,906.0,422.0,33.7,325.7,165.5,76.2,0.418,0.0,0.0,26.0,23.0,,False,True,False,False,,,pen marks; no total found?
+CLM-30475,train,IMG_20260615_083022.jpg,True,ok,515.0,373.0,17.1,20.1,156.7,26.6,0.175,0.0,0.0,6.0,5.0,,False,True,True,True,,,low OCR confidence; pen marks
+CLM-30476,train,IMG_20260615_164330.jpg,True,ok,708.0,667.0,41.2,208.9,162.2,77.4,0.0,0.0,0.0,40.0,36.0,,False,False,True,False,,,
+CLM-30479,train,IMG_20260616_180311.jpg,True,ok,685.0,609.0,26.9,52.4,180.8,75.0,0.013,0.0,0.0,39.0,33.0,,False,False,True,False,,,
+CLM-30481,train,IMG-20260615-WA0220.jpg,True,ok,697.0,633.0,41.2,77.1,163.7,84.1,0.0,0.0,0.0,37.0,31.0,,False,False,True,False,,,
+CLM-30484,train,IMG_20260616_124009.jpg,True,ok,767.0,743.0,36.1,69.8,169.7,75.2,0.0,0.0,0.0,41.0,35.0,,False,False,True,False,,,
+CLM-30488,train,IMG_20260616_212151.jpg,True,ok,624.0,484.0,22.5,43.1,196.0,37.4,0.0,0.0,180.0,19.0,16.0,,False,False,True,False,,,rotated 180
+CLM-30489,train,IMG_20260616_204248.jpg,True,ok,625.0,449.0,27.3,90.2,223.4,33.8,0.255,0.007,0.0,12.0,9.0,,False,True,True,False,,,pen marks
+CLM-30492,train,IMG-20260615-WA0239.jpg,True,ok,1303.0,769.0,77.6,772.6,161.7,63.9,0.0,0.0,0.0,82.0,69.0,,False,False,True,False,,,
+CLM-30494,train,IMG_20260616_095149.jpg,True,ok,553.0,393.0,24.3,191.1,135.0,73.3,0.025,0.0,0.0,15.0,14.0,,False,False,True,False,,,
+CLM-30495,train,IMG_20260616_111529.jpg,True,ok,717.0,627.0,39.1,177.8,214.9,30.8,0.007,0.0,0.0,35.0,29.0,,False,False,True,False,,,
+CLM-30499,train,IMG_20260617_172550.jpg,True,ok,722.0,620.0,39.6,56.9,167.2,78.4,0.0,0.0,0.0,35.0,28.0,,False,False,True,False,,,
+CLM-30502,train,IMG_20260617_084633.jpg,True,ok,609.0,554.0,26.6,34.5,167.0,29.0,0.256,0.042,0.0,19.0,14.0,,False,True,True,False,,,pen marks
+CLM-30503,train,IMG_20260617_084423.jpg,True,ok,648.0,523.0,42.3,149.4,217.3,28.7,0.156,0.0,0.0,27.0,22.0,,False,True,True,False,,,pen marks
+CLM-30506,train,IMG-20260617-WA0228.jpg,True,ok,961.0,459.0,38.4,226.4,207.9,31.3,1.18,0.0,0.0,19.0,18.0,,False,True,True,False,,,pen marks
+CLM-30508,train,IMG_20260617_205508.jpg,True,ok,739.0,618.0,42.8,78.3,204.5,32.9,0.109,0.0,0.0,32.0,31.0,,False,True,True,False,,,pen marks
+CLM-30509,train,IMG-20260617-WA0144.jpg,True,ok,1341.0,879.0,62.2,605.0,198.7,40.6,0.0,0.0,0.0,75.0,63.0,,False,False,True,False,,,
+CLM-30510,train,IMG_20260617_105945.jpg,True,ok,1291.0,811.0,73.2,1255.7,202.9,32.5,0.0,0.0,0.0,75.0,69.0,,False,False,True,False,,,
+CLM-30511,train,IMG_20260618_082935.jpg,True,ok,627.0,699.0,32.9,54.5,168.7,74.0,0.085,0.0,90.0,40.0,34.0,,False,True,True,False,,,rotated 90; pen marks
+CLM-30512,train,IMG_20260618_103234.jpg,True,ok,714.0,673.0,49.0,255.7,139.3,75.3,0.0,0.0,0.0,40.0,35.0,,False,False,True,False,,,
+CLM-30514,train,IMG_20260617_113530.jpg,True,ok,764.0,722.0,36.4,102.4,226.1,36.2,0.0,0.0,270.0,28.0,13.0,,False,False,True,False,,,rotated 270
+CLM-30515,train,IMG_20260618_150100.jpg,True,ok,829.0,843.0,51.2,319.9,215.7,32.6,0.172,0.0,0.0,33.0,24.0,,False,True,True,False,,,pen marks
+CLM-30519,train,IMG_20260617_192020.jpg,True,ok,951.0,827.0,121.7,673.7,175.1,73.6,0.012,0.0,0.0,54.0,40.0,,False,False,True,False,,,
+CLM-30523,train,IMG-20260618-WA0208.jpg,True,ok,647.0,448.0,21.5,204.9,144.4,80.0,0.124,0.0,180.0,8.0,6.0,,False,True,True,False,,,rotated 180; pen marks
+CLM-30524,train,IMG_20260617_121852.jpg,True,ok,883.0,451.0,41.2,209.2,197.1,27.7,0.423,0.0,0.0,18.0,17.0,,False,True,True,False,,,pen marks
+CLM-30527,train,IMG_20260618_110458.jpg,True,ok,923.0,470.0,38.7,690.3,163.2,85.5,0.0,0.0,0.0,24.0,21.0,,False,False,True,False,,,
+CLM-30528,train,IMG_20260617_180258.jpg,True,ok,688.0,619.0,46.1,251.8,191.4,75.7,0.02,0.0,0.0,35.0,31.0,,False,False,False,False,,,no total found?
+CLM-30529,train,IMG_20260618_205103.jpg,True,ok,674.0,660.0,26.3,52.4,143.2,76.0,0.0,0.0,0.0,27.0,23.0,,False,False,True,False,,,
+CLM-30531,train,,False,,,,,,,,,,,,,,,,,,,,missing photo
+CLM-30533,train,IMG_20260618_112339.jpg,True,ok,1283.0,820.0,84.8,891.2,183.9,81.0,0.0,0.0,0.0,82.0,69.0,,False,False,True,False,,,
+CLM-30535,train,IMG_20260617_085029.jpg,True,ok,1349.0,907.0,88.1,1175.4,149.9,87.5,0.0,0.0,0.0,81.0,64.0,,False,False,True,False,,,
+CLM-30536,train,IMG-20260617-WA0093.jpg,True,ok,370.0,554.0,20.0,23.0,174.3,66.8,0.0,0.0,270.0,15.0,12.0,,False,False,True,True,,,rotated 270; low OCR confidence
+CLM-30539,train,IMG-20260618-WA0121.jpg,True,ok,554.0,365.0,25.1,43.8,186.1,67.5,0.0,0.0,0.0,19.0,17.0,,False,False,True,False,,,
+CLM-30543,train,IMG_20260617_104401.jpg,True,ok,513.0,400.0,15.9,30.5,171.8,80.6,0.001,0.0,0.0,13.0,11.0,,False,False,True,False,,,
+CLM-30546,train,IMG-20260618-WA0030.jpg,True,ok,542.0,380.0,18.3,55.2,171.6,74.5,0.0,0.0,0.0,20.0,18.0,,False,False,True,False,,,
+CLM-30549,train,IMG_20260619_212359.jpg,True,ok,632.0,733.0,35.6,63.0,233.1,25.4,0.0,0.0,270.0,39.0,31.0,,False,False,True,False,,,rotated 270
+CLM-30553,train,IMG_20260619_155737.jpg,True,ok,685.0,724.0,35.7,80.3,170.0,73.4,0.085,0.0,0.0,38.0,34.0,,False,True,True,False,,,pen marks
+CLM-30556,train,IMG_20260618_200822.jpg,True,ok,848.0,797.0,49.6,172.1,228.4,28.0,0.044,0.0,0.0,42.0,34.0,,False,False,True,False,,,
+CLM-30558,train,IMG_20260618_215842.jpg,True,ok,621.0,524.0,27.3,36.5,200.7,34.2,0.193,0.0,0.0,8.0,8.0,,False,True,True,False,,,pen marks
+CLM-30560,train,IMG-20260618-WA0179.jpg,True,ok,880.0,468.0,53.7,701.7,163.4,80.9,1.676,0.001,0.0,29.0,27.0,,False,True,True,False,,,pen marks
+CLM-30562,train,IMG_20260618_100357.jpg,True,ok,953.0,409.0,40.6,1130.7,204.3,42.2,1.988,0.014,0.0,31.0,21.0,,False,True,True,False,,,pen marks
+CLM-30566,train,IMG_20260619_114500.jpg,True,ok,556.0,356.0,22.3,62.0,181.2,75.7,0.0,0.0,0.0,20.0,16.0,,False,False,True,False,,,
+CLM-30568,train,IMG-20260619-WA0197.jpg,True,ok,783.0,980.0,50.9,143.5,156.0,88.6,0.041,0.0,270.0,50.0,39.0,,False,False,True,False,,,rotated 270
+CLM-30570,train,IMG-20260620-WA0200.jpg,True,ok,621.0,564.0,33.7,136.1,171.5,85.5,0.113,0.003,0.0,27.0,26.0,,False,True,True,False,,,pen marks
+CLM-30572,train,IMG_20260620_212353.jpg,True,ok,651.0,398.0,25.8,115.4,152.2,75.0,0.084,0.009,0.0,19.0,16.0,,False,True,True,False,,,pen marks
+CLM-30573,train,IMG_20260619_115355.jpg,True,ok,615.0,472.0,24.8,40.3,186.7,27.6,0.023,0.0,0.0,11.0,7.0,,False,False,True,False,,,
+CLM-30577,train,IMG-20260619-WA0030.jpg,True,ok,616.0,451.0,17.5,15.2,168.5,63.8,0.003,0.009,0.0,4.0,3.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-30581,train,IMG-20260620-WA0193.jpg,True,ok,934.0,441.0,62.8,977.2,161.3,69.9,4.481,0.0,0.0,27.0,23.0,,False,True,True,False,,,pen marks
+CLM-30584,train,IMG_20260620_143640.jpg,True,ok,962.0,446.0,50.3,325.7,192.0,34.9,0.229,0.0,0.0,20.0,17.0,,False,True,True,False,,,pen marks
+CLM-30585,train,IMG_20260621_144359.jpg,True,ok,609.0,427.0,26.7,259.7,151.4,72.4,0.0,0.0,0.0,27.0,22.0,,False,False,True,False,,,
+CLM-30586,train,IMG_20260620_143225.jpg,True,ok,620.0,540.0,26.5,51.3,201.4,24.7,0.0,0.0,0.0,22.0,21.0,,False,False,True,False,,,
+CLM-30587,train,IMG-20260620-WA0198.jpg,True,ok,644.0,445.0,23.2,56.9,168.2,78.1,0.0,0.0,0.0,19.0,18.0,,False,False,True,False,,,
+CLM-30591,train,IMG_20260621_170151.jpg,True,ok,972.0,437.0,33.0,319.4,181.6,69.9,0.236,0.032,0.0,6.0,5.0,,False,True,True,False,,,pen marks
+CLM-30592,train,IMG_20260620_204047.jpg,True,ok,528.0,366.0,13.1,10.0,192.6,23.4,0.0,0.0,0.0,8.0,7.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-30594,train,IMG_20260622_101042.jpg,True,ok,727.0,594.0,42.3,69.4,163.7,64.2,0.002,0.0,180.0,32.0,28.0,,False,False,True,False,,,rotated 180
+CLM-30596,train,IMG-20260622-WA0139.jpg,True,ok,885.0,846.0,59.4,350.5,205.7,40.1,0.0,0.0,0.0,41.0,31.0,,False,False,True,False,,,
+CLM-30600,train,IMG_20260622_130954.jpg,True,ok,899.0,889.0,56.8,329.2,151.1,63.4,0.037,0.004,0.0,56.0,44.0,,False,False,True,False,1,CLM-30963,same photo as CLM-30963
+CLM-30601,train,IMG_20260621_182008.jpg,True,ok,753.0,773.0,44.5,112.5,170.2,65.0,0.0,0.0,0.0,50.0,41.0,,False,False,True,False,,,
+CLM-30603,train,IMG_20260622_194220.jpg,True,ok,632.0,400.0,22.2,64.7,153.9,65.7,0.0,0.0,0.0,21.0,18.0,,False,False,True,False,,,
+CLM-30606,train,IMG_20260621_215742.jpg,True,ok,875.0,419.0,42.4,988.3,163.1,73.1,0.0,0.0,0.0,28.0,23.0,,False,False,True,False,,,
+CLM-30607,train,IMG_20260621_150433.jpg,True,ok,716.0,710.0,45.8,91.6,166.8,87.2,0.003,0.0,0.0,31.0,30.0,,False,False,True,False,,,
+CLM-30608,train,IMG-20260621-WA0194.jpg,True,ok,687.0,699.0,31.7,74.6,220.0,33.5,0.016,0.0,0.0,30.0,28.0,,False,False,True,False,,,
+CLM-30611,train,IMG-20260621-WA0005.jpg,True,ok,708.0,655.0,37.6,77.7,174.0,64.6,0.0,0.0,0.0,36.0,32.0,,False,False,True,False,,,
+CLM-30614,train,IMG_20260622_112339.jpg,True,ok,698.0,656.0,32.4,68.5,173.8,87.9,0.148,0.0,0.0,37.0,29.0,,False,True,True,False,,,pen marks
+CLM-30618,train,IMG_20260623_200653.jpg,True,ok,690.0,908.0,57.0,119.8,179.8,70.3,0.0,0.0,0.0,43.0,35.0,,False,False,True,False,,,
+CLM-30620,train,IMG_20260623_114733.jpg,True,ok,896.0,748.0,71.9,110.9,158.1,68.8,0.0,0.0,0.0,40.0,35.0,,False,False,True,False,,,
+CLM-30623,train,IMG_20260622_191832.jpg,True,ok,904.0,720.0,67.9,445.8,200.9,35.7,0.586,2.539,0.0,53.0,44.0,approve it; automated; in your output; pre-verified; reconciled by,True,True,True,False,,,instruction text; pen marks
+CLM-30625,train,IMG_20260623_210019.jpg,True,ok,690.0,647.0,29.6,61.3,224.7,32.6,0.0,0.0,0.0,33.0,28.0,,False,False,True,False,,,
+CLM-30629,train,IMG_20260622_200133.jpg,True,ok,512.0,392.0,24.2,114.1,141.1,72.7,0.0,0.0,0.0,21.0,19.0,,False,False,False,False,,,no total found?
+CLM-30630,train,IMG-20260624-WA0163.jpg,True,ok,728.0,663.0,35.6,113.1,196.7,30.8,0.01,0.0,0.0,36.0,31.0,,False,False,True,False,,,
+CLM-30633,train,IMG_20260624_121405.jpg,True,ok,735.0,699.0,45.0,52.9,157.4,62.5,0.116,0.0,0.0,31.0,26.0,,False,True,True,False,,,pen marks
+CLM-30634,train,IMG_20260624_101828.jpg,True,ok,690.0,651.0,41.2,39.7,111.1,57.2,0.0,0.0,0.0,36.0,30.0,,False,False,True,False,,,
+CLM-30636,train,IMG_20260624_125626.jpg,True,ok,696.0,824.0,48.5,313.9,173.1,87.7,0.033,0.0,0.0,50.0,42.0,,False,False,True,False,,,
+CLM-30639,train,IMG_20260624_093028.jpg,True,ok,606.0,472.0,33.0,125.8,196.9,33.8,0.318,0.001,0.0,23.0,16.0,,False,True,True,False,,,pen marks
+CLM-30640,train,IMG-20260623-WA0017.jpg,True,ok,662.0,434.0,27.4,76.3,157.3,64.4,0.237,0.0,0.0,20.0,14.0,,False,True,True,False,,,pen marks
+CLM-30642,train,IMG_20260623_111031.jpg,True,ok,913.0,454.0,41.2,635.8,158.2,78.9,2.802,0.005,0.0,23.0,21.0,,False,True,True,False,,,pen marks
+CLM-30643,train,IMG_20260623_203853.jpg,True,ok,1313.0,913.0,134.5,1019.7,130.6,73.3,0.001,0.0,0.0,82.0,72.0,,False,False,True,False,,,
+CLM-30646,train,IMG_20260624_185702.jpg,True,ok,1400.0,759.0,92.8,759.9,173.9,77.6,0.0,0.0,0.0,79.0,66.0,,False,False,True,False,,,
+CLM-30648,train,IMG_20260624_141220.jpg,True,ok,544.0,368.0,22.5,258.0,183.2,88.9,0.045,0.0,0.0,19.0,17.0,,False,False,True,False,,,
+CLM-30649,train,IMG-20260624-WA0183.jpg,True,ok,665.0,640.0,34.1,40.9,211.0,31.1,0.0,0.0,0.0,39.0,31.0,,False,False,True,False,,,
+CLM-30652,train,IMG_20260625_150759.jpg,True,ok,718.0,642.0,35.8,53.2,178.5,84.8,0.0,0.0,0.0,37.0,30.0,,False,False,True,False,,,
+CLM-30656,train,IMG_20260625_103056.jpg,True,ok,722.0,699.0,36.0,105.1,198.6,32.9,0.0,0.0,0.0,38.0,30.0,,False,False,True,False,,,
+CLM-30660,train,IMG-20260624-WA0037.jpg,True,ok,674.0,650.0,35.7,60.6,191.1,83.0,0.0,0.0,0.0,36.0,31.0,,False,False,True,False,,,
+CLM-30661,train,IMG_20260624_182555.jpg,True,ok,795.0,787.0,45.9,44.7,142.0,78.2,0.0,0.0,0.0,30.0,26.0,,False,False,True,False,2,CLM-30804,same photo as CLM-30804
+CLM-30664,train,IMG_20260625_081750.jpg,True,ok,854.0,878.0,38.4,74.6,196.7,31.9,0.006,0.0,0.0,42.0,35.0,,False,False,True,False,3,CLM-31475,same photo as CLM-31475
+CLM-30665,train,IMG_20260624_102953.jpg,True,ok,614.0,506.0,30.4,139.3,173.3,69.0,0.118,0.0,0.0,24.0,22.0,,False,True,True,False,,,pen marks
+CLM-30668,train,IMG_20260625_160441.jpg,True,ok,646.0,567.0,39.0,252.9,149.4,85.2,0.0,0.0,0.0,30.0,29.0,,False,False,True,False,,,
+CLM-30672,train,IMG-20260624-WA0019.jpg,True,ok,971.0,445.0,43.6,1094.8,164.2,84.8,0.833,0.0,0.0,34.0,27.0,,False,True,True,False,,,pen marks
+CLM-30676,train,IMG_20260625_141617.jpg,True,ok,523.0,656.0,30.3,48.8,195.0,35.6,0.0,0.0,270.0,28.0,23.0,,False,False,True,False,,,rotated 270
+CLM-30679,train,IMG-20260626-WA0050.jpg,True,ok,691.0,692.0,33.9,55.4,225.4,26.4,0.0,0.0,0.0,32.0,30.0,,False,False,True,False,,,
+CLM-30680,train,IMG_20260625_144518.jpg,True,ok,746.0,692.0,41.7,48.6,187.9,28.5,0.0,0.0,0.0,30.0,27.0,,False,False,True,False,,,
+CLM-30681,train,IMG_20260625_124513.jpg,True,ok,1365.0,795.0,89.4,936.4,193.9,38.4,0.005,0.0,0.0,77.0,64.0,,False,False,True,False,,,
+CLM-30684,train,IMG_20260627_171328.jpg,True,ok,740.0,665.0,49.0,212.7,194.5,39.5,0.0,0.0,0.0,41.0,37.0,,False,False,True,False,,,
+CLM-30685,train,IMG_20260627_101752.jpg,True,ok,706.0,610.0,22.1,31.5,175.9,36.2,0.023,0.0,0.0,21.0,17.0,,False,False,False,False,,,no total found?
+CLM-30687,train,IMG_20260626_111444.jpg,True,ok,681.0,675.0,27.9,58.4,157.2,73.1,0.015,0.0,0.0,37.0,27.0,,False,False,True,False,,,
+CLM-30688,train,IMG_20260626_090926.jpg,True,ok,735.0,683.0,58.1,222.3,156.3,76.0,0.018,0.0,0.0,37.0,28.0,,False,False,True,False,,,
+CLM-30689,train,IMG-20260626-WA0140.jpg,True,ok,689.0,629.0,43.1,195.6,199.0,79.6,0.0,0.0,0.0,40.0,32.0,,False,False,True,False,,,
+CLM-30690,train,IMG-20260626-WA0214.jpg,True,ok,904.0,868.0,46.7,114.8,152.8,79.1,0.0,0.0,270.0,51.0,42.0,,False,False,True,False,,,rotated 270
+CLM-30691,train,IMG_20260627_214225.jpg,True,ok,741.0,751.0,41.1,78.4,191.2,71.7,0.0,0.0,0.0,29.0,22.0,,False,False,True,False,,,
+CLM-30693,train,IMG_20260628_140015.jpg,True,ok,771.0,877.0,59.6,185.4,155.8,85.8,0.0,0.0,0.0,50.0,36.0,,False,False,True,False,,,
+CLM-30697,train,IMG-20260628-WA0014.jpg,True,ok,607.0,399.0,21.2,180.9,193.1,32.6,0.092,0.001,0.0,27.0,18.0,,False,True,True,False,,,pen marks
+CLM-30701,train,IMG-20260627-WA0099.jpg,True,ok,637.0,531.0,33.1,93.0,178.9,86.5,0.043,0.001,0.0,26.0,20.0,,False,False,True,False,,,
+CLM-30702,train,IMG_20260627_205055.jpg,True,ok,915.0,433.0,52.7,1085.7,172.9,84.5,0.0,0.0,0.0,26.0,21.0,,False,False,True,False,,,
+CLM-30703,train,IMG-20260627-WA0143.jpg,True,ok,706.0,666.0,32.8,159.0,165.1,83.3,0.0,0.0,0.0,35.0,31.0,,False,False,True,False,,,
+CLM-30706,train,IMG_20260628_193333.jpg,True,ok,690.0,694.0,32.3,97.3,223.9,34.9,0.003,0.0,0.0,25.0,20.0,,False,False,True,False,,,
+CLM-30710,train,,False,,,,,,,,,,,,,,,,,,,,missing photo
+CLM-30711,train,IMG-20260628-WA0004.jpg,True,ok,570.0,387.0,16.6,24.4,155.0,69.2,0.0,0.0,0.0,9.0,8.0,,False,False,True,True,,,low OCR confidence
+CLM-30713,train,IMG_20260628_215211.jpg,True,ok,734.0,633.0,45.6,117.8,154.3,64.5,0.0,0.0,0.0,40.0,37.0,,False,False,True,False,,,
+CLM-30717,train,IMG_20260629_170328.jpg,True,ok,696.0,630.0,33.8,154.7,171.8,38.3,0.0,0.0,0.0,40.0,36.0,,False,False,True,False,,,
+CLM-30721,train,IMG-20260628-WA0202.jpg,True,ok,706.0,657.0,25.8,52.1,225.6,35.8,0.001,0.0,0.0,34.0,30.0,,False,False,True,False,,,
+CLM-30724,train,IMG_20260629_160432.jpg,True,ok,889.0,737.0,48.6,52.5,148.2,72.4,0.0,0.0,0.0,22.0,18.0,,False,False,True,False,,,
+CLM-30728,train,IMG-20260629-WA0202.jpg,True,ok,928.0,839.0,48.5,290.0,231.7,25.1,0.0,0.0,0.0,52.0,45.0,,False,False,True,False,,,
+CLM-30732,train,IMG-20260628-WA0048.jpg,True,ok,895.0,476.0,36.0,295.3,195.1,35.2,0.0,0.0,0.0,28.0,22.0,,False,False,True,False,,,
+CLM-30735,train,IMG-20260628-WA0031.jpg,True,ok,985.0,413.0,30.3,306.8,216.8,33.0,0.035,0.004,0.0,25.0,23.0,,False,False,True,False,,,
+CLM-30736,train,IMG-20260629-WA0090.jpg,True,ok,1315.0,762.0,70.7,877.8,185.3,72.0,0.0,0.0,0.0,77.0,70.0,,False,False,True,False,,,
+CLM-30737,train,IMG-20260629-WA0170.jpg,True,ok,511.0,360.0,22.3,178.1,183.0,83.2,0.029,0.0,0.0,23.0,20.0,,False,False,True,False,,,
+CLM-30738,train,IMG_20260629_124013.jpg,True,ok,742.0,616.0,46.1,484.2,186.5,69.9,0.0,0.0,0.0,40.0,35.0,,False,False,True,False,,,
+CLM-30740,train,IMG_20260630_093309.jpg,True,ok,683.0,668.0,50.9,170.0,171.2,72.8,0.0,0.0,0.0,40.0,33.0,,False,False,True,False,,,
+CLM-30741,train,IMG-20260630-WA0154.jpg,True,ok,952.0,905.0,68.6,93.5,145.6,60.3,0.0,0.0,0.0,43.0,32.0,,False,False,True,False,,,
+CLM-30742,train,IMG_20260630_164905.jpg,True,ok,863.0,802.0,53.1,319.4,218.3,25.2,0.0,0.0,0.0,46.0,38.0,,False,False,True,False,,,
+CLM-30745,train,IMG_20260629_150245.jpg,True,ok,805.0,772.0,42.2,107.5,130.6,75.1,0.0,0.0,0.0,46.0,36.0,,False,False,True,False,,,
+CLM-30749,train,IMG_20260629_163548.jpg,True,ok,760.0,881.0,51.8,122.2,155.3,83.4,0.0,0.0,0.0,40.0,33.0,,False,False,True,False,,,
+CLM-30750,train,IMG_20260630_180323.jpg,True,ok,628.0,431.0,21.1,26.5,241.2,23.0,0.004,0.005,0.0,3.0,2.0,,False,False,True,True,,,low OCR confidence
+CLM-30751,train,IMG_20260629_170106.jpg,True,ok,1379.0,903.0,91.8,761.3,179.8,35.0,0.0,0.0,0.0,79.0,63.0,,False,False,True,False,,,
+CLM-30753,train,IMG_20260701_161009.jpg,True,ok,727.0,617.0,36.8,186.5,211.0,30.9,0.0,0.0,0.0,38.0,34.0,,False,False,True,False,,,
+CLM-30757,train,IMG_20260701_194456.jpg,True,ok,718.0,698.0,34.6,90.7,185.5,72.4,0.011,0.0,0.0,28.0,27.0,,False,False,True,False,,,
+CLM-30759,train,IMG_20260630_151546.jpg,True,ok,691.0,622.0,40.7,181.9,189.2,80.1,0.0,0.0,0.0,39.0,31.0,,False,False,True,False,,,
+CLM-30762,train,IMG_20260630_093537.jpg,True,ok,729.0,639.0,35.0,148.6,193.6,41.7,0.0,0.0,0.0,41.0,34.0,,False,False,True,False,,,
+CLM-30764,train,IMG-20260630-WA0097.jpg,True,ok,829.0,798.0,39.6,63.4,235.4,23.0,0.004,0.0,0.0,28.0,19.0,,False,False,True,False,,,
+CLM-30766,train,IMG_20260701_090903.jpg,True,ok,841.0,855.0,47.0,196.1,179.4,82.1,0.002,0.0,0.0,49.0,43.0,,False,False,True,False,,,
+CLM-30767,train,IMG_20260701_150314.jpg,True,ok,828.0,785.0,41.3,63.7,197.0,37.2,0.0,0.0,0.0,27.0,21.0,,False,False,True,False,,,
+CLM-30769,train,IMG_20260630_162530.jpg,True,ok,914.0,787.0,30.5,30.5,173.1,26.7,0.0,0.0,0.0,11.0,9.0,,False,False,True,False,,,
+CLM-30770,train,IMG_20260630_175914.jpg,True,ok,740.0,611.0,42.9,69.7,241.5,20.9,0.0,0.0,0.0,20.0,18.0,,False,False,True,False,,,
+CLM-30774,train,IMG-20260701-WA0166.jpg,True,ok,1300.0,807.0,86.5,734.5,209.4,38.9,0.0,0.0,0.0,70.0,63.0,,False,False,True,False,,,
+CLM-30775,train,IMG_20260702_113739.jpg,True,ok,698.0,649.0,45.4,93.8,201.0,66.1,0.0,0.0,0.0,36.0,30.0,,False,False,True,False,,,
+CLM-30779,train,IMG-20260701-WA0067.jpg,True,ok,712.0,683.0,33.6,42.6,167.1,65.7,0.0,0.0,0.0,30.0,23.0,,False,False,True,False,,,
+CLM-30780,train,IMG_20260701_105637.jpg,True,ok,718.0,816.0,50.4,154.3,184.0,85.1,0.0,0.0,0.0,36.0,33.0,,False,False,True,False,,,
+CLM-30783,train,IMG-20260701-WA0110.jpg,True,ok,813.0,846.0,40.6,106.2,153.8,92.2,0.0,0.0,0.0,30.0,23.0,,False,False,True,False,,,
+CLM-30787,train,IMG_20260702_104058.jpg,True,ok,666.0,413.0,22.8,118.4,181.6,66.4,0.0,0.0,0.0,3.0,1.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-30790,train,IMG-20260702-WA0131.jpg,True,ok,986.0,434.0,43.7,170.2,170.7,75.0,0.0,0.0,0.0,13.0,9.0,,False,False,True,False,,,
+CLM-30794,train,IMG_20260701_194303.jpg,True,ok,696.0,644.0,68.2,477.1,175.6,68.5,0.0,0.0,180.0,28.0,25.0,,False,False,True,False,,,rotated 180
+CLM-30796,train,IMG_20260701_161359.jpg,True,ok,727.0,656.0,31.9,53.1,233.3,25.4,0.0,0.0,0.0,29.0,28.0,,False,False,True,False,,,
+CLM-30797,train,IMG-20260701-WA0140.jpg,True,ok,1286.0,841.0,81.4,514.7,215.8,27.4,0.0,0.0,0.0,83.0,74.0,,False,False,True,False,,,
+CLM-30799,train,IMG_20260702_154204.jpg,True,ok,559.0,371.0,20.5,57.2,176.2,72.7,0.0,0.0,0.0,21.0,18.0,,False,False,True,False,,,
+CLM-30803,train,IMG_20260702_155903.jpg,True,ok,690.0,676.0,32.4,126.8,162.7,80.7,0.0,0.0,0.0,34.0,32.0,,False,False,True,False,,,
+CLM-30804,train,IMG_20260702_150756.jpg,True,ok,795.0,787.0,45.9,44.7,142.0,78.2,0.0,0.0,0.0,30.0,26.0,,False,False,True,False,2,CLM-30661,same photo as CLM-30661
+CLM-30807,train,IMG_20260703_090155.jpg,True,ok,815.0,815.0,46.7,57.4,204.1,33.7,0.0,0.0,0.0,33.0,25.0,,False,False,True,False,,,
+CLM-30811,train,IMG_20260703_083622.jpg,True,ok,718.0,836.0,43.4,93.6,182.6,90.0,0.0,0.0,0.0,49.0,42.0,,False,False,True,False,,,
+CLM-30814,train,IMG_20260702_105135.jpg,True,ok,602.0,431.0,20.5,23.6,130.0,66.7,0.018,0.0,0.0,15.0,13.0,,False,False,True,True,,,low OCR confidence
+CLM-30815,train,IMG-20260703-WA0152.jpg,True,ok,908.0,428.0,33.6,279.1,189.2,63.9,0.375,0.0,0.0,15.0,12.0,,False,True,True,False,,,pen marks
+CLM-30819,train,IMG_20260703_175613.jpg,True,ok,1365.0,786.0,74.9,484.7,183.8,39.6,0.0,0.0,0.0,75.0,65.0,,False,False,True,False,,,
+CLM-30820,train,IMG-20260704-WA0046.jpg,True,ok,685.0,664.0,37.8,194.1,159.4,82.8,0.0,0.0,0.0,27.0,21.0,,False,False,True,False,,,
+CLM-30821,train,IMG-20260703-WA0197.jpg,True,ok,687.0,615.0,28.1,66.9,180.8,76.7,0.0,0.0,0.0,30.0,24.0,,False,False,True,False,,,
+CLM-30824,train,IMG_20260703_165733.jpg,True,ok,697.0,682.0,32.4,59.6,167.7,86.7,0.007,0.0,0.0,33.0,30.0,,False,False,True,False,,,
+CLM-30826,train,IMG-20260704-WA0175.jpg,True,ok,703.0,641.0,21.8,20.3,174.3,28.3,0.0,0.0,0.0,24.0,19.0,,False,False,True,True,,,low OCR confidence
+CLM-30827,train,IMG_20260704_162231.jpg,True,ok,728.0,825.0,61.7,230.7,149.9,59.8,0.016,0.0,0.0,51.0,44.0,,False,False,True,False,,,
+CLM-30829,train,IMG_20260704_102036.jpg,True,ok,813.0,856.0,50.6,98.2,214.0,37.8,0.0,0.0,90.0,32.0,28.0,,False,False,True,False,,,rotated 90
+CLM-30833,train,IMG_20260703_171453.jpg,True,ok,622.0,472.0,32.0,174.5,208.3,40.7,0.118,0.0,0.0,26.0,20.0,,False,True,True,False,,,pen marks
+CLM-30837,train,IMG_20260703_154353.jpg,True,ok,925.0,420.0,43.5,518.4,185.7,81.5,2.391,0.0,0.0,37.0,33.0,,False,True,True,False,,,pen marks
+CLM-30840,train,IMG_20260703_112843.jpg,True,ok,960.0,468.0,40.4,448.5,135.9,66.1,0.535,0.0,0.0,28.0,26.0,,False,True,True,False,,,pen marks
+CLM-30843,train,IMG_20260704_133452.jpg,True,ok,690.0,679.0,54.8,206.2,176.3,63.9,0.0,0.0,0.0,35.0,26.0,,False,False,True,False,,,
+CLM-30846,train,IMG-20260704-WA0179.jpg,True,ok,923.0,801.0,49.5,294.0,158.6,70.9,0.058,0.0,0.0,39.0,31.0,,False,True,True,False,,,pen marks
+CLM-30849,train,IMG_20260705_110011.jpg,True,ok,991.0,786.0,71.0,121.0,154.5,66.6,0.0,0.0,0.0,41.0,35.0,,False,False,True,False,,,
+CLM-30851,train,IMG-20260704-WA0073.jpg,True,ok,728.0,815.0,40.4,239.2,157.7,63.9,0.101,0.0,0.0,47.0,41.0,,False,True,True,False,,,pen marks
+CLM-30854,train,IMG_20260705_210409.jpg,True,ok,638.0,444.0,33.1,237.3,191.1,70.3,0.934,0.008,0.0,23.0,21.0,,False,True,True,False,,,pen marks
+CLM-30856,train,IMG_20260705_125011.jpg,True,ok,908.0,458.0,21.0,11.3,189.2,26.2,0.0,0.0,0.0,0.0,0.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-30857,train,IMG_20260705_095928.jpg,True,ok,680.0,629.0,29.0,42.7,205.4,32.6,0.0,0.0,0.0,35.0,32.0,,False,False,True,False,,,
+CLM-30860,train,IMG_20260705_161531.jpg,True,ok,687.0,641.0,32.6,37.9,151.8,60.2,0.0,0.0,0.0,36.0,33.0,,False,False,True,False,,,
+CLM-30863,train,IMG_20260706_092355.jpg,True,ok,763.0,798.0,51.2,329.7,158.7,77.7,0.0,0.0,0.0,50.0,44.0,,False,False,True,False,,,
+CLM-30865,train,IMG_20260706_110511.jpg,True,ok,667.0,438.0,26.0,74.3,180.7,89.6,0.0,0.0,0.0,21.0,19.0,,False,False,True,False,,,
+CLM-30868,train,IMG_20260705_180453.jpg,True,ok,466.0,960.0,46.5,25.2,159.7,74.9,0.501,0.026,90.0,10.0,4.0,,False,True,True,False,,,rotated 90; pen marks
+CLM-30871,train,IMG_20260706_112925.jpg,True,ok,733.0,648.0,39.3,248.7,214.4,32.2,0.048,0.0,0.0,38.0,32.0,,False,False,True,False,,,
+CLM-30872,train,IMG_20260706_193326.jpg,True,ok,547.0,359.0,23.1,135.8,216.6,28.3,0.0,0.0,0.0,17.0,17.0,,False,False,True,False,,,
+CLM-30874,train,IMG-20260706-WA0216.jpg,True,ok,540.0,412.0,19.5,66.1,158.6,83.8,0.0,0.0,0.0,21.0,21.0,,False,False,True,False,,,
+CLM-30875,train,IMG_20260706_192128.jpg,True,ok,744.0,695.0,38.5,177.9,198.3,41.1,0.0,0.0,0.0,27.0,24.0,,False,False,True,False,,,
+CLM-30879,train,IMG_20260706_210747.jpg,True,ok,952.0,818.0,34.2,123.6,229.4,29.3,0.0,0.0,0.0,25.0,21.0,,False,False,True,False,,,
+CLM-30880,train,IMG_20260706_123828.jpg,True,ok,669.0,437.0,27.8,83.6,141.8,73.9,0.127,0.001,0.0,13.0,12.0,,False,True,False,False,,,pen marks; no total found?
+CLM-30883,train,IMG-20260706-WA0067.jpg,True,ok,712.0,664.0,41.5,33.6,190.4,72.0,0.0,0.0,0.0,9.0,8.0,,False,False,True,False,,,
+CLM-30886,train,IMG-20260707-WA0066.jpg,True,ok,671.0,206.0,15.7,257.3,224.6,36.3,0.0,0.0,0.0,10.0,9.0,,False,False,False,False,,,no total found?
+CLM-30887,train,,False,,,,,,,,,,,,,,,,,,,,missing photo
+CLM-30891,train,IMG_20260707_190716.jpg,True,ok,538.0,362.0,22.7,34.6,184.2,67.6,0.005,0.0,0.0,16.0,15.0,,False,False,True,False,,,
+CLM-30892,train,IMG-20260707-WA0210.jpg,True,ok,709.0,614.0,40.0,104.1,207.3,37.0,0.003,0.0,0.0,38.0,32.0,,False,False,True,False,,,
+CLM-30893,train,IMG_20260707_181142.jpg,True,ok,726.0,676.0,36.6,203.8,172.2,92.4,0.101,0.0,0.0,38.0,33.0,,False,True,True,False,,,pen marks
+CLM-30897,train,IMG_20260708_135744.jpg,True,ok,668.0,636.0,35.6,102.2,224.9,29.4,0.0,0.0,0.0,40.0,37.0,,False,False,True,False,,,
+CLM-30901,train,IMG-20260707-WA0203.jpg,True,ok,654.0,731.0,37.4,42.8,129.9,63.7,0.0,0.0,90.0,12.0,8.0,,False,False,False,False,,,rotated 90; no total found?
+CLM-30902,train,IMG_20260708_120658.jpg,True,ok,681.0,665.0,31.3,62.3,205.0,36.8,0.0,0.0,0.0,26.0,19.0,,False,False,True,False,,,
+CLM-30904,train,IMG-20260708-WA0072.jpg,True,ok,669.0,600.0,38.9,68.6,230.4,29.8,0.0,0.0,0.0,39.0,37.0,,False,False,True,False,,,
+CLM-30906,train,IMG_20260708_204220.jpg,True,ok,729.0,907.0,48.3,164.8,150.1,81.2,0.0,0.0,0.0,49.0,39.0,,False,False,True,False,,,
+CLM-30910,train,IMG_20260708_205926.jpg,True,ok,938.0,445.0,37.5,492.1,180.5,85.6,0.361,0.0,0.0,15.0,11.0,,False,True,True,False,,,pen marks
+CLM-30913,train,IMG_20260708_091254.jpg,True,ok,878.0,421.0,43.9,729.0,169.9,77.1,0.0,0.0,0.0,18.0,13.0,,False,False,True,False,,,
+CLM-30916,train,IMG_20260707_110240.jpg,True,ok,521.0,380.0,22.0,61.6,180.6,78.3,0.0,0.0,0.0,18.0,17.0,,False,False,True,False,,,
+CLM-30919,train,IMG_20260708_103658.jpg,True,ok,753.0,864.0,76.1,340.5,179.8,73.8,0.656,0.942,0.0,51.0,43.0,,True,True,True,False,,,instruction text; pen marks
+CLM-30920,train,IMG-20260709-WA0067.jpg,True,ok,676.0,645.0,31.3,127.3,239.4,24.1,0.0,0.0,0.0,42.0,32.0,,False,False,True,False,,,
+CLM-30923,train,IMG_20260708_190631.jpg,True,ok,682.0,701.0,30.6,16.9,147.0,70.3,0.0,0.0,0.0,8.0,5.0,,False,False,True,True,,,low OCR confidence
+CLM-30925,train,IMG-20260708-WA0036.jpg,True,ok,690.0,639.0,28.5,31.5,169.6,77.9,0.0,0.0,0.0,2.0,1.0,,False,False,True,True,,,low OCR confidence
+CLM-30929,train,IMG_20260708_185155.jpg,True,ok,861.0,824.0,40.1,60.3,184.8,34.0,0.0,0.0,0.0,36.0,24.0,,False,False,True,False,,,
+CLM-30932,train,IMG_20260708_181536.jpg,True,ok,639.0,490.0,28.6,104.3,148.6,69.2,0.073,0.0,0.0,24.0,20.0,,False,True,True,False,,,pen marks
+CLM-30934,train,IMG_20260708_142626.jpg,True,ok,958.0,473.0,33.1,440.0,199.1,33.4,0.307,0.111,0.0,26.0,22.0,,False,True,True,False,,,pen marks
+CLM-30937,train,IMG_20260708_122923.jpg,True,ok,689.0,640.0,38.8,54.2,187.1,83.2,0.0,0.0,0.0,11.0,6.0,,False,False,True,False,,,
+CLM-30940,train,IMG-20260709-WA0074.jpg,True,ok,1285.0,796.0,78.0,223.1,139.7,58.3,0.0,0.0,0.0,24.0,21.0,,False,False,True,False,,,
+CLM-30944,train,IMG_20260710_170627.jpg,True,ok,683.0,632.0,29.6,131.9,154.1,80.9,0.092,0.001,180.0,34.0,26.0,,False,True,True,False,,,rotated 180; pen marks
+CLM-30947,train,IMG_20260710_205455.jpg,True,ok,694.0,695.0,35.3,198.5,216.7,30.5,0.004,0.0,0.0,38.0,31.0,,False,False,True,False,,,
+CLM-30950,train,IMG_20260709_081958.jpg,True,ok,720.0,659.0,39.4,154.3,172.0,89.0,0.098,0.0,0.0,41.0,36.0,,False,True,True,False,,,pen marks
+CLM-30954,train,IMG-20260710-WA0098.jpg,True,ok,711.0,646.0,27.6,106.6,173.6,37.6,0.0,0.0,0.0,18.0,10.0,,False,False,False,False,,,no total found?
+CLM-30957,train,IMG-20260710-WA0118.jpg,True,ok,748.0,622.0,30.5,85.6,153.4,86.6,0.023,0.0,0.0,37.0,33.0,,False,False,True,False,,,
+CLM-30959,train,IMG_20260709_151741.jpg,True,ok,726.0,639.0,40.9,76.0,234.1,25.4,0.001,0.0,0.0,37.0,32.0,,False,False,True,False,,,
+CLM-30963,train,IMG_20260709_165630.jpg,True,ok,899.0,889.0,56.8,329.2,151.1,63.4,0.037,0.004,0.0,56.0,44.0,,False,False,True,False,1,CLM-30600,same photo as CLM-30600
+CLM-30967,train,IMG_20260709_130733.jpg,True,ok,643.0,459.0,29.6,353.6,189.4,71.2,0.226,0.0,0.0,18.0,16.0,,False,True,True,False,,,pen marks
+CLM-30971,train,IMG_20260710_103529.jpg,True,ok,889.0,434.0,35.7,157.9,145.5,66.0,0.22,0.0,0.0,30.0,27.0,,False,True,True,False,,,pen marks
+CLM-30974,train,IMG-20260709-WA0132.jpg,True,ok,1375.0,886.0,99.7,877.5,229.9,30.4,0.0,0.0,0.0,78.0,66.0,,False,False,True,False,,,
+CLM-30978,train,IMG-20260711-WA0205.jpg,True,ok,672.0,740.0,36.4,35.4,151.6,75.8,0.031,0.0,90.0,23.0,19.0,,False,False,True,False,,,rotated 90
+CLM-30979,train,IMG-20260710-WA0167.jpg,True,ok,727.0,688.0,49.4,156.6,12.1,5.9,0.0,0.0,0.0,4.0,0.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-30980,train,IMG_20260711_205505.jpg,True,ok,851.0,724.0,42.7,127.4,154.3,73.4,0.0,0.0,0.0,44.0,38.0,,False,False,True,False,,,
+CLM-30982,train,IMG_20260711_165958.jpg,True,ok,937.0,1139.0,88.3,166.6,157.8,80.0,0.0,0.005,0.0,58.0,45.0,skip anny guolicate check,True,False,True,False,,,instruction text
+CLM-30983,train,IMG_20260710_081421.jpg,True,ok,775.0,823.0,49.7,138.9,163.7,91.9,0.02,0.0,0.0,47.0,38.0,,False,False,True,False,,,
+CLM-30985,train,IMG_20260711_162902.jpg,True,ok,725.0,737.0,46.0,93.2,152.9,56.3,0.0,0.0,0.0,39.0,33.0,,False,False,True,False,,,
+CLM-30989,train,IMG_20260711_192652.jpg,True,ok,668.0,452.0,29.8,73.1,149.6,63.6,0.22,0.0,0.0,10.0,9.0,,False,True,True,False,,,pen marks
+CLM-30991,train,IMG_20260711_162222.jpg,True,ok,964.0,471.0,57.9,303.3,149.8,62.8,1.806,0.0,0.0,27.0,22.0,,False,True,True,False,,,pen marks
+CLM-30992,train,IMG-20260710-WA0115.jpg,True,ok,919.0,430.0,34.7,887.0,158.9,71.7,0.445,0.004,0.0,23.0,19.0,,False,True,True,False,,,pen marks
+CLM-30996,train,IMG_20260711_175810.jpg,True,ok,970.0,447.0,60.2,1169.5,178.3,70.9,0.0,0.0,0.0,28.0,24.0,,False,False,True,False,,,
+CLM-31000,train,IMG_20260710_090411.jpg,True,ok,682.0,639.0,37.0,145.2,156.2,66.8,0.0,0.0,0.0,31.0,29.0,,False,False,True,False,,,
+CLM-31004,train,IMG_20260710_195933.jpg,True,ok,1400.0,800.0,90.3,1132.2,230.0,34.8,0.0,0.0,0.0,76.0,64.0,,False,False,True,False,,,
+CLM-31007,train,IMG_20260711_194359.jpg,True,ok,562.0,410.0,22.8,39.7,188.1,33.7,0.0,0.0,180.0,23.0,20.0,,False,False,True,False,,,rotated 180
+CLM-31009,train,IMG_20260711_124855.jpg,True,ok,695.0,655.0,39.7,79.1,178.8,63.0,0.016,0.0,0.0,39.0,35.0,,False,False,True,False,,,
+CLM-31010,train,IMG-20260711-WA0006.jpg,True,ok,783.0,687.0,35.5,38.8,160.2,69.8,0.0,0.0,270.0,7.0,2.0,,False,False,True,False,,,rotated 270
+CLM-31011,train,IMG_20260712_170552.jpg,True,ok,674.0,449.0,27.7,125.2,152.0,78.8,0.084,0.0,0.0,20.0,16.0,,False,True,True,False,,,pen marks
+CLM-31013,train,IMG_20260711_154128.jpg,True,ok,671.0,533.0,25.6,82.2,179.5,67.5,0.079,0.0,0.0,21.0,16.0,,False,True,True,False,,,pen marks
+CLM-31015,train,IMG_20260711_204304.jpg,True,ok,827.0,1360.0,97.4,793.1,158.6,85.9,0.051,0.0,90.0,78.0,67.0,,False,True,True,False,,,rotated 90; pen marks
+CLM-31016,train,IMG_20260713_095100.jpg,True,ok,670.0,617.0,28.5,16.5,165.0,66.1,0.0,0.0,0.0,15.0,10.0,,False,False,True,True,,,low OCR confidence
+CLM-31018,train,IMG_20260713_173024.jpg,True,ok,788.0,784.0,45.9,85.7,212.5,25.4,0.033,0.0,0.0,43.0,33.0,,False,False,True,False,,,
+CLM-31019,train,IMG-20260712-WA0179.jpg,True,ok,789.0,821.0,35.7,76.1,136.3,78.2,0.0,0.0,0.0,43.0,37.0,,False,False,True,False,,,
+CLM-31020,train,IMG-20260712-WA0059.jpg,True,ok,920.0,442.0,44.0,1046.0,162.3,78.9,0.0,0.0,0.0,28.0,24.0,,False,False,True,False,,,
+CLM-31021,train,IMG_20260712_143503.jpg,True,ok,882.0,473.0,35.1,316.7,204.6,35.0,0.381,0.001,0.0,27.0,22.0,,False,True,True,False,,,pen marks
+CLM-31022,train,IMG-20260713-WA0111.jpg,True,ok,910.0,425.0,35.7,668.5,182.8,48.0,0.233,0.024,0.0,24.0,19.0,,False,True,True,False,,,pen marks
+CLM-31023,train,IMG_20260714_160417.jpg,True,ok,684.0,687.0,43.4,60.6,225.9,26.6,0.0,0.0,0.0,38.0,31.0,,False,False,True,False,,,
+CLM-31026,train,IMG_20260713_165011.jpg,True,ok,673.0,642.0,44.5,235.6,140.9,77.6,0.0,0.0,0.0,38.0,33.0,,False,False,True,False,,,
+CLM-31030,train,IMG-20260713-WA0093.jpg,True,ok,826.0,851.0,45.1,139.5,126.5,73.5,0.0,0.0,0.0,52.0,37.0,,False,False,True,False,,,
+CLM-31032,train,IMG_20260714_110121.jpg,True,ok,779.0,727.0,36.8,38.1,147.3,55.0,0.0,0.0,0.0,16.0,14.0,,False,False,True,False,,,
+CLM-31034,train,IMG-20260713-WA0237.jpg,True,ok,823.0,846.0,45.5,201.1,219.0,31.7,0.009,0.0,0.0,44.0,41.0,,False,False,True,False,,,
+CLM-31035,train,IMG_20260714_201050.jpg,True,ok,726.0,703.0,48.9,131.8,182.8,68.4,0.136,0.0,0.0,29.0,24.0,,False,True,True,False,,,pen marks
+CLM-31038,train,IMG_20260714_100816.jpg,True,ok,734.0,856.0,55.7,316.1,175.3,84.6,0.003,0.0,0.0,53.0,46.0,,False,False,True,False,,,
+CLM-31042,train,IMG_20260714_183832.jpg,True,ok,709.0,781.0,54.5,304.1,201.0,69.6,0.0,0.0,0.0,55.0,44.0,,False,False,True,False,,,
+CLM-31045,train,IMG-20260714-WA0050.jpg,True,ok,613.0,438.0,30.1,52.2,137.2,47.0,0.0,0.0,0.0,15.0,11.0,,False,False,True,False,,,
+CLM-31047,train,IMG-20260715-WA0213.jpg,True,ok,658.0,406.0,29.2,295.1,181.2,64.5,0.091,0.0,0.0,22.0,21.0,,False,True,True,False,,,pen marks
+CLM-31049,train,IMG_20260714_171948.jpg,True,ok,662.0,446.0,23.8,319.2,202.5,38.3,0.0,0.0,0.0,23.0,18.0,,False,False,True,False,,,
+CLM-31053,train,IMG_20260714_123934.jpg,True,ok,935.0,412.0,34.5,432.6,184.6,85.8,0.23,0.039,0.0,17.0,14.0,,False,True,True,False,,,pen marks
+CLM-31055,train,IMG_20260714_213549.jpg,True,ok,941.0,462.0,36.1,305.8,231.2,29.9,0.217,0.0,0.0,24.0,22.0,,False,True,True,False,,,pen marks
+CLM-31056,train,IMG_20260714_202221.jpg,True,ok,664.0,620.0,28.7,61.8,158.8,67.0,0.0,0.0,0.0,36.0,31.0,,False,False,True,False,,,
+CLM-31057,train,IMG-20260715-WA0155.jpg,True,ok,672.0,673.0,35.5,22.1,221.9,36.4,0.0,0.0,0.0,10.0,7.0,,False,False,True,True,,,low OCR confidence
+CLM-31059,train,IMG_20260715_184332.jpg,True,ok,736.0,622.0,31.4,317.3,156.2,82.6,0.0,0.0,0.0,42.0,35.0,,False,False,True,False,,,
+CLM-31063,train,IMG-20260716-WA0107.jpg,True,ok,609.0,542.0,36.0,115.7,184.6,71.0,0.0,0.0,0.0,24.0,23.0,,False,False,True,False,,,
+CLM-31066,train,IMG_20260716_143034.jpg,True,ok,688.0,690.0,52.0,162.0,177.0,78.9,0.031,0.0,0.0,38.0,32.0,,False,False,True,False,,,
+CLM-31067,train,IMG_20260715_153311.jpg,True,ok,681.0,698.0,28.9,74.5,158.0,82.0,0.0,0.0,0.0,23.0,20.0,,False,False,False,False,,,no total found?
+CLM-31069,train,IMG-20260717-WA0088.jpg,True,ok,726.0,692.0,34.5,57.4,162.4,79.2,0.0,0.0,0.0,33.0,27.0,,False,False,True,False,,,
+CLM-31071,train,IMG-20260717-WA0051.jpg,True,ok,782.0,833.0,54.7,85.6,154.4,59.1,0.0,0.0,0.0,47.0,35.0,,False,False,True,False,,,
+CLM-31072,train,IMG_20260716_173230.jpg,True,ok,746.0,714.0,35.6,29.8,165.3,84.8,0.0,0.0,0.0,6.0,3.0,,False,False,True,False,,,
+CLM-31075,train,IMG-20260717-WA0166.jpg,True,ok,703.0,614.0,30.7,70.6,198.0,30.3,0.005,0.0,0.0,27.0,23.0,,False,False,True,False,,,
+CLM-31079,train,IMG_20260718_154240.jpg,True,ok,717.0,661.0,31.4,54.0,198.9,33.3,0.0,0.0,0.0,34.0,29.0,,False,False,True,False,,,
+CLM-31081,train,IMG_20260718_081516.jpg,True,ok,692.0,699.0,38.0,45.8,206.6,37.7,0.011,0.0,0.0,25.0,24.0,,False,False,True,False,,,
+CLM-31084,train,IMG_20260717_194532.jpg,True,ok,547.0,392.0,23.4,179.3,175.5,74.7,0.211,0.0,0.0,24.0,23.0,,False,True,True,False,,,pen marks
+CLM-31086,test,IMG-20260719-WA0062.jpg,True,ok,668.0,687.0,24.6,62.2,218.0,35.1,0.0,0.0,0.0,36.0,34.0,,False,False,True,False,,,
+CLM-31087,test,IMG_20260718_111930.jpg,True,ok,756.0,892.0,53.9,87.2,150.7,63.6,0.115,0.0,0.0,48.0,36.0,,False,True,True,False,,,pen marks
+CLM-31088,test,IMG_20260718_095324.jpg,True,ok,625.0,407.0,28.6,223.7,179.9,36.4,0.0,0.0,0.0,28.0,25.0,,False,False,True,False,,,
+CLM-31090,test,IMG_20260719_101539.jpg,True,ok,654.0,482.0,31.1,135.5,181.9,81.9,0.151,0.0,0.0,22.0,18.0,,False,True,True,False,,,pen marks
+CLM-31091,test,IMG_20260718_093004.jpg,True,ok,636.0,514.0,28.4,67.5,182.2,86.4,0.167,0.0,0.0,18.0,17.0,,False,True,True,False,,,pen marks
+CLM-31094,test,IMG_20260719_085411.jpg,True,ok,926.0,436.0,42.4,651.4,185.0,68.1,3.346,0.0,180.0,11.0,8.0,,False,True,False,False,,,rotated 180; pen marks; no total found?
+CLM-31095,test,IMG_20260719_102342.jpg,True,ok,726.0,658.0,34.4,57.3,150.5,80.6,0.002,0.0,0.0,34.0,28.0,,False,False,True,False,,,
+CLM-31096,test,IMG_20260719_165340.jpg,True,ok,747.0,664.0,35.7,98.2,204.8,34.8,0.0,0.0,0.0,35.0,30.0,,False,False,True,False,,,
+CLM-31097,test,IMG-20260719-WA0055.jpg,True,ok,738.0,640.0,27.1,95.6,179.9,33.6,0.0,0.0,0.0,42.0,36.0,,False,False,True,False,,,
+CLM-31098,test,IMG_20260720_085409.jpg,True,ok,820.0,862.0,49.4,108.6,158.1,73.0,0.026,0.0,0.0,44.0,36.0,,False,False,True,False,,,
+CLM-31102,test,IMG_20260719_115758.jpg,True,ok,811.0,767.0,26.7,24.8,124.7,65.2,0.0,0.0,0.0,11.0,9.0,,False,False,True,True,,,low OCR confidence
+CLM-31105,test,IMG_20260720_143018.jpg,True,ok,986.0,785.0,40.4,131.8,191.4,25.8,0.0,0.0,0.0,49.0,42.0,,False,False,True,False,,,
+CLM-31106,test,IMG_20260719_144606.jpg,True,ok,976.0,749.0,39.4,58.7,201.7,24.2,0.0,0.0,0.0,16.0,15.0,,False,False,True,False,,,
+CLM-31107,test,IMG_20260719_093115.jpg,True,ok,687.0,634.0,33.9,56.9,227.9,27.8,0.0,0.0,0.0,20.0,18.0,,False,False,True,False,,,
+CLM-31110,test,IMG-20260720-WA0101.jpg,True,ok,694.0,686.0,45.0,270.0,166.6,77.9,0.0,0.0,0.0,42.0,35.0,,False,False,True,False,,,
+CLM-31111,test,IMG-20260719-WA0131.jpg,True,ok,537.0,404.0,26.4,166.7,164.1,63.1,0.238,0.0,0.0,17.0,14.0,,False,True,True,False,,,pen marks
+CLM-31112,test,IMG-20260719-WA0209.jpg,True,ok,508.0,379.0,22.1,70.4,163.7,67.6,0.0,0.0,0.0,23.0,21.0,,False,False,True,False,,,
+CLM-31115,test,IMG_20260721_094955.jpg,True,ok,664.0,675.0,38.3,55.8,196.2,72.0,0.0,0.0,0.0,19.0,14.0,,False,False,True,False,,,
+CLM-31118,test,IMG-20260720-WA0096.jpg,True,ok,682.0,617.0,28.1,132.6,197.7,29.2,0.0,0.0,0.0,42.0,36.0,,False,False,True,False,,,
+CLM-31120,test,IMG_20260720_103859.jpg,True,ok,698.0,643.0,33.8,55.3,177.3,68.2,0.047,0.0,0.0,36.0,29.0,,False,False,True,False,,,
+CLM-31122,test,IMG_20260720_185726.jpg,True,ok,685.0,626.0,36.6,230.1,182.7,79.2,0.0,0.0,0.0,39.0,34.0,,False,False,True,False,,,
+CLM-31123,test,IMG_20260720_165051.jpg,True,ok,804.0,767.0,58.1,433.2,160.8,92.2,0.0,0.0,0.0,38.0,31.0,,False,False,True,False,,,
+CLM-31126,test,IMG_20260721_152904.jpg,True,ok,679.0,861.0,36.5,77.6,182.2,86.8,0.028,0.0,0.0,44.0,40.0,,False,False,True,False,,,
+CLM-31130,test,IMG_20260720_210925.jpg,True,ok,727.0,837.0,51.4,117.0,176.7,66.2,0.0,0.0,0.0,48.0,39.0,,False,False,True,False,,,
+CLM-31132,test,IMG_20260722_160850.jpg,True,ok,726.0,649.0,51.0,197.0,161.8,80.6,0.026,0.0,0.0,31.0,27.0,,False,False,True,False,,,
+CLM-31133,test,IMG_20260722_190559.jpg,True,ok,605.0,736.0,25.4,11.2,161.4,57.1,0.0,0.0,90.0,8.0,6.0,,False,False,True,True,,,rotated 90; low OCR confidence
+CLM-31137,test,IMG_20260721_192657.jpg,True,ok,891.0,815.0,43.6,116.6,197.2,41.2,0.0,0.0,0.0,52.0,44.0,,False,False,True,False,,,
+CLM-31140,test,IMG_20260721_100629.jpg,True,ok,718.0,822.0,51.1,86.2,167.9,61.3,0.0,0.0,90.0,37.0,28.0,,False,False,True,False,,,rotated 90
+CLM-31142,test,IMG_20260722_185822.jpg,True,ok,600.0,449.0,17.4,19.2,140.0,55.1,0.002,0.0,0.0,14.0,12.0,,False,False,True,True,,,low OCR confidence
+CLM-31146,test,IMG_20260721_214011.jpg,True,ok,945.0,407.0,33.8,721.8,143.1,61.0,0.456,0.0,0.0,33.0,23.0,,False,True,True,False,,,pen marks
+CLM-31148,test,IMG_20260721_121957.jpg,True,ok,1354.0,871.0,60.5,212.0,199.0,41.2,0.0,0.0,0.0,30.0,26.0,,False,False,True,False,,,
+CLM-31152,test,IMG_20260722_181256.jpg,True,ok,550.0,378.0,16.1,43.9,224.6,35.2,0.0,0.0,0.0,16.0,10.0,,False,False,True,False,,,
+CLM-31156,test,IMG-20260723-WA0224.jpg,True,ok,717.0,687.0,40.2,55.3,162.7,80.5,0.0,0.0,0.0,36.0,32.0,,False,False,True,False,,,
+CLM-31158,test,IMG_20260722_094603.jpg,True,ok,816.0,886.0,55.9,92.0,202.6,30.9,0.017,0.0,90.0,47.0,35.0,,False,False,True,False,,,rotated 90
+CLM-31160,test,IMG_20260722_142450.jpg,True,ok,664.0,664.0,43.9,238.6,170.2,77.3,0.0,0.0,0.0,38.0,35.0,,False,False,True,False,,,
+CLM-31161,test,IMG-20260723-WA0041.jpg,True,ok,1291.0,884.0,66.8,667.7,164.9,87.0,0.0,0.0,0.0,79.0,63.0,,False,False,True,False,,,
+CLM-31164,test,IMG_20260723_170945.jpg,True,ok,689.0,624.0,34.9,17.9,164.4,54.0,0.006,0.0,0.0,6.0,5.0,,False,False,True,True,,,low OCR confidence
+CLM-31168,test,IMG_20260724_110703.jpg,True,ok,734.0,651.0,34.6,127.0,173.8,88.2,0.005,0.0,0.0,34.0,30.0,,False,False,True,False,,,
+CLM-31170,test,IMG_20260723_193736.jpg,True,ok,896.0,839.0,51.4,249.6,140.2,73.0,0.0,0.0,0.0,34.0,25.0,,False,False,True,False,,,
+CLM-31171,test,IMG-20260724-WA0095.jpg,True,ok,457.0,636.0,26.3,23.7,194.6,27.4,0.0,0.0,270.0,25.0,23.0,,False,False,True,True,,,rotated 270; low OCR confidence
+CLM-31173,test,IMG-20260724-WA0186.jpg,True,ok,666.0,535.0,28.0,203.8,181.2,35.4,0.0,0.0,0.0,27.0,24.0,,False,False,True,False,,,
+CLM-31176,test,IMG-20260724-WA0136.jpg,True,ok,672.0,611.0,44.6,342.7,197.2,32.8,1.224,2.699,0.0,41.0,31.0,automatey,True,True,True,False,,,instruction text; pen marks
+CLM-31178,test,IMG-20260724-WA0196.jpg,True,ok,970.0,408.0,34.3,291.1,198.7,26.7,0.0,0.0,0.0,20.0,19.0,,False,False,True,False,,,
+CLM-31182,test,IMG_20260723_100016.jpg,True,ok,903.0,464.0,40.0,396.7,230.2,29.4,0.184,0.037,0.0,28.0,23.0,,False,True,True,False,,,pen marks
+CLM-31185,test,IMG_20260723_110658.jpg,True,ok,681.0,641.0,40.1,228.8,215.4,33.5,0.014,0.0,0.0,37.0,33.0,,False,False,True,False,,,
+CLM-31188,test,IMG-20260724-WA0098.jpg,True,ok,1306.0,790.0,127.3,1134.4,172.2,70.2,0.054,0.0,0.0,80.0,72.0,,False,True,True,False,,,pen marks
+CLM-31190,test,,False,,,,,,,,,,,,,,,,,,,,missing photo
+CLM-31191,test,IMG_20260724_105718.jpg,True,ok,731.0,701.0,29.9,73.6,213.4,23.5,0.0,0.0,0.0,39.0,35.0,,False,False,True,False,,,
+CLM-31192,test,IMG-20260724-WA0021.jpg,True,ok,723.0,799.0,34.1,67.8,189.0,36.1,0.06,0.0,0.0,40.0,33.0,,False,True,True,False,,,pen marks
+CLM-31195,test,IMG_20260725_201621.jpg,True,ok,700.0,624.0,31.7,81.4,229.1,23.4,0.0,0.0,0.0,27.0,25.0,,False,False,True,False,,,
+CLM-31197,test,IMG_20260726_194521.jpg,True,ok,667.0,633.0,29.4,55.4,178.1,59.0,0.0,0.0,0.0,38.0,33.0,,False,False,True,False,,,
+CLM-31201,test,IMG_20260725_172056.jpg,True,ok,794.0,849.0,48.9,147.3,205.2,32.8,0.0,0.0,0.0,38.0,33.0,,False,False,True,False,,,
+CLM-31203,test,IMG-20260725-WA0149.jpg,True,ok,640.0,406.0,23.9,108.2,202.8,39.1,0.039,0.005,0.0,23.0,22.0,,False,False,True,False,,,
+CLM-31204,test,IMG_20260726_184043.jpg,True,ok,673.0,664.0,37.8,276.4,208.2,32.3,0.0,0.0,0.0,38.0,33.0,,False,False,True,False,,,
+CLM-31206,test,IMG_20260726_171213.jpg,True,ok,742.0,673.0,31.6,81.1,160.1,59.9,0.008,0.0,0.0,38.0,31.0,,False,False,True,False,,,
+CLM-31207,test,IMG_20260726_183202.jpg,True,ok,758.0,849.0,49.8,97.8,209.3,23.1,0.0,0.0,0.0,39.0,27.0,,False,False,True,False,,,
+CLM-31209,test,IMG_20260726_111736.jpg,True,ok,650.0,499.0,29.1,192.7,146.5,80.2,0.132,0.006,0.0,23.0,19.0,,False,True,True,False,,,pen marks
+CLM-31211,test,IMG_20260727_212552.jpg,True,ok,604.0,477.0,23.9,57.5,204.5,29.8,0.003,0.0,0.0,27.0,23.0,,False,False,True,False,,,
+CLM-31214,test,IMG_20260726_164415.jpg,True,ok,613.0,514.0,30.0,95.8,174.0,70.3,0.0,0.0,0.0,19.0,16.0,,False,False,True,False,,,
+CLM-31217,test,IMG_20260726_203421.jpg,True,ok,911.0,433.0,34.4,357.0,226.9,33.7,0.038,0.0,0.0,25.0,23.0,,False,False,True,False,,,
+CLM-31221,test,IMG_20260727_170244.jpg,True,ok,718.0,638.0,31.9,120.6,192.4,66.4,0.0,0.0,0.0,34.0,31.0,,False,False,True,False,,,
+CLM-31222,test,IMG_20260727_164528.jpg,True,ok,544.0,395.0,25.0,40.2,170.4,70.8,0.0,0.0,0.0,19.0,18.0,,False,False,True,False,,,
+CLM-31225,test,IMG_20260727_150914.jpg,True,ok,717.0,619.0,26.3,62.4,239.5,20.8,0.0,0.0,0.0,37.0,30.0,,False,False,True,False,,,
+CLM-31228,test,IMG_20260728_142953.jpg,True,ok,693.0,642.0,27.5,18.3,164.4,75.6,0.0,0.0,0.0,6.0,4.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-31230,test,IMG-20260728-WA0026.jpg,True,ok,717.0,647.0,40.3,67.6,210.8,26.8,0.028,0.0,0.0,32.0,25.0,,False,False,True,False,,,
+CLM-31233,test,IMG_20260727_104322.jpg,True,ok,834.0,774.0,39.1,99.9,212.9,33.4,0.0,0.0,180.0,48.0,37.0,,False,False,True,False,,,rotated 180
+CLM-31236,test,IMG_20260727_152722.jpg,True,ok,779.0,802.0,56.5,95.9,167.7,87.7,0.001,0.0,0.0,42.0,37.0,,False,False,True,False,,,
+CLM-31240,test,IMG-20260727-WA0116.jpg,True,ok,759.0,903.0,45.2,278.9,130.3,80.3,0.0,0.0,0.0,52.0,45.0,,False,False,True,False,,,
+CLM-31243,test,IMG-20260728-WA0151.jpg,True,ok,966.0,435.0,38.7,342.6,189.1,42.9,0.095,0.0,0.0,27.0,25.0,,False,True,True,False,,,pen marks
+CLM-31244,test,IMG_20260728_212140.jpg,True,ok,876.0,429.0,42.8,307.3,176.5,61.5,0.0,0.0,180.0,20.0,17.0,,False,False,True,False,,,rotated 180
+CLM-31247,test,IMG_20260728_143233.jpg,True,ok,702.0,632.0,34.2,110.8,190.4,81.5,0.036,0.0,0.0,20.0,17.0,,False,False,True,False,,,
+CLM-31249,test,IMG_20260727_081217.jpg,True,ok,686.0,680.0,32.3,133.6,174.9,43.6,0.0,0.0,0.0,40.0,37.0,,False,False,True,False,,,
+CLM-31251,test,IMG_20260728_093401.jpg,True,ok,728.0,683.0,34.7,102.6,166.9,89.7,0.0,0.0,0.0,32.0,29.0,,False,False,True,False,,,
+CLM-31255,test,IMG_20260727_153308.jpg,True,ok,519.0,410.0,22.0,27.7,222.0,26.1,0.075,0.0,0.0,17.0,15.0,,False,True,True,False,,,pen marks
+CLM-31256,test,IMG-20260727-WA0135.jpg,True,ok,565.0,387.0,16.0,18.8,163.7,29.9,0.0,0.0,0.0,18.0,15.0,,False,False,True,True,,,low OCR confidence
+CLM-31258,test,IMG_20260728_080750.jpg,True,ok,708.0,676.0,53.6,148.9,175.7,69.8,0.0,0.0,0.0,36.0,33.0,,False,False,True,False,,,
+CLM-31261,test,IMG_20260728_120426.jpg,True,ok,675.0,664.0,39.8,222.6,173.3,88.5,0.0,0.0,0.0,37.0,34.0,,False,False,True,False,,,
+CLM-31263,test,IMG-20260729-WA0040.jpg,True,ok,669.0,597.0,46.5,201.8,175.7,69.9,0.001,0.0,0.0,40.0,35.0,,False,False,True,False,,,
+CLM-31265,test,IMG-20260729-WA0023.jpg,True,ok,734.0,642.0,35.9,58.7,163.8,69.2,0.0,0.0,0.0,35.0,30.0,,False,False,True,False,,,
+CLM-31266,test,IMG_20260729_134659.jpg,True,ok,735.0,644.0,29.3,187.5,182.5,36.1,0.0,0.0,0.0,40.0,35.0,,False,False,True,False,,,
+CLM-31270,test,IMG-20260729-WA0046.jpg,True,ok,698.0,690.0,33.8,151.8,160.7,70.6,0.0,0.0,0.0,38.0,36.0,,False,False,True,False,,,
+CLM-31272,test,IMG_20260729_111757.jpg,True,ok,825.0,743.0,36.9,102.3,210.5,42.1,0.0,0.0,0.0,33.0,28.0,,False,False,True,False,,,
+CLM-31274,test,IMG_20260728_195227.jpg,True,ok,841.0,804.0,66.3,104.2,218.6,25.8,0.0,0.0,0.0,26.0,23.0,,False,False,True,False,,,
+CLM-31275,test,IMG_20260728_132953.jpg,True,ok,851.0,842.0,50.0,266.7,192.7,38.8,0.0,0.0,0.0,51.0,48.0,,False,False,True,False,,,
+CLM-31279,test,IMG_20260728_150100.jpg,True,ok,867.0,815.0,47.6,110.7,138.2,83.3,0.0,0.0,0.0,32.0,25.0,,False,False,True,False,,,
+CLM-31280,test,,False,,,,,,,,,,,,,,,,,,,,missing photo
+CLM-31284,test,IMG_20260728_083806.jpg,True,ok,1386.0,820.0,78.5,738.1,177.3,35.7,0.0,0.0,0.0,79.0,67.0,,False,False,True,False,,,
+CLM-31288,test,IMG-20260728-WA0233.jpg,True,ok,1338.0,839.0,66.9,954.1,175.4,85.2,0.0,0.0,0.0,81.0,65.0,,False,False,True,False,,,
+CLM-31292,test,IMG_20260729_135201.jpg,True,ok,724.0,701.0,30.6,22.4,141.9,70.5,0.0,0.0,0.0,19.0,16.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-31294,test,IMG_20260729_090302.jpg,True,ok,682.0,613.0,24.7,29.3,219.5,31.1,0.0,0.0,0.0,14.0,12.0,,False,False,True,False,,,
+CLM-31296,test,IMG_20260730_213454.jpg,True,ok,704.0,645.0,34.5,172.4,221.6,30.8,0.0,0.0,0.0,39.0,32.0,,False,False,True,False,,,
+CLM-31298,test,IMG_20260729_115234.jpg,True,ok,912.0,757.0,52.2,130.2,139.7,84.2,0.0,0.0,0.0,45.0,39.0,,False,False,True,False,,,
+CLM-31299,test,IMG_20260729_111359.jpg,True,ok,885.0,801.0,42.9,133.6,136.5,87.2,0.008,0.0,0.0,28.0,20.0,,False,False,True,False,,,
+CLM-31301,test,IMG_20260729_173852.jpg,True,ok,848.0,852.0,60.4,139.3,177.8,76.2,0.0,0.0,0.0,34.0,25.0,,False,False,True,False,4,CLM-31480,same photo as CLM-31480
+CLM-31305,test,IMG_20260730_094908.jpg,True,ok,986.0,430.0,28.8,301.8,194.3,29.2,0.117,0.019,0.0,26.0,22.0,,False,True,True,False,,,pen marks
+CLM-31308,test,IMG_20260730_102413.jpg,True,ok,975.0,411.0,35.1,109.4,195.9,35.9,0.222,0.081,0.0,3.0,2.0,,False,True,True,True,,,low OCR confidence; pen marks
+CLM-31310,test,IMG_20260730_112551.jpg,True,ok,957.0,459.0,34.8,213.7,141.0,73.9,0.88,0.0,0.0,19.0,16.0,,False,True,True,False,,,pen marks
+CLM-31311,test,IMG_20260729_095804.jpg,True,ok,1325.0,791.0,83.2,1491.6,192.8,68.4,0.0,0.0,0.0,82.0,70.0,,False,False,True,False,,,
+CLM-31314,test,IMG-20260730-WA0197.jpg,True,ok,528.0,394.0,22.0,73.7,204.2,30.3,0.034,0.0,0.0,22.0,19.0,,False,False,True,False,,,
+CLM-31315,test,IMG_20260731_135010.jpg,True,ok,722.0,621.0,34.3,118.1,201.6,44.7,0.0,0.0,0.0,40.0,32.0,,False,False,True,False,,,
+CLM-31317,test,IMG_20260730_145223.jpg,True,ok,926.0,798.0,66.9,120.7,178.8,75.3,0.0,0.0,0.0,49.0,40.0,,False,False,True,False,,,
+CLM-31321,test,IMG_20260730_180236.jpg,True,ok,687.0,831.0,49.7,88.2,192.2,75.2,0.001,0.0,0.0,46.0,40.0,,False,False,True,False,,,
+CLM-31324,test,IMG_20260730_094242.jpg,True,ok,770.0,846.0,58.3,279.0,159.6,80.6,0.004,0.0,0.0,54.0,38.0,,False,False,True,False,,,
+CLM-31328,test,IMG-20260730-WA0156.jpg,True,ok,611.0,472.0,26.7,164.1,181.2,80.8,0.246,0.0,0.0,25.0,18.0,,False,True,True,False,,,pen marks
+CLM-31329,test,IMG_20260731_103806.jpg,True,ok,876.0,414.0,37.1,543.2,181.1,61.5,0.0,0.0,0.0,27.0,21.0,,False,False,True,False,,,
+CLM-31331,test,IMG_20260731_163044.jpg,True,ok,910.0,455.0,36.4,234.7,150.7,58.5,2.471,0.0,0.0,24.0,18.0,,False,True,True,False,,,pen marks
+CLM-31333,test,IMG_20260801_102204.jpg,True,ok,724.0,223.0,14.2,340.9,176.6,94.0,0.0,0.0,0.0,9.0,6.0,,False,False,False,False,,,no total found?
+CLM-31335,test,IMG_20260801_101249.jpg,True,ok,669.0,662.0,42.0,141.2,159.4,74.6,0.026,0.0,0.0,37.0,28.0,,False,False,True,False,,,
+CLM-31336,test,IMG_20260731_101131.jpg,True,ok,680.0,688.0,27.1,110.4,204.5,28.0,0.0,0.0,0.0,42.0,34.0,,False,False,True,False,,,
+CLM-31339,test,IMG_20260801_082524.jpg,True,ok,714.0,709.0,45.8,220.7,223.3,32.3,0.0,0.0,0.0,27.0,20.0,,False,False,True,False,,,
+CLM-31340,test,IMG-20260731-WA0020.jpg,True,ok,891.0,824.0,49.9,226.0,170.2,79.7,0.0,0.0,0.0,43.0,35.0,,False,False,True,False,,,
+CLM-31341,test,IMG_20260801_111355.jpg,True,ok,723.0,876.0,44.4,95.3,142.8,67.5,0.0,0.0,0.0,48.0,43.0,,False,False,True,False,,,
+CLM-31344,test,IMG_20260801_132016.jpg,True,ok,655.0,542.0,32.8,97.5,167.2,66.0,0.039,0.006,0.0,26.0,23.0,,False,False,True,False,,,
+CLM-31347,test,IMG_20260801_101754.jpg,True,ok,668.0,456.0,26.1,91.9,179.0,37.4,0.052,0.001,0.0,23.0,23.0,,False,True,True,False,,,pen marks
+CLM-31351,test,IMG_20260801_144116.jpg,True,ok,920.0,412.0,37.6,279.3,209.8,35.4,0.208,0.0,0.0,20.0,15.0,,False,True,True,False,,,pen marks
+CLM-31352,test,IMG_20260801_141124.jpg,True,ok,690.0,623.0,55.6,226.2,183.6,77.7,0.012,0.0,0.0,31.0,26.0,,False,False,True,False,,,
+CLM-31356,test,IMG_20260801_181215.jpg,True,ok,543.0,389.0,15.3,9.4,170.7,72.6,0.0,0.0,0.0,2.0,2.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-31359,test,IMG_20260731_113235.jpg,True,ok,542.0,413.0,24.4,154.3,180.2,84.1,0.019,0.0,0.0,23.0,20.0,,False,False,False,False,,,no total found?
+CLM-31361,test,IMG_20260801_181420.jpg,True,ok,702.0,610.0,36.7,139.9,190.0,65.6,0.015,0.0,0.0,33.0,24.0,,False,False,True,False,,,
+CLM-31362,test,IMG-20260801-WA0126.jpg,True,ok,734.0,679.0,34.2,156.7,163.3,75.4,0.0,0.0,0.0,30.0,26.0,,False,False,True,False,,,
+CLM-31363,test,,False,,,,,,,,,,,,,,,,,,,,missing photo
+CLM-31366,test,IMG_20260801_085309.jpg,True,ok,668.0,471.0,27.5,18.5,155.0,64.3,0.097,0.01,0.0,3.0,2.0,,False,True,True,True,,,low OCR confidence; pen marks
+CLM-31367,test,IMG_20260801_212306.jpg,True,ok,669.0,636.0,26.9,56.1,185.2,30.3,0.0,0.0,0.0,32.0,27.0,,False,False,False,False,,,no total found?
+CLM-31368,test,IMG_20260802_103821.jpg,True,ok,1400.0,817.0,150.2,1739.9,180.3,77.4,0.0,0.0,0.0,82.0,71.0,,False,False,True,False,,,
+CLM-31369,test,IMG_20260803_130541.jpg,True,ok,705.0,696.0,31.5,80.5,213.0,38.2,0.006,0.0,0.0,37.0,32.0,,False,False,True,False,,,
+CLM-31373,test,IMG-20260803-WA0231.jpg,True,ok,683.0,603.0,31.4,219.8,167.4,83.6,0.0,0.0,0.0,33.0,28.0,,False,False,True,False,,,
+CLM-31374,test,IMG_20260802_094906.jpg,True,ok,936.0,765.0,68.0,524.1,194.7,39.1,0.062,0.0,0.0,52.0,37.0,,False,True,True,False,,,pen marks
+CLM-31378,test,IMG_20260803_152913.jpg,True,ok,615.0,424.0,20.1,23.4,179.3,76.6,0.0,0.0,0.0,7.0,7.0,,False,False,True,True,,,low OCR confidence
+CLM-31382,test,IMG-20260802-WA0239.jpg,True,ok,743.0,689.0,43.1,186.8,192.4,42.9,0.052,0.0,0.0,20.0,17.0,,False,True,True,False,,,pen marks
+CLM-31386,test,IMG_20260804_202611.jpg,True,ok,689.0,634.0,30.6,34.6,158.2,62.9,0.0,0.0,0.0,12.0,8.0,,False,False,True,False,,,
+CLM-31387,test,IMG_20260803_140623.jpg,True,ok,704.0,667.0,25.1,48.8,226.8,28.8,0.0,0.0,0.0,37.0,30.0,,False,False,True,False,,,
+CLM-31388,test,IMG_20260804_185948.jpg,True,ok,607.0,669.0,29.7,88.2,179.1,78.9,0.0,0.0,270.0,25.0,19.0,,False,False,True,False,,,rotated 270
+CLM-31391,test,IMG_20260803_210445.jpg,True,ok,830.0,854.0,27.9,5.7,167.4,82.6,0.0,0.0,0.0,0.0,0.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-31392,test,IMG_20260803_100639.jpg,True,ok,781.0,818.0,43.0,144.9,211.5,34.0,0.014,0.0,0.0,50.0,41.0,,False,False,True,False,,,
+CLM-31393,test,IMG-20260803-WA0219.jpg,True,ok,851.0,830.0,32.4,50.8,196.2,29.3,0.0,0.0,0.0,32.0,27.0,,False,False,True,False,,,
+CLM-31397,test,IMG_20260804_105631.jpg,True,ok,644.0,502.0,29.9,52.5,151.1,75.2,0.343,0.0,0.0,21.0,17.0,,False,True,True,False,,,pen marks
+CLM-31401,test,IMG_20260803_134237.jpg,True,ok,956.0,646.0,56.3,356.0,190.3,35.5,0.624,2.811,0.0,50.0,41.0,,True,True,True,False,,,instruction text; pen marks
+CLM-31402,test,IMG_20260803_140317.jpg,True,ok,707.0,660.0,31.1,71.6,220.3,37.8,0.0,0.0,0.0,24.0,17.0,,False,False,True,False,,,
+CLM-31405,test,IMG_20260803_104635.jpg,True,ok,1397.0,824.0,83.7,499.0,186.5,34.0,0.043,0.0,0.0,79.0,73.0,,False,False,True,False,,,
+CLM-31407,test,IMG-20260804-WA0230.jpg,True,ok,515.0,372.0,21.5,67.9,175.0,63.2,0.0,0.0,0.0,23.0,22.0,,False,False,True,False,,,
+CLM-31411,test,IMG-20260804-WA0198.jpg,True,ok,526.0,350.0,15.4,43.1,186.6,79.1,0.0,0.0,0.0,21.0,19.0,,False,False,True,False,,,
+CLM-31412,test,IMG_20260805_114242.jpg,True,ok,669.0,638.0,45.6,272.4,172.3,82.0,0.0,0.0,0.0,42.0,37.0,,False,False,True,False,,,
+CLM-31414,test,IMG_20260805_190833.jpg,True,ok,732.0,665.0,31.3,39.5,214.8,34.3,0.0,0.0,0.0,34.0,27.0,,False,False,True,False,,,
+CLM-31415,test,IMG_20260805_145347.jpg,True,ok,728.0,721.0,31.9,24.6,148.4,25.2,0.0,0.0,0.0,37.0,32.0,,False,False,True,True,,,low OCR confidence
+CLM-31417,test,IMG_20260804_142129.jpg,True,ok,870.0,854.0,36.4,74.1,120.9,69.5,0.0,0.0,0.0,29.0,25.0,,False,False,True,False,,,
+CLM-31418,test,IMG_20260804_203505.jpg,True,ok,870.0,865.0,43.7,142.2,178.9,34.5,0.0,0.0,0.0,47.0,35.0,,False,False,True,False,,,
+CLM-31421,test,IMG-20260805-WA0194.jpg,True,ok,611.0,571.0,29.3,68.3,206.6,45.2,0.155,0.004,0.0,18.0,13.0,,False,True,True,False,,,pen marks
+CLM-31422,test,IMG-20260804-WA0074.jpg,True,ok,1284.0,826.0,77.4,666.2,159.3,83.4,0.002,0.0,0.0,71.0,59.0,,False,False,True,False,,,
+CLM-31423,test,IMG_20260805_123344.jpg,True,ok,550.0,350.0,22.3,129.3,166.1,78.3,0.0,0.0,0.0,12.0,9.0,,False,False,True,False,,,
+CLM-31424,test,IMG_20260805_132431.jpg,True,ok,555.0,380.0,21.2,60.8,190.4,74.5,0.0,0.0,0.0,17.0,16.0,,False,False,True,False,,,
+CLM-31428,test,IMG_20260804_130959.jpg,True,ok,536.0,375.0,30.0,171.1,154.0,60.1,0.014,0.0,0.0,21.0,19.0,,False,False,True,False,,,
+CLM-31429,test,IMG_20260806_141430.jpg,True,ok,680.0,696.0,33.0,116.7,176.4,80.5,0.099,0.0,0.0,35.0,28.0,,False,True,True,False,,,pen marks
+CLM-31430,test,IMG_20260806_185611.jpg,True,ok,666.0,807.0,41.0,44.6,165.2,70.1,0.046,0.0,0.0,32.0,27.0,,False,False,True,False,,,
+CLM-31432,test,IMG_20260805_112657.jpg,True,ok,818.0,753.0,40.9,84.6,171.4,77.7,0.071,0.0,0.0,40.0,29.0,,False,True,True,False,,,pen marks
+CLM-31433,test,IMG_20260805_130450.jpg,True,ok,856.0,815.0,67.3,95.1,128.5,55.4,0.0,0.0,0.0,50.0,42.0,,False,False,True,False,,,
+CLM-31436,test,IMG_20260805_091350.jpg,True,ok,947.0,801.0,47.0,410.8,144.3,85.2,0.001,0.0,0.0,51.0,42.0,,False,False,True,False,,,
+CLM-31438,test,IMG_20260806_161541.jpg,True,ok,837.0,722.0,50.7,310.6,156.2,83.0,0.0,0.0,0.0,49.0,38.0,,False,False,True,False,,,
+CLM-31439,test,IMG_20260805_160119.jpg,True,ok,622.0,458.0,19.8,47.2,181.6,35.6,0.028,0.0,0.0,23.0,17.0,,False,False,True,False,,,
+CLM-31440,test,IMG_20260805_194936.jpg,True,ok,610.0,513.0,27.6,51.0,224.1,32.9,0.016,0.0,0.0,21.0,17.0,,False,False,True,False,,,
+CLM-31444,test,IMG-20260806-WA0096.jpg,True,ok,668.0,679.0,27.0,25.9,150.3,76.8,0.0,0.0,0.0,33.0,29.0,,False,False,True,False,,,
+CLM-31447,test,IMG-20260806-WA0195.jpg,True,ok,717.0,696.0,32.1,44.1,185.2,37.4,0.0,0.0,0.0,36.0,31.0,,False,False,True,False,,,
+CLM-31451,test,IMG_20260807_114803.jpg,True,ok,679.0,607.0,30.5,190.3,211.8,35.8,0.014,0.0,0.0,40.0,36.0,,False,False,True,False,,,
+CLM-31453,test,IMG-20260807-WA0125.jpg,True,ok,702.0,635.0,31.3,48.0,140.1,34.1,0.0,0.0,0.0,27.0,23.0,,False,False,True,False,,,
+CLM-31454,test,IMG_20260806_113135.jpg,True,ok,742.0,680.0,35.9,108.7,210.2,41.7,0.002,0.0,0.0,34.0,27.0,,False,False,True,False,,,
+CLM-31457,test,IMG_20260806_142652.jpg,True,ok,705.0,657.0,39.9,190.6,184.8,46.6,0.0,0.0,0.0,37.0,32.0,,False,False,True,False,,,
+CLM-31460,test,IMG-20260807-WA0145.jpg,True,ok,698.0,685.0,34.8,51.2,167.2,84.1,0.0,0.0,90.0,36.0,31.0,,False,False,True,False,,,rotated 90
+CLM-31461,test,IMG_20260807_121259.jpg,True,ok,669.0,620.0,37.1,74.6,166.1,73.2,0.0,0.0,0.0,34.0,30.0,,False,False,True,False,,,
+CLM-31465,test,IMG_20260807_203333.jpg,True,ok,744.0,664.0,25.0,32.2,140.6,62.4,0.001,0.0,0.0,32.0,27.0,,False,False,True,False,,,
+CLM-31469,test,IMG_20260806_085112.jpg,True,ok,617.0,724.0,51.3,273.1,178.3,75.6,0.006,0.0,270.0,38.0,30.0,,False,False,True,False,,,rotated 270
+CLM-31473,test,IMG_20260807_204032.jpg,True,ok,719.0,845.0,36.8,41.5,190.3,28.5,0.0,0.0,0.0,39.0,35.0,,False,False,True,False,,,
+CLM-31474,test,IMG_20260806_144234.jpg,True,ok,720.0,888.0,70.5,346.0,168.6,72.8,0.0,0.0,0.0,41.0,33.0,,False,False,True,False,,,
+CLM-31475,test,IMG_20260807_130914.jpg,True,ok,854.0,878.0,38.4,74.6,196.7,31.9,0.006,0.0,0.0,42.0,35.0,,False,False,True,False,3,CLM-30664,same photo as CLM-30664
+CLM-31478,test,IMG_20260807_122201.jpg,True,ok,722.0,893.0,39.6,20.8,153.4,83.8,0.005,0.0,0.0,4.0,2.0,,False,False,False,True,,,low OCR confidence; no total found?
+CLM-31479,test,IMG-20260807-WA0164.jpg,True,ok,739.0,749.0,47.3,125.4,188.0,67.9,0.002,0.0,0.0,52.0,44.0,,False,False,True,False,,,
+CLM-31480,test,IMG_20260807_131159.jpg,True,ok,848.0,852.0,60.4,139.3,177.8,76.2,0.0,0.0,0.0,34.0,25.0,,False,False,True,False,4,CLM-31301,same photo as CLM-31301
+CLM-31483,test,IMG-20260807-WA0174.jpg,True,ok,911.0,807.0,54.2,128.5,166.0,89.6,0.006,0.0,0.0,19.0,14.0,,False,False,True,False,,,
+CLM-31485,test,IMG_20260807_155716.jpg,True,ok,675.0,539.0,39.4,151.0,151.8,62.3,0.0,0.0,0.0,24.0,20.0,,False,False,True,False,,,
+CLM-31486,test,IMG_20260807_191801.jpg,True,ok,628.0,468.0,23.6,49.3,198.0,23.6,0.015,0.0,0.0,15.0,12.0,,False,False,True,False,,,
+CLM-31490,test,IMG-20260807-WA0216.jpg,True,ok,617.0,519.0,31.5,97.1,197.8,32.3,0.0,0.0,0.0,21.0,19.0,,False,False,True,False,,,
+CLM-31494,test,IMG_20260806_195113.jpg,True,ok,672.0,427.0,23.4,102.8,214.9,32.1,0.0,0.0,0.0,24.0,18.0,,False,False,True,False,,,
+CLM-31495,test,IMG_20260806_194813.jpg,True,ok,893.0,407.0,41.4,576.6,158.2,71.5,2.262,0.007,0.0,28.0,23.0,,False,True,True,False,,,pen marks
+CLM-31497,test,IMG_20260806_195848.jpg,True,ok,916.0,424.0,48.5,768.2,210.2,35.2,0.816,0.0,0.0,14.0,12.0,,False,True,True,False,,,pen marks
+CLM-31501,test,IMG-20260807-WA0013.jpg,True,ok,699.0,677.0,45.3,134.5,158.5,76.4,0.048,0.0,0.0,22.0,17.0,,False,False,True,False,,,
+CLM-31503,test,IMG_20260806_215611.jpg,True,ok,683.0,627.0,35.0,305.4,198.7,82.0,0.003,0.0,0.0,37.0,34.0,,False,False,True,False,,,
+CLM-31506,test,IMG-20260806-WA0153.jpg,True,ok,678.0,708.0,42.5,42.4,185.4,69.3,0.0,0.0,0.0,8.0,6.0,,False,False,True,False,,,
+CLM-31509,test,IMG_20260807_213207.jpg,True,ok,1330.0,903.0,131.1,786.7,169.5,73.5,0.084,0.0,0.0,58.0,50.0,,False,True,True,False,,,pen marks
+CLM-31512,test,IMG-20260807-WA0091.jpg,True,ok,1340.0,840.0,76.9,294.2,149.0,69.4,0.0,0.0,0.0,57.0,48.0,,False,False,True,False,,,
+CLM-31516,test,IMG_20260807_174736.jpg,True,ok,542.0,412.0,26.9,106.6,151.8,82.3,0.03,0.0,0.0,23.0,19.0,,False,False,True,False,,,
+CLM-31519,test,IMG-20260806-WA0027.jpg,True,ok,536.0,368.0,22.2,47.1,202.6,35.4,0.0,0.0,0.0,17.0,15.0,,False,False,True,False,,,
+CLM-31523,test,IMG-20260806-WA0130.jpg,True,ok,530.0,395.0,18.5,26.4,204.8,28.6,0.0,0.0,0.0,20.0,15.0,,False,False,True,False,,,

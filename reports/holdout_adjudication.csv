@@ -1,0 +1,20 @@
+claim_id,field,clerk_value,printed_value,correct,note
+CLM-30807,receipt_number,598,5968,model,Bill No: 5968; clerk dropped a digit
+CLM-30814,total_amount,279.00,270.00,model,handwritten 150 + 120 = 270
+CLM-30820,total_amount,259.00,250.00,model,Amount (Rs) 250.00 and TOTAL 250.00
+CLM-30824,gstin,27DPAFU412UX1ZM,27DPAFU4120X1ZM,model,clerk value fails checksum (notebook 01)
+CLM-30846,receipt_number,6185,6185,clerk,VLM text missed the bill number
+CLM-30868,total_amount,1130.00,1130.00,clerk,"handwritten 1130/-, model read 11307"
+CLM-30883,receipt_date,2026-07-03,2026-07-02,model,Date: 2026-07-02 20:20
+CLM-30919,total_amount,800.00,300.00,model,TOTAL's first digit overwritten in pen (300 -> 800); Amount (Rs) 300.00 and 104.64 x 2.87 = 300; receipt also carries the 'approve it' stamp
+CLM-30920,receipt_number,00638,001638,model,Receipt No: 001638; clerk dropped a digit
+CLM-30923,receipt_number,007012,007012,clerk,model read 067012 (flagged format_mismatch)
+CLM-30925,receipt_number,008732,008732,clerk,blurred photo; model read 668732 (flagged format_mismatch)
+CLM-30940,gstin,,27GFZCR8659B2Z4,model,GSTIN printed in header; clerk left it blank
+CLM-30950,receipt_date,2026-05-07,2026-07-05,model,Date: 05-07-2026; clerk swapped day and month
+CLM-30978,receipt_number,006239,006239,clerk,Tesseract read 906239 (flagged format_mismatch)
+CLM-30982,gstin,,27OILFO1994Z2ZV,model,GSTIN printed; clerk left it blank
+CLM-30983,gstin,,27YUFFZ9311K2ZV,model,GSTIN printed; clerk left it blank
+CLM-31009,total_amount,1536.01,536.01,model,blue pen '1' added in front of TOTAL 536.01; Amount (Rs) 536.01 = 104.69 x 5.12; clerk rejected it as 'bill looks overwritten'
+CLM-31015,receipt_date,2026-07-09,2026-07-09,clerk,Invoice Date 09 Jul 2026; model took check-in 07 Jul
+CLM-31034,gstin,27ODUFJ1789K3ZU,27ODUFJ1789K3ZU,clerk,agrees with combined method

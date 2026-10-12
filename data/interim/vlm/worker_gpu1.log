@@ -1,0 +1,38 @@
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+Loading weights:   0%|          | 0/608 [00:00<?, ?it/s]Loading weights:   1%|▏         | 8/608 [00:00<00:08, 72.23it/s]Loading weights:  16%|█▋        | 100/608 [00:00<00:00, 534.89it/s]Loading weights:  25%|██▌       | 155/608 [00:00<00:01, 362.09it/s]Loading weights:  32%|███▏      | 197/608 [00:00<00:01, 363.76it/s]Loading weights:  40%|████      | 244/608 [00:00<00:00, 369.97it/s]Loading weights:  48%|████▊     | 292/608 [00:00<00:00, 389.84it/s]Loading weights:  59%|█████▊    | 356/608 [00:00<00:00, 428.57it/s]Loading weights:  66%|██████▋   | 404/608 [00:01<00:00, 432.00it/s]Loading weights:  74%|███████▍  | 452/608 [00:01<00:00, 440.29it/s]Loading weights:  82%|████████▏ | 497/608 [00:01<00:00, 442.08it/s]Loading weights:  90%|█████████ | 550/608 [00:01<00:00, 465.77it/s]Loading weights: 100%|██████████| 608/608 [00:01<00:00, 437.82it/s]
+[transformers] The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+[transformers] `PaddleOCRVLProcessor` defines `image_processor_class = 'AutoImageProcessor'`, which is deprecated. Register the correct mapping in `AutoImageProcessor` instead.
+[transformers] Unrecognized keys in `rope_parameters` for 'rope_type'='default': {'mrope_section'}
+[Tesla T4] PaddleOCRVLForConditionalGeneration torch.float32 paddleocr-vl-0.9b-hf-native-float32
+0 done, 233 to go
+PROGRESS 8/233 8.74s/photo
+PROGRESS 16/233 1.77s/photo
+PROGRESS 24/233 8.31s/photo
+PROGRESS 32/233 2.22s/photo
+PROGRESS 40/233 4.48s/photo
+PROGRESS 48/233 2.44s/photo
+PROGRESS 56/233 4.28s/photo
+PROGRESS 64/233 2.07s/photo
+PROGRESS 72/233 1.64s/photo
+PROGRESS 80/233 2.34s/photo
+PROGRESS 88/233 3.61s/photo
+PROGRESS 96/233 2.55s/photo
+PROGRESS 104/233 3.96s/photo
+PROGRESS 112/233 2.54s/photo
+PROGRESS 120/233 2.91s/photo
+PROGRESS 128/233 2.83s/photo
+PROGRESS 136/233 2.48s/photo
+PROGRESS 144/233 2.66s/photo
+PROGRESS 152/233 9.49s/photo
+PROGRESS 160/233 2.51s/photo
+PROGRESS 168/233 6.50s/photo
+PROGRESS 176/233 2.62s/photo
+PROGRESS 184/233 2.87s/photo
+PROGRESS 192/233 2.50s/photo
+PROGRESS 200/233 3.08s/photo
+PROGRESS 208/233 1.83s/photo
+PROGRESS 216/233 2.77s/photo
+PROGRESS 224/233 2.86s/photo
+PROGRESS 232/233 2.73s/photo
+PROGRESS 233/233 5.99s/photo
+DONE

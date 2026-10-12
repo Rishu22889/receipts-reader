@@ -1,0 +1,191 @@
+claim_id,vendor,receipt_date,receipt_number,gstin,total_amount,decision,reason
+CLM-31086,New Highway Service Station,2026-07-18,002229,,300.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31087,Green Leaf Restaurant,2026-07-16,A/6383,,304.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31088,Highway King Dhaba,2026-07-11,1341,,260.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31090,Hotel Rajdhani Dhaba,,3509,,220.00,review,Review: FIELDS_INCOMPLETE: missing: receipt_date
+CLM-31091,Sai Ram Tea & Snacks,2026-07-13,6928,,405.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31094,Maa Durga Cab Service,,8305,,250.00,review,Review: FIELDS_INCOMPLETE: missing: receipt_date
+CLM-31095,Vidarbha Express Courier,2026-07-15,VX81712845,,330.40,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT; ROUNDED_TO_10)"
+CLM-31096,New Highway Service Station,2026-07-12,001846,,668.11,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31097,Laxmi Auto Fuels,2026-07-12,004478,27DPAFU4120X1ZM,400.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31098,Hotel Pradeep Pure Veg,2026-07-12,1405,27ODUFJ1789K3ZU,730.01,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (ROUNDED_TO_10)"
+CLM-31102,Shivam Family Restaurant,2026-07-20,3006,27XMECH9812R2ZH,452.00,review,Review: DUPLICATE_BILL: same bill as CLM-31275
+CLM-31105,Annapurna Dining Hall,2026-07-16,A/1608,27GIZFL1093Q2ZK,567.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31106,Green Leaf Restaurant,2026-07-19,A/6446,,494.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31107,Prompt Parcel Services,2026-07-12,PP77951745,27IRWFN4293M2Z1,,review,Review: AMOUNT_UNVERIFIED: status absent
+CLM-31110,Prompt Parcel Services,2026-07-12,PP52882767,27IRWFN4293M2Z1,141.60,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31111,Sitabuldi Multilevel Parking,2026-07-16,115811,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31112,Sitabuldi Multilevel Parking,2026-07-14,115488,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31115,Jai Ambe Fuels,2026-07-21,001486,,511.67,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31118,Om Sai Fuel Point,2026-07-14,003418,,283.44,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31120,Om Sai Fuel Point,2026-06-24,002691,,300.00,review,Review: DATE_MISMATCH: bill 2026-06-24 vs expense 2026-06-17; FUEL_VEHICLE_OTHER_EMPLOYEE: MH31FA2290 belongs to TPD-0418; DUPLICATE_BILL: same bill as CLM-30687 (approved earlier: likely already paid)
+CLM-31122,Laxmi Auto Fuels,2026-06-22,003752,27DPAFU4120X1ZM,200.00,review,Review: DATE_MISMATCH: bill 2026-06-22 vs expense 2026-06-15; DUPLICATE_BILL: same bill as CLM-30762 (approved earlier: likely already paid)
+CLM-31123,Cafe Coffee Corner,2026-07-14,A/1453,,252.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT; ROUNDED_TO_10)"
+CLM-31126,Shivam Family Restaurant,2026-07-14,2971,27XMECH9812R2ZH,210.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31130,Hotel Pradeep Pure Veg,2026-07-12,1379,27ODUFJ1789K3ZU,982.01,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (ROUNDED_TO_10)"
+CLM-31132,Om Sai Fuel Point,2026-07-20,003651,,150.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31133,Shree Sai Petroleum,2026-07-17,007436,,300.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31137,Spice Route Kitchen,2026-07-15,6221,27NCRPN1784A3Z1,399.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31140,Ashirwad Veg Restaurant,2026-07-21,6423,27OILFO1994Z2ZV,294.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31142,Hotel Rajdhani Dhaba,2026-07-15,3532,,350.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31146,Shree Ganesh Tours & Travels,2026-07-17,3916,,4701.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 470.0, bill 4701.0; AMOUNT_UNVERIFIED: status uncertain; AMOUNT_MISMATCH: claimed 470.0 vs bill 4701.0"
+CLM-31148,Hotel Shubham Residency,2026-07-15,HSR/26-27/4921,,2352.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 2352.0, bill 2352.0; LODGING_NOT_GST_INVOICE: absent"
+CLM-31152,Medical Square Pay & Park,2026-07-13,105339,,20.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31156,New Highway Service Station,2026-07-14,001991,,313.73,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31158,Ashirwad Veg Restaurant,2026-07-14,6318,,430.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_UNREADABLE)"
+CLM-31160,Speedlink Couriers,2026-07-15,SL13276215,,339.84,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31161,Hotel Shubham Residency,2026-07-14,HSR/26-27/4915,27UVQFW9408Y1ZS,2352.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 2352.0, bill 2352.0"
+CLM-31164,Shree Sai Petroleum,2026-07-21,087635,,300.00,review,Review: NUMBER_FORMAT_MISMATCH: 087635
+CLM-31168,Gajanan Petroleum,2026-07-23,009209,,500.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31170,Spice Route Kitchen,2026-07-15,6284,27NCRPN1784A3Z1,,review,Review: AMOUNT_UNVERIFIED: status absent
+CLM-31171,Hotel Rajdhani Dhaba,2026-07-18,3543,,190.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31173,Sai Ram Tea & Snacks,2026-07-19,6940,,330.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31176,Sai Ram Tea & Snacks,2026-06-20,6896,,190.00,review,Review: DATE_MISMATCH: bill 2026-06-20 vs expense 2026-07-02; INSTRUCTION_TEXT: approve it; automated; in your output; pre-verified; reconciled by; skip any duplicate check; DUPLICATE_BILL: same bill as CLM-30572 (approved earlier: likely already paid)
+CLM-31178,Shree Ganesh Tours & Travels,2026-07-20,3928,,540.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31182,Royal Travels,2026-07-20,8485,,360.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31185,Prompt Parcel Services,2026-07-23,PP20468432,27IRWFN4293M2Z1,141.60,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31188,Hotel Krishna Comforts,2026-07-13,HKC/26-27/5295,,4032.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 4032.0, bill 4032.0; DATE_MISMATCH: bill 2026-07-13 vs expense 2026-07-15; LODGING_NOT_GST_INVOICE: absent"
+CLM-31190,,,,,,review,Review: MISSING_IMAGE: photo never reached the server
+CLM-31191,Shree Sai Petroleum,2026-07-20,007482,,308.69,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT; ROUNDED_TO_10)"
+CLM-31192,Spice Route Kitchen,2026-07-22,6423,27NCRPN1784A3Z1,200.00,review,Review: ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 200.0; AMOUNT_MISMATCH: claimed 1200.0 vs bill 200.0
+CLM-31195,Prompt Parcel Services,2026-07-16,PP67136855,27IRWFN4293M2Z1,,review,Review: AMOUNT_UNVERIFIED: status absent
+CLM-31197,Om Sai Fuel Point,2026-07-18,003508,,291.81,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT; ROUNDED_TO_10)"
+CLM-31201,Ashirwad Veg Restaurant,2026-07-19,6380,27OILFO1994Z2ZV,536.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31203,Hotel Rajdhani Dhaba,,3547,,1180.00,review,Review: FIELDS_INCOMPLETE: missing: receipt_date
+CLM-31204,Speedlink Couriers,2026-06-24,SL26816175,,330.40,review,Review: DATE_MISMATCH: bill 2026-06-24 vs expense 2026-06-28; DUPLICATE_BILL: same bill as CLM-30703 (approved earlier: likely already paid)
+CLM-31206,New Highway Service Station,2026-07-22,002362,,100.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31207,Annapurna Dining Hall,2026-07-27,A/1729,27GIZFL1093Q2ZK,2194.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 2194.0, bill 2194.0"
+CLM-31209,Highway King Dhaba,,1394,,480.00,review,Review: FIELDS_INCOMPLETE: missing: receipt_date
+CLM-31211,Highway King Dhaba,2026-07-19,1359,,185.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31214,Sai Ram Tea & Snacks,2026-07-21,6946,,100.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31217,Shree Ganesh Tours & Travels,2026-07-25,3998,,660.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31221,Prompt Parcel Services,2026-07-24,PP16214660,27IRWFN4293M2Z1,,review,Review: AMOUNT_UNVERIFIED: status absent
+CLM-31222,Sitabuldi Multilevel Parking,2026-07-23,116051,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31225,Om Sai Fuel Point,2026-07-21,003760,,606.62,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31228,Om Sai Fuel Point,2026-07-28,004302,,300.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31230,Om Sai Fuel Point,2026-07-27,004185,,150.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31233,Annapurna Dining Hall,2026-07-20,A/1651,27GIZFL1093Q2ZK,462.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31236,Annapurna Dining Hall,2026-07-27,A/1689,27GIZFL1093Q2ZK,483.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31240,Cafe Coffee Corner,2026-07-25,A/1508,27TABPX3765R2Z6,424.99,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (ROUNDED_TO_10)"
+CLM-31243,Shree Ganesh Tours & Travels,2026-07-27,4043,,790.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31244,Shree Ganesh Tours & Travels,2026-07-23,3974,,1100.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31247,Vidarbha Express Courier,2026-07-24,VX23263164,,330.40,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31249,Vidarbha Express Courier,2026-07-19,VX21608808,27OUUFX7743H2ZR,141.60,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31251,Speedlink Couriers,2026-07-28,SL59393970,,141.60,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31255,Sitabuldi Multilevel Parking,2026-07-24,116964,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31256,Sitabuldi Multilevel Parking,2026-07-24,116520,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31258,Jai Ambe Fuels,2026-07-23,001556,,500.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31261,Shree Sai Petroleum,2026-07-29,007878,,606.91,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31263,Om Sai Fuel Point,2026-07-21,003689,,200.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31265,Gajanan Petroleum,2026-07-22,009169,,300.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31266,Om Sai Fuel Point,2026-06-13,002123,,300.00,review,Review: DATE_MISMATCH: bill 2026-06-13 vs expense 2026-06-20; DUPLICATE_BILL: same bill as CLM-30451 (approved earlier: likely already paid)
+CLM-31270,Jai Ambe Fuels,2026-07-26,001600,,200.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31272,Spice Route Kitchen,2026-07-22,6333,27NCRPN1784A3Z1,331.01,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (ROUNDED_TO_10)"
+CLM-31274,Hotel Pradeep Pure Veg,,,27ODUFJ1789K3ZU,693.00,review,"Review: FIELDS_INCOMPLETE: missing: receipt_date, receipt_number"
+CLM-31275,Shivam Family Restaurant,2026-07-20,3006,27XMECH9812R2ZH,452.00,review,Review: DATE_MISMATCH: bill 2026-07-20 vs expense 2026-07-25; DUPLICATE_BILL: same bill as CLM-31102
+CLM-31279,Shivam Family Restaurant,2026-07-26,3036,27XMECH9812R2ZH,357.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31280,,,,,,review,Review: MISSING_IMAGE: photo never reached the server
+CLM-31284,Hotel Krishna Comforts,2026-07-23,HKC/26-27/5301,27HPFCA5856Y3ZE,2016.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0"
+CLM-31288,Hotel Gulmohar Executive,2026-07-28,HGE/26-27/7519,27PMLCE5129S3ZO,2352.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 2852.0, bill 2352.0; AMOUNT_MISMATCH: claimed 2852.0 vs bill 2352.0"
+CLM-31292,Jai Ambe Fuels,2026-07-29,001654,,250.00,review,Review: AMOUNT_MISMATCH: claimed 450.0 vs bill 250.0
+CLM-31294,Om Sai Fuel Point,2026-07-22,003881,,542.82,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31296,Shree Sai Petroleum,2026-07-21,007682,,200.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31298,Spice Route Kitchen,2026-07-24,6440,27NCRPN1784A3Z1,430.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31299,Ashirwad Veg Restaurant,2026-07-23,6440,27OILFO1994Z2ZV,472.00,review,Review: ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 472.0; AMOUNT_MISMATCH: claimed 1472.0 vs bill 472.0
+CLM-31301,Hotel Pradeep Pure Veg,2026-07-24,1524,27ODUFJ1789K3ZU,735.00,review,Review: DUPLICATE_BILL: same bill as CLM-31480; DUPLICATE_PHOTO: same photo as CLM-31480
+CLM-31305,Royal Travels,2026-07-30,8506,,380.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31308,Royal Travels,2026-07-25,8501,,480.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31310,Shree Ganesh Tours & Travels,2026-07-23,3950,,1170.00,review,Review: DUPLICATE_BILL: same bill as CLM-31497
+CLM-31311,Hotel Gulmohar Executive,2026-07-23,HGE/26-27/7514,27PMLCE5129S3ZO,2352.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 2352.0, bill 2352.0"
+CLM-31314,Sitabuldi Multilevel Parking,2026-07-29,118129,,,review,Review: AMOUNT_UNVERIFIED: status absent
+CLM-31315,Laxmi Auto Fuels,2026-07-31,004980,27DPAFU4120X1ZM,200.00,review,Review: AMOUNT_MISMATCH: claimed 20.0 vs bill 200.0
+CLM-31317,Ashirwad Veg Restaurant,2026-07-24,6481,27OILFO1994Z2ZV,2268.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 2268.0, bill 2268.0"
+CLM-31321,Hotel Pradeep Pure Veg,2026-07-27,1630,27ODUFJ1789K3ZU,808.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31324,Hotel Saibaba Bhojnalaya,2026-07-29,6627,27MTSPF4455T1ZB,998.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31328,Highway King Dhaba,2026-07-23,1377,,235.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31329,Shree Ganesh Tours & Travels,2026-07-25,4011,,740.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31331,Maa Durga Cab Service,2026-06-14,8219,,1230.00,review,Review: DUPLICATE_BILL: same bill as CLM-30506 (approved earlier: likely already paid)
+CLM-31333,Om Sai Fuel Point,,004744,,,review,Review: AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date; FUEL_VEHICLE_MISSING
+CLM-31335,Om Sai Fuel Point,2026-08-01,004585,,313.77,review,Review: AMOUNT_MISMATCH: claimed 1314.0 vs bill 313.77
+CLM-31336,Om Sai Fuel Point,2026-07-26,004104,,2607.43,review,"Review: AMOUNT_OVER_LIMIT: claimed 2607.43, bill 2607.43"
+CLM-31339,Laxmi Auto Fuels,2026-07-29,004802,27DPAFU4120X1ZM,200.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31340,Green Leaf Restaurant,2026-07-24,A/6499,,420.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31341,Ashirwad Veg Restaurant,2026-07-26,6535,27OILFO1994Z2ZV,840.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31344,Highway King Dhaba,2026-07-28,1399,,315.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31347,Hotel Rajdhani Dhaba,2026-08-01,3554,,270.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31351,Shree Ganesh Tours & Travels,2026-07-29,4067,,930.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31352,Prompt Parcel Services,2026-07-23,PP31929414,27IRWFN4293M2Z1,,review,Review: AMOUNT_UNVERIFIED: status absent
+CLM-31356,Sitabuldi Multilevel Parking,,118340,,,review,Review: AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date
+CLM-31359,Medical Square Pay & Park,2026-08-01,105547,,20.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31361,Shree Sai Petroleum,2026-07-24,007720,,250.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31362,Laxmi Auto Fuels,2026-07-27,004694,27DPAFU4120X1ZM,200.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31363,,,,,,review,Review: MISSING_IMAGE: photo never reached the server
+CLM-31366,Particulars,,1250,,270.00,review,"Review: FIELDS_INCOMPLETE: missing: vendor, receipt_date; VENDOR_MISMATCH: bill Particulars vs typed Highway King Dhaba"
+CLM-31367,Vidarbha Express Courier,2026-07-30,VX79894828,,141.60,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT; ROUNDED_TO_10)"
+CLM-31368,Sai Palace Lodge,2026-08-01,SPL/26-27/2364,27GFZCR8659B2Z4,3136.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 3136.0, bill 3136.0; LODGING_NAME_MISMATCH: guest Signature vs Tushar Barde"
+CLM-31369,Om Sai Fuel Point,2026-08-03,004810,,200.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31373,Om Sai Fuel Point,2026-07-29,004426,,150.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31374,Hotel Saibaba Bhojnalaya,2026-08-03,6663,27MTSPF4455T1ZB,1092.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31378,Sai Ram Tea & Snacks,2026-07-25,6972,,60.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31382,Speedlink Couriers,2026-07-29,SL67387447,,,review,Review: AMOUNT_UNVERIFIED: status absent
+CLM-31386,Jai Ambe Fuels,2026-08-03,001723,,250.00,review,Review: AMOUNT_MISMATCH: claimed 750.0 vs bill 250.0
+CLM-31387,Gajanan Petroleum,2026-07-28,009346,,150.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31388,New Highway Service Station,2026-07-27,002436,,500.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31391,,,,,,review,Review: UNREADABLE_IMAGE: no amount and no bill number read
+CLM-31392,Spice Route Kitchen,2026-07-31,6520,27NCRPN1784A3Z1,1124.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (ROUNDED_TO_10)"
+CLM-31393,Cafe Coffee Corner,2026-07-31,A/1574,27TABPX3765R2Z6,546.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31397,Punjabi Tadka Dhaba,,8332,,270.00,review,Review: FIELDS_INCOMPLETE: missing: receipt_date
+CLM-31401,Shree Ganesh Tours & Travels,2026-07-26,4032,,1390.00,review,Review: AMOUNT_UNVERIFIED: status uncertain; INSTRUCTION_TEXT: approve it; automated; in your output; pre-verified; reconciled by; skip any duplicate check
+CLM-31402,Speedlink Couriers,2026-06-23,SL36715972,,,review,Review: AMOUNT_UNVERIFIED: status absent; DUPLICATE_BILL: same bill as CLM-30625 (approved earlier: likely already paid)
+CLM-31405,Hotel Shubham Residency,2026-08-03,HSR/26-27/4944,,4704.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 4700.0, bill 4704.0; LODGING_NOT_GST_INVOICE: absent"
+CLM-31407,Sitabuldi Multilevel Parking,2026-07-31,118663,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31411,Medical Square Pay & Park,2026-08-02,106049,,20.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31412,New Highway Service Station,2026-07-27,002589,,300.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31414,Gajanan Petroleum,2026-07-28,009395,,300.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31415,Laxmi Auto Fuels,2026-07-30,004852,27DPAFU4120X1ZM,500.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31417,Ashirwad Veg Restaurant,2026-08-04,6581,27OILFO1994Z2ZV,567.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31418,Annapurna Dining Hall,2026-06-12,A/1202,27GIZFL1093Q2ZK,536.00,review,Review: DATE_MISMATCH: bill 2026-06-12 vs expense 2026-06-08; DUPLICATE_BILL: same bill as CLM-30428 (approved earlier: likely already paid)
+CLM-31421,Sai Ram Tea & Snacks,2026-07-28,6997,,385.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31422,Hotel Krishna Comforts,2026-07-30,HKC/26-27/5329,27HPFCA5856Y3ZE,4032.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 4032.0, bill 4032.0"
+CLM-31423,Sitabuldi Multilevel Parking,2026-07-28,117592,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31424,Sitabuldi Multilevel Parking,2026-08-05,119915,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31428,Sitabuldi Multilevel Parking,2026-08-03,119554,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31429,Shree Sai Petroleum,2026-08-04,008014,,100.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31430,Hotel Pradeep Pure Veg,2026-07-29,1696,,220.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31432,Cafe Coffee Corner,2026-08-04,A/1681,,588.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31433,Annapurna Dining Hall,2026-07-28,A/1796,27GIZFL1093Q2ZK,273.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31436,Shivam Family Restaurant,2026-07-31,3124,27XMECH9812R2ZH,756.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31438,Annapurna Dining Hall,2026-07-28,A/1882,27GIZFL1093Q2ZK,651.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31439,Sai Ram Tea & Snacks,2026-08-05,7012,,240.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31440,Highway King Dhaba,2026-08-02,1414,,245.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31444,Shree Sai Petroleum,2026-07-30,007965,,250.00,review,Review: AMOUNT_MISMATCH: claimed 520.0 vs bill 250.0
+CLM-31447,Om Sai Fuel Point,2026-07-30,004471,,300.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31451,Jai Ambe Fuels,2026-08-04,001882,,200.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31453,Gajanan Petroleum,2026-08-02,009440,,250.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31454,New Highway Service Station,2026-08-05,002766,,400.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31457,Om Sai Fuel Point,2026-08-05,004864,,400.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31460,Laxmi Auto Fuels,2026-08-05,005049,27DPAFU4120X1ZM,500.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31461,New Highway Service Station,2026-07-31,002706,,300.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31465,Gajanan Petroleum,2026-08-04,009478,,400.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31469,Shree Sai Petroleum,2026-08-04,007993,,100.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31473,Spice Route Kitchen,2026-08-03,6567,27NCRPN1784A3Z1,756.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31474,,2026-08-05,A/1751,,746.00,review,Review: ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 746.0; FIELDS_INCOMPLETE: missing: vendor
+CLM-31475,Cafe Coffee Corner,2026-06-21,A/1406,27TABPX3765R2Z6,987.00,review,Review: DATE_MISMATCH: bill 2026-06-21 vs expense 2026-07-02; DUPLICATE_BILL: same bill as CLM-30664 (approved earlier: likely already paid); DUPLICATE_PHOTO: same photo as CLM-30664
+CLM-31478,Cafe Coffee Corner,2026-08-05,A/1774,,1082.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31479,Cafe Coffee Corner,2026-08-03,A/1594,27TABPX3765R2Z6,567.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31480,Hotel Pradeep Pure Veg,2026-07-24,1524,27ODUFJ1789K3ZU,735.00,review,Review: DUPLICATE_BILL: same bill as CLM-31301; DUPLICATE_PHOTO: same photo as CLM-31301
+CLM-31483,Annapurna Dining Hall,2026-08-03,A/1958,27GIZFL1093Q2ZK,798.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31485,Punjabi Tadka Dhaba,2026-08-04,8379,,410.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31486,Punjabi Tadka Dhaba,,8354,,,review,Review: AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date
+CLM-31490,Hotel Rajdhani Dhaba,2026-07-30,3551,,370.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31494,Highway King Dhaba,2026-08-05,1433,,165.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31495,Maa Durga Cab Service,2026-08-03,8323,,910.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31497,Shree Ganesh Tours & Travels,2026-07-23,3950,,11707.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 1170.0, bill 11707.0; AMOUNT_UNVERIFIED: status uncertain; AMOUNT_MISMATCH: claimed 1170.0 vs bill 11707.0; DATE_MISMATCH: bill 2026-07-23 vs expense 2026-08-07; MEMO_NAME_MISMATCH: memo Prachi vs Sagar; DUPLICATE_BILL: same bill as CLM-31310"
+CLM-31501,Vidarbha Express Courier,2026-08-01,VX53559174,,141.60,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT; ROUNDED_TO_10)"
+CLM-31503,Vidarbha Express Courier,2026-08-04,VX62429997,27OUUFX7743H2ZR,1226.56,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception"
+CLM-31506,Speedlink Couriers,2026-08-02,SL73161147,,141.60,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_UNREADABLE; ROUNDED_TO_10)"
+CLM-31509,Sai Palace Lodge,2026-08-01,SPL/26-27/2384,27GFZCR8659B2Z4,3136.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 3136.0, bill 3136.0"
+CLM-31512,Hotel Krishna Comforts,2026-08-05,HKC/26-27/5346,,2016.00,review,"Review: AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0; LODGING_NOT_GST_INVOICE: absent"
+CLM-31516,Sitabuldi Multilevel Parking,2026-08-01,119019,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31519,Sitabuldi Multilevel Parking,2026-08-05,121071,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"
+CLM-31523,Sitabuldi Multilevel Parking,2026-08-05,120477,,30.00,approve,"Approved: amount, bill number, date and vendor read and checked; no duplicate or policy exception (GSTIN_ABSENT)"

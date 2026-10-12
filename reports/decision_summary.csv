@@ -1,0 +1,9 @@
+metric,value
+auto-approval coverage (train),64.7%
+auto-approval coverage (test),67.9%
+"unsafe auto-approvals (train, vs policy reference)",0 of 60 review-worthy
+extra reviews (train),40 of 283
+agreement with clerk decisions (train),67.5%
+known cases sent to review,26 of 26
+"decision latency, median",0.8 ms (+ ~3 s reading on a T4)
+rules version,95bef2d00f35

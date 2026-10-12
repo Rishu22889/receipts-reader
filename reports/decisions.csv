@@ -1,0 +1,474 @@
+claim_id,split,decision,reason_codes,notes,reason,category,amount_claimed,emp_id,ref_decision,ref_reasons,rules_version
+CLM-30412,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,330.00,TPD-0490,approve,,95bef2d00f35
+CLM-30416,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,325.00,TPD-0459,approve,,95bef2d00f35
+CLM-30418,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2352.0, bill 2352.0",Lodging,2352.00,TPD-0423,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30421,train,approve,,,all checks passed,Fuel,250.00,TPD-0452,approve,,95bef2d00f35
+CLM-30424,train,approve,,,all checks passed,Fuel,300.00,TPD-0503,approve,,95bef2d00f35
+CLM-30425,train,approve,,,all checks passed,Fuel,150.00,TPD-0503,approve,,95bef2d00f35
+CLM-30428,train,approve,,,all checks passed,Food,536.00,TPD-0452,approve,,95bef2d00f35
+CLM-30430,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,250.00,TPD-0478,approve,,95bef2d00f35
+CLM-30432,train,review,AMOUNT_OVER_LIMIT,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 3680.19, bill 3680.19",Fuel,3680.19,TPD-0388,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30435,train,review,AMOUNT_MISMATCH,,AMOUNT_MISMATCH: claimed 568.0 vs bill 368.0,Food,568.00,TPD-0388,review,AMOUNT_MISMATCH,95bef2d00f35
+CLM-30436,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,630.00,TPD-0459,approve,,95bef2d00f35
+CLM-30437,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,330.40,TPD-0503,approve,,95bef2d00f35
+CLM-30439,train,review,AMOUNT_OVER_LIMIT,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 3481.8, bill 3481.8",Fuel,3481.80,TPD-0388,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30443,train,approve,,,all checks passed,Fuel,200.00,TPD-0503,approve,,95bef2d00f35
+CLM-30446,train,review,AMOUNT_OVER_LIMIT; AMOUNT_MISMATCH,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 3539.0, bill 3039.2; AMOUNT_MISMATCH: claimed 3539.0 vs bill 3039.2",Fuel,3539.00,TPD-0388,review,AMOUNT_OVER_LIMIT; AMOUNT_MISMATCH,95bef2d00f35
+CLM-30447,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0484,approve,,95bef2d00f35
+CLM-30451,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0431,approve,,95bef2d00f35
+CLM-30454,train,approve,,,all checks passed,Food,588.00,TPD-0436,approve,,95bef2d00f35
+CLM-30458,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0497,approve,,95bef2d00f35
+CLM-30462,train,approve,,,all checks passed,Food,546.00,TPD-0459,approve,,95bef2d00f35
+CLM-30465,train,approve,,,all checks passed,Food,357.00,TPD-0436,approve,,95bef2d00f35
+CLM-30468,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,410.00,TPD-0388,approve,,95bef2d00f35
+CLM-30469,train,review,DATE_MISMATCH,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-05 vs expense 2026-06-15,Food,335.00,TPD-0412,review,AMOUNT_MISMATCH,95bef2d00f35
+CLM-30472,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1120.00,TPD-0431,approve,,95bef2d00f35
+CLM-30475,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Parking,30.00,TPD-0497,approve,,95bef2d00f35
+CLM-30476,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0484,approve,,95bef2d00f35
+CLM-30479,train,review,AMOUNT_MISMATCH,GSTIN_ABSENT,AMOUNT_MISMATCH: claimed 600.0 vs bill 500.0,Fuel,600.00,TPD-0484,review,AMOUNT_MISMATCH,95bef2d00f35
+CLM-30481,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0431,approve,,95bef2d00f35
+CLM-30484,train,approve,,,all checks passed,Food,178.00,TPD-0436,approve,,95bef2d00f35
+CLM-30488,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,345.00,TPD-0431,approve,,95bef2d00f35
+CLM-30489,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,270.00,TPD-0503,approve,,95bef2d00f35
+CLM-30492,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 4704.0, bill 4704.0",Lodging,4704.00,TPD-0478,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30494,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,approve,,95bef2d00f35
+CLM-30495,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0463,approve,,95bef2d00f35
+CLM-30499,train,review,AMOUNT_OVER_LIMIT,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 2714.11, bill 2714.11",Fuel,2714.11,TPD-0388,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30502,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,220.00,TPD-0490,approve,,95bef2d00f35
+CLM-30503,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,310.00,TPD-0503,approve,,95bef2d00f35
+CLM-30506,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1230.00,TPD-0463,approve,,95bef2d00f35
+CLM-30508,train,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Courier,1212.40,TPD-0447,approve,,95bef2d00f35
+CLM-30509,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0",Lodging,2016.00,TPD-0471,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30510,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 4032.0, bill 4032.0",Lodging,4032.00,TPD-0459,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30511,train,approve,,,all checks passed,Fuel,488.90,TPD-0447,approve,,95bef2d00f35
+CLM-30512,train,approve,,,all checks passed,Fuel,400.00,TPD-0452,approve,,95bef2d00f35
+CLM-30514,train,approve,,,all checks passed,Food,494.00,TPD-0471,approve,,95bef2d00f35
+CLM-30515,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,614.00,TPD-0484,approve,,95bef2d00f35
+CLM-30519,train,approve,,,all checks passed,Food,1806.00,TPD-0447,approve,,95bef2d00f35
+CLM-30523,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,125.00,TPD-0423,approve,,95bef2d00f35
+CLM-30524,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,920.00,TPD-0431,approve,,95bef2d00f35
+CLM-30527,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,510.00,TPD-0452,approve,,95bef2d00f35
+CLM-30528,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Courier,142.00,TPD-0478,approve,,95bef2d00f35
+CLM-30529,train,approve,,,all checks passed,Courier,226.56,TPD-0484,approve,,95bef2d00f35
+CLM-30531,train,review,MISSING_IMAGE,,MISSING_IMAGE: photo never reached the server,Courier,141.60,TPD-0490,review,MISSING_IMAGE,95bef2d00f35
+CLM-30533,train,review,AMOUNT_OVER_LIMIT; LODGING_NOT_GST_INVOICE,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 2352.0, bill 2352.0; LODGING_NOT_GST_INVOICE: absent",Lodging,2352.00,TPD-0452,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30535,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 3136.0, bill 3136.0",Lodging,3136.00,TPD-0463,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30536,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,approve,,95bef2d00f35
+CLM-30539,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,approve,,95bef2d00f35
+CLM-30543,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0497,approve,,95bef2d00f35
+CLM-30546,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0497,approve,,95bef2d00f35
+CLM-30549,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0436,approve,,95bef2d00f35
+CLM-30553,train,approve,,,all checks passed,Food,178.00,TPD-0497,approve,,95bef2d00f35
+CLM-30556,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,800.00,TPD-0436,approve,,95bef2d00f35
+CLM-30558,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,380.00,TPD-0388,approve,,95bef2d00f35
+CLM-30560,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,500.00,TPD-0447,approve,,95bef2d00f35
+CLM-30562,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Local travel,390.00,TPD-0471,approve,,95bef2d00f35
+CLM-30566,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0497,approve,,95bef2d00f35
+CLM-30568,train,review,ALTERED_BILL; AMOUNT_MISMATCH,,ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 514.0; AMOUNT_MISMATCH: claimed 1514.0 vs bill 514.0,Food,1514.00,TPD-0423,review,AMOUNT_MISMATCH; ALTERED_BILL,95bef2d00f35
+CLM-30570,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,690.00,TPD-0447,approve,,95bef2d00f35
+CLM-30572,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,190.00,TPD-0471,approve,,95bef2d00f35
+CLM-30573,train,review,AMOUNT_UNVERIFIED; FIELDS_INCOMPLETE,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date,Food,110.00,TPD-0497,approve,,95bef2d00f35
+CLM-30577,train,review,AMOUNT_UNVERIFIED; FIELDS_INCOMPLETE,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date,Food,110.00,TPD-0412,approve,,95bef2d00f35
+CLM-30581,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: vendor,Local travel,1380.00,TPD-0459,approve,,95bef2d00f35
+CLM-30584,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,500.00,TPD-0388,approve,,95bef2d00f35
+CLM-30585,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,270.00,TPD-0463,approve,,95bef2d00f35
+CLM-30586,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,160.00,TPD-0412,approve,,95bef2d00f35
+CLM-30587,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Food,190.00,TPD-0503,approve,,95bef2d00f35
+CLM-30591,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1260.00,TPD-0484,approve,,95bef2d00f35
+CLM-30592,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0431,approve,,95bef2d00f35
+CLM-30594,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0418,approve,,95bef2d00f35
+CLM-30596,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,462.00,TPD-0412,approve,,95bef2d00f35
+CLM-30600,train,approve,,,all checks passed,Food,672.00,TPD-0388,approve,,95bef2d00f35
+CLM-30601,train,approve,,,all checks passed,Food,262.00,TPD-0490,approve,,95bef2d00f35
+CLM-30603,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,100.00,TPD-0471,approve,,95bef2d00f35
+CLM-30606,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1120.00,TPD-0418,approve,,95bef2d00f35
+CLM-30607,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,226.56,TPD-0436,approve,,95bef2d00f35
+CLM-30608,train,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Courier,210.00,TPD-0478,approve,,95bef2d00f35
+CLM-30611,train,approve,,,all checks passed,Courier,339.84,TPD-0423,approve,,95bef2d00f35
+CLM-30614,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,150.00,TPD-0418,approve,,95bef2d00f35
+CLM-30618,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,910.00,TPD-0459,approve,,95bef2d00f35
+CLM-30620,train,approve,,,all checks passed,Food,262.00,TPD-0418,approve,,95bef2d00f35
+CLM-30623,train,review,AMOUNT_UNVERIFIED; AMOUNT_MISMATCH; FIELDS_INCOMPLETE; INSTRUCTION_TEXT,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status uncertain; AMOUNT_MISMATCH: claimed 1940.0 vs bill 0.0; FIELDS_INCOMPLETE: missing: vendor; INSTRUCTION_TEXT: approve it; automated; in your output; pre-verified; reconciled by; skip any duplicate check,Local travel,1940.00,TPD-0490,review,INSTRUCTION_TEXT,95bef2d00f35
+CLM-30625,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,330.40,TPD-0431,approve,,95bef2d00f35
+CLM-30629,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Parking,30.00,TPD-0431,approve,,95bef2d00f35
+CLM-30630,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0459,approve,,95bef2d00f35
+CLM-30633,train,approve,,,all checks passed,Fuel,500.00,TPD-0452,approve,,95bef2d00f35
+CLM-30634,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,100.00,TPD-0423,approve,,95bef2d00f35
+CLM-30636,train,approve,,,all checks passed,Food,430.00,TPD-0431,approve,,95bef2d00f35
+CLM-30639,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,275.00,TPD-0431,approve,,95bef2d00f35
+CLM-30640,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,120.00,TPD-0412,approve,,95bef2d00f35
+CLM-30642,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,290.00,TPD-0412,approve,,95bef2d00f35
+CLM-30643,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0",Lodging,2016.00,TPD-0484,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30646,train,review,AMOUNT_OVER_LIMIT,ROUNDED_TO_10,"AMOUNT_OVER_LIMIT: claimed 2350.0, bill 2352.0",Lodging,2350.00,TPD-0478,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30648,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,approve,,95bef2d00f35
+CLM-30649,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0412,approve,,95bef2d00f35
+CLM-30652,train,review,AMOUNT_OVER_LIMIT,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 2658.91, bill 2658.91",Fuel,2658.91,TPD-0478,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30656,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0459,approve,,95bef2d00f35
+CLM-30660,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0418,approve,,95bef2d00f35
+CLM-30661,train,review,FIELDS_INCOMPLETE,,FIELDS_INCOMPLETE: missing: receipt_date,Food,1559.00,TPD-0503,approve,,95bef2d00f35
+CLM-30664,train,approve,,,all checks passed,Food,987.00,TPD-0471,approve,,95bef2d00f35
+CLM-30665,train,review,DATE_MISMATCH; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-05 vs expense 2026-06-19; DUPLICATE_BILL: same bill as CLM-30469 (approved earlier: likely already paid),Food,335.00,TPD-0412,review,DUPLICATE_BILL; DATE_MISMATCH,95bef2d00f35
+CLM-30668,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,420.00,TPD-0418,approve,,95bef2d00f35
+CLM-30672,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1260.00,TPD-0431,approve,,95bef2d00f35
+CLM-30676,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,340.00,TPD-0423,approve,,95bef2d00f35
+CLM-30679,train,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Courier,448.00,TPD-0431,approve,,95bef2d00f35
+CLM-30680,train,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Courier,530.00,TPD-0447,approve,,95bef2d00f35
+CLM-30681,train,review,AMOUNT_OVER_LIMIT; LODGING_NOT_GST_INVOICE,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 6272.0, bill 6272.0; LODGING_NOT_GST_INVOICE: absent",Lodging,6272.00,TPD-0431,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30684,train,review,AMOUNT_OVER_LIMIT,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 3698.3, bill 3698.3",Fuel,3698.30,TPD-0388,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30685,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0431,approve,,95bef2d00f35
+CLM-30687,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0418,approve,,95bef2d00f35
+CLM-30688,train,approve,,,all checks passed,Fuel,150.00,TPD-0447,approve,,95bef2d00f35
+CLM-30689,train,review,DATE_MISMATCH; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-13 vs expense 2026-06-17; DUPLICATE_BILL: same bill as CLM-30481 (approved earlier: likely already paid),Fuel,300.00,TPD-0431,review,DUPLICATE_BILL; DATE_MISMATCH,95bef2d00f35
+CLM-30690,train,approve,,,all checks passed,Food,892.00,TPD-0497,approve,,95bef2d00f35
+CLM-30691,train,approve,,,all checks passed,Food,336.00,TPD-0497,approve,,95bef2d00f35
+CLM-30693,train,approve,,,all checks passed,Food,861.00,TPD-0423,approve,,95bef2d00f35
+CLM-30697,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,210.00,TPD-0463,approve,,95bef2d00f35
+CLM-30701,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Food,240.00,TPD-0490,approve,,95bef2d00f35
+CLM-30702,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,430.00,TPD-0388,approve,,95bef2d00f35
+CLM-30703,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,330.40,TPD-0490,approve,,95bef2d00f35
+CLM-30706,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,330.40,TPD-0484,approve,,95bef2d00f35
+CLM-30710,train,review,MISSING_IMAGE,,MISSING_IMAGE: photo never reached the server,Parking,30.00,TPD-0412,review,MISSING_IMAGE,95bef2d00f35
+CLM-30711,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Parking,30.00,TPD-0431,approve,,95bef2d00f35
+CLM-30713,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,250.00,TPD-0431,approve,,95bef2d00f35
+CLM-30717,train,approve,,,all checks passed,Fuel,558.00,TPD-0503,approve,,95bef2d00f35
+CLM-30721,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,333.64,TPD-0418,approve,,95bef2d00f35
+CLM-30724,train,approve,,,all checks passed,Food,315.00,TPD-0484,approve,,95bef2d00f35
+CLM-30728,train,approve,,,all checks passed,Food,840.00,TPD-0459,approve,,95bef2d00f35
+CLM-30732,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,700.00,TPD-0431,approve,,95bef2d00f35
+CLM-30735,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1060.00,TPD-0484,approve,,95bef2d00f35
+CLM-30736,train,review,AMOUNT_OVER_LIMIT; AMOUNT_MISMATCH; LODGING_NAME_MISMATCH; LODGING_NOT_GST_INVOICE; DUPLICATE_BILL,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 2400.0, bill 2352.0; AMOUNT_MISMATCH: claimed 2400.0 vs bill 2352.0; LODGING_NAME_MISMATCH: guest Signature vs Kalyani Deshmukh; LODGING_NOT_GST_INVOICE: absent; DUPLICATE_BILL: same bill as CLM-30533 (approved earlier: likely already paid)",Lodging,2400.00,TPD-0452,review,AMOUNT_OVER_LIMIT; AMOUNT_MISMATCH; DUPLICATE_BILL,95bef2d00f35
+CLM-30737,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0497,approve,,95bef2d00f35
+CLM-30738,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0463,approve,,95bef2d00f35
+CLM-30740,train,review,AMOUNT_OVER_LIMIT,GSTIN_ABSENT; ROUNDED_TO_10,"AMOUNT_OVER_LIMIT: claimed 3567.0, bill 3566.52",Fuel,3567.00,TPD-0388,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30741,train,approve,,,all checks passed,Food,1102.00,TPD-0423,approve,,95bef2d00f35
+CLM-30742,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,672.00,TPD-0471,approve,,95bef2d00f35
+CLM-30745,train,approve,,,all checks passed,Food,514.00,TPD-0484,approve,,95bef2d00f35
+CLM-30749,train,approve,,,all checks passed,Food,504.00,TPD-0478,approve,,95bef2d00f35
+CLM-30750,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,50.00,TPD-0463,approve,,95bef2d00f35
+CLM-30751,train,review,AMOUNT_OVER_LIMIT; AMOUNT_MISMATCH,,"AMOUNT_OVER_LIMIT: claimed 432.0, bill 4032.0; AMOUNT_MISMATCH: claimed 432.0 vs bill 4032.0",Lodging,432.00,TPD-0471,review,AMOUNT_OVER_LIMIT; AMOUNT_MISMATCH,95bef2d00f35
+CLM-30753,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0412,approve,,95bef2d00f35
+CLM-30757,train,approve,,,all checks passed,Fuel,400.00,TPD-0503,approve,,95bef2d00f35
+CLM-30759,train,approve,,,all checks passed,Fuel,250.00,TPD-0412,approve,,95bef2d00f35
+CLM-30762,train,approve,,,all checks passed,Fuel,200.00,TPD-0447,approve,,95bef2d00f35
+CLM-30764,train,review,ALTERED_BILL; AMOUNT_MISMATCH; FIELDS_INCOMPLETE,GSTIN_ABSENT,ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 268.0; AMOUNT_MISMATCH: claimed 1268.0 vs bill 268.0; FIELDS_INCOMPLETE: missing: vendor,Food,1268.00,TPD-0423,review,AMOUNT_MISMATCH; ALTERED_BILL,95bef2d00f35
+CLM-30766,train,approve,,,all checks passed,Food,640.00,TPD-0484,approve,,95bef2d00f35
+CLM-30767,train,review,DUPLICATE_BILL,,DUPLICATE_BILL: same bill as CLM-30484 (approved earlier: likely already paid),Food,178.00,TPD-0436,review,DUPLICATE_BILL,95bef2d00f35
+CLM-30769,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,390.00,TPD-0452,approve,,95bef2d00f35
+CLM-30770,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,528.64,TPD-0423,approve,,95bef2d00f35
+CLM-30774,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0",Lodging,2016.00,TPD-0484,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30775,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,400.00,TPD-0459,approve,,95bef2d00f35
+CLM-30779,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0471,approve,,95bef2d00f35
+CLM-30780,train,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Food,580.00,TPD-0388,approve,,95bef2d00f35
+CLM-30783,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,578.00,TPD-0459,approve,,95bef2d00f35
+CLM-30787,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,220.00,TPD-0452,approve,,95bef2d00f35
+CLM-30790,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status uncertain,Local travel,1550.00,TPD-0452,approve,,95bef2d00f35
+CLM-30794,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Courier,339.84,TPD-0497,approve,,95bef2d00f35
+CLM-30796,train,approve,,,all checks passed,Courier,339.84,TPD-0423,approve,,95bef2d00f35
+CLM-30797,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 3136.0, bill 3136.0",Lodging,3136.00,TPD-0503,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30799,train,review,DUPLICATE_BILL,GSTIN_ABSENT,DUPLICATE_BILL: same bill as CLM-30566 (approved earlier: likely already paid),Parking,30.00,TPD-0497,review,DUPLICATE_BILL,95bef2d00f35
+CLM-30803,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,403.72,TPD-0418,approve,,95bef2d00f35
+CLM-30804,train,review,FIELDS_INCOMPLETE; DUPLICATE_BILL; DUPLICATE_PHOTO,,FIELDS_INCOMPLETE: missing: receipt_date; DUPLICATE_BILL: same bill as CLM-30661 (approved earlier: likely already paid); DUPLICATE_PHOTO: same photo as CLM-30661,Food,1559.00,TPD-0452,review,DUPLICATE_PHOTO; DATE_MISMATCH,95bef2d00f35
+CLM-30807,train,approve,,,all checks passed,Food,1008.00,TPD-0412,approve,,95bef2d00f35
+CLM-30811,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,660.00,TPD-0503,approve,,95bef2d00f35
+CLM-30814,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,270.00,TPD-0447,approve,,95bef2d00f35
+CLM-30815,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1080.00,TPD-0436,approve,,95bef2d00f35
+CLM-30819,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0",Lodging,2016.00,TPD-0484,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30820,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,250.00,TPD-0503,approve,,95bef2d00f35
+CLM-30821,train,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Fuel,333.00,TPD-0463,approve,,95bef2d00f35
+CLM-30824,train,approve,,,all checks passed,Fuel,300.00,TPD-0452,approve,,95bef2d00f35
+CLM-30826,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,150.00,TPD-0484,approve,,95bef2d00f35
+CLM-30827,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,436.00,TPD-0484,approve,,95bef2d00f35
+CLM-30829,train,review,AMOUNT_MISMATCH,,AMOUNT_MISMATCH: claimed 888.0 vs bill 388.0,Food,888.00,TPD-0388,review,AMOUNT_MISMATCH,95bef2d00f35
+CLM-30833,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,200.00,TPD-0436,approve,,95bef2d00f35
+CLM-30837,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1130.00,TPD-0459,approve,,95bef2d00f35
+CLM-30840,train,review,DATE_MISMATCH; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-14 vs expense 2026-06-21; DUPLICATE_BILL: same bill as CLM-30472 (approved earlier: likely already paid),Local travel,1120.00,TPD-0431,review,DUPLICATE_BILL; DATE_MISMATCH,95bef2d00f35
+CLM-30843,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0471,approve,,95bef2d00f35
+CLM-30846,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,620.00,TPD-0431,approve,,95bef2d00f35
+CLM-30849,train,approve,,,all checks passed,Food,483.00,TPD-0431,approve,,95bef2d00f35
+CLM-30851,train,approve,,,all checks passed,Food,430.00,TPD-0497,approve,,95bef2d00f35
+CLM-30854,train,review,AMOUNT_MISMATCH; FIELDS_INCOMPLETE,GSTIN_ABSENT,AMOUNT_MISMATCH: claimed 380.0 vs bill 360.0; FIELDS_INCOMPLETE: missing: receipt_date,Food,380.00,TPD-0418,review,AMOUNT_MISMATCH,95bef2d00f35
+CLM-30856,train,review,UNREADABLE_IMAGE,,UNREADABLE_IMAGE: no amount and no bill number read,Local travel,790.00,TPD-0471,review,UNREADABLE_IMAGE,95bef2d00f35
+CLM-30857,train,approve,,,all checks passed,Courier,141.60,TPD-0463,approve,,95bef2d00f35
+CLM-30860,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,100.00,TPD-0447,approve,,95bef2d00f35
+CLM-30863,train,approve,,,all checks passed,Food,220.00,TPD-0490,approve,,95bef2d00f35
+CLM-30865,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,80.00,TPD-0423,approve,,95bef2d00f35
+CLM-30868,train,review,AMOUNT_OVER_LIMIT; AMOUNT_UNVERIFIED; AMOUNT_MISMATCH; FIELDS_INCOMPLETE,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 1130.0, bill 11307.0; AMOUNT_UNVERIFIED: status uncertain; AMOUNT_MISMATCH: claimed 1130.0 vs bill 11307.0; FIELDS_INCOMPLETE: missing: receipt_date",Local travel,1130.00,TPD-0452,approve,,95bef2d00f35
+CLM-30871,train,approve,,,all checks passed,Courier,141.60,TPD-0478,approve,,95bef2d00f35
+CLM-30872,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Parking,30.00,TPD-0431,approve,,95bef2d00f35
+CLM-30874,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0497,approve,,95bef2d00f35
+CLM-30875,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0463,approve,,95bef2d00f35
+CLM-30879,train,approve,,,all checks passed,Food,388.00,TPD-0471,approve,,95bef2d00f35
+CLM-30880,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,170.00,TPD-0497,approve,,95bef2d00f35
+CLM-30883,train,approve,,,all checks passed,Courier,141.60,TPD-0484,approve,,95bef2d00f35
+CLM-30886,train,review,AMOUNT_UNVERIFIED; FIELDS_INCOMPLETE,,AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date,Courier,212.40,TPD-0431,review,UNREADABLE_IMAGE,95bef2d00f35
+CLM-30887,train,review,MISSING_IMAGE,,MISSING_IMAGE: photo never reached the server,Courier,141.60,TPD-0490,review,MISSING_IMAGE,95bef2d00f35
+CLM-30891,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Parking,30.00,TPD-0412,approve,,95bef2d00f35
+CLM-30892,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,250.00,TPD-0490,approve,,95bef2d00f35
+CLM-30893,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0497,approve,,95bef2d00f35
+CLM-30897,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0418,approve,,95bef2d00f35
+CLM-30901,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0484,approve,,95bef2d00f35
+CLM-30902,train,approve,,,all checks passed,Fuel,500.00,TPD-0503,approve,,95bef2d00f35
+CLM-30904,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0423,approve,,95bef2d00f35
+CLM-30906,train,approve,,,all checks passed,Food,630.00,TPD-0412,approve,,95bef2d00f35
+CLM-30910,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1550.00,TPD-0418,approve,,95bef2d00f35
+CLM-30913,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,290.00,TPD-0452,approve,,95bef2d00f35
+CLM-30916,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0431,approve,,95bef2d00f35
+CLM-30919,train,review,AMOUNT_MISMATCH; INSTRUCTION_TEXT,GSTIN_ABSENT,AMOUNT_MISMATCH: claimed 800.0 vs bill 300.0; INSTRUCTION_TEXT: violet stamp (image audit),Fuel,800.00,TPD-0478,review,AMOUNT_MISMATCH; ALTERED_BILL; INSTRUCTION_TEXT,95bef2d00f35
+CLM-30920,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,482.58,TPD-0478,approve,,95bef2d00f35
+CLM-30923,train,review,AMOUNT_OVER_LIMIT; NUMBER_FORMAT_MISMATCH,GSTIN_ABSENT; ROUNDED_TO_10,"AMOUNT_OVER_LIMIT: claimed 2950.0, bill 2949.8; NUMBER_FORMAT_MISMATCH: 067012",Fuel,2950.00,TPD-0497,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30925,train,review,FIELDS_INCOMPLETE; NUMBER_FORMAT_MISMATCH,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date; NUMBER_FORMAT_MISMATCH: 668732,Fuel,100.00,TPD-0459,approve,,95bef2d00f35
+CLM-30929,train,approve,,,all checks passed,Food,420.00,TPD-0388,approve,,95bef2d00f35
+CLM-30932,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,1225.00,TPD-0412,approve,,95bef2d00f35
+CLM-30934,train,review,AMOUNT_MISMATCH,GSTIN_ABSENT,AMOUNT_MISMATCH: claimed 1520.0 vs bill 1020.0,Local travel,1520.00,TPD-0447,review,AMOUNT_MISMATCH,95bef2d00f35
+CLM-30937,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,212.40,TPD-0412,approve,,95bef2d00f35
+CLM-30940,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 6272.0, bill 6272.0",Lodging,6272.00,TPD-0471,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30944,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,100.00,TPD-0471,approve,,95bef2d00f35
+CLM-30947,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0497,approve,,95bef2d00f35
+CLM-30950,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0423,approve,,95bef2d00f35
+CLM-30954,train,review,FUEL_VEHICLE_OTHER_EMPLOYEE; DUPLICATE_BILL,GSTIN_ABSENT,FUEL_VEHICLE_OTHER_EMPLOYEE: MH31FA2290 belongs to TPD-0418; DUPLICATE_BILL: same bill as CLM-30660 (approved earlier: likely already paid),Fuel,300.00,TPD-0412,review,DUPLICATE_BILL; FUEL_VEHICLE_OTHER_EMPLOYEE,95bef2d00f35
+CLM-30957,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0436,approve,,95bef2d00f35
+CLM-30959,train,approve,,,all checks passed,Fuel,308.84,TPD-0503,approve,,95bef2d00f35
+CLM-30963,train,review,DATE_MISMATCH; DUPLICATE_BILL; DUPLICATE_PHOTO,,DATE_MISMATCH: bill 2026-06-19 vs expense 2026-06-14; DUPLICATE_BILL: same bill as CLM-30600 (approved earlier: likely already paid); DUPLICATE_PHOTO: same photo as CLM-30600,Food,672.00,TPD-0423,review,DUPLICATE_BILL; DUPLICATE_PHOTO; DATE_MISMATCH,95bef2d00f35
+CLM-30967,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,50.00,TPD-0497,approve,,95bef2d00f35
+CLM-30971,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1280.00,TPD-0497,approve,,95bef2d00f35
+CLM-30974,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0",Lodging,2016.00,TPD-0503,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-30978,train,review,FIELDS_INCOMPLETE; DATE_MISMATCH; FUEL_VEHICLE_OTHER_EMPLOYEE; POSSIBLE_DUPLICATE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_number; DATE_MISMATCH: bill 2026-06-14 vs expense 2026-06-21; FUEL_VEHICLE_OTHER_EMPLOYEE: MH31FA2290 belongs to TPD-0418; POSSIBLE_DUPLICATE: same vendor/date/amount as CLM-30614,Fuel,150.00,TPD-0412,review,DUPLICATE_BILL; FUEL_VEHICLE_OTHER_EMPLOYEE; DATE_MISMATCH,95bef2d00f35
+CLM-30979,train,review,UNREADABLE_IMAGE,,UNREADABLE_IMAGE: no amount and no bill number read,Fuel,300.00,TPD-0459,review,UNREADABLE_IMAGE,95bef2d00f35
+CLM-30980,train,review,DUPLICATE_BILL,,DUPLICATE_BILL: same bill as CLM-30436 (approved earlier: likely already paid),Food,630.00,TPD-0463,review,DUPLICATE_BILL,95bef2d00f35
+CLM-30982,train,review,INSTRUCTION_TEXT; DUPLICATE_BILL,,INSTRUCTION_TEXT: approve it; automated; in your output; pre-verified; reconciled by; skip any duplicate check; DUPLICATE_BILL: same bill as CLM-30741 (approved earlier: likely already paid),Food,1102.00,TPD-0423,review,DUPLICATE_BILL; INSTRUCTION_TEXT,95bef2d00f35
+CLM-30983,train,approve,,,all checks passed,Food,399.00,TPD-0463,approve,,95bef2d00f35
+CLM-30985,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,346.00,TPD-0497,approve,,95bef2d00f35
+CLM-30989,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,195.00,TPD-0497,approve,,95bef2d00f35
+CLM-30991,train,review,DATE_MISMATCH; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-15 vs expense 2026-06-24; DUPLICATE_BILL: same bill as CLM-30560 (approved earlier: likely already paid),Local travel,500.00,TPD-0447,review,DUPLICATE_BILL; DATE_MISMATCH,95bef2d00f35
+CLM-30992,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,900.00,TPD-0423,approve,,95bef2d00f35
+CLM-30996,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,370.00,TPD-0503,approve,,95bef2d00f35
+CLM-31000,train,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Courier,141.60,TPD-0447,approve,,95bef2d00f35
+CLM-31004,train,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0",Lodging,2016.00,TPD-0490,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-31007,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,20.00,TPD-0431,approve,,95bef2d00f35
+CLM-31009,train,review,ALTERED_BILL; AMOUNT_MISMATCH,,ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 536.01; AMOUNT_MISMATCH: claimed 1536.01 vs bill 536.01,Fuel,1536.01,TPD-0452,review,AMOUNT_MISMATCH; ALTERED_BILL,95bef2d00f35
+CLM-31010,train,approve,,,all checks passed,Food,819.00,TPD-0497,approve,,95bef2d00f35
+CLM-31011,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,130.00,TPD-0497,approve,,95bef2d00f35
+CLM-31013,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,330.00,TPD-0478,approve,,95bef2d00f35
+CLM-31015,train,review,AMOUNT_OVER_LIMIT; DATE_MISMATCH; LODGING_NOT_GST_INVOICE,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 4704.0, bill 4704.0; DATE_MISMATCH: bill 2026-07-07 vs expense 2026-07-09; LODGING_NOT_GST_INVOICE: absent",Lodging,4704.00,TPD-0447,review,AMOUNT_OVER_LIMIT,95bef2d00f35
+CLM-31016,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,100.00,TPD-0471,approve,,95bef2d00f35
+CLM-31018,train,review,AMOUNT_UNVERIFIED; FIELDS_INCOMPLETE,GSTIN_UNREADABLE,AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date,Food,546.00,TPD-0423,approve,,95bef2d00f35
+CLM-31019,train,approve,,,all checks passed,Food,304.00,TPD-0388,approve,,95bef2d00f35
+CLM-31020,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: vendor,Local travel,370.00,TPD-0447,approve,,95bef2d00f35
+CLM-31021,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,850.00,TPD-0412,approve,,95bef2d00f35
+CLM-31022,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1130.00,TPD-0388,approve,,95bef2d00f35
+CLM-31023,train,review,FUEL_VEHICLE_OTHER_EMPLOYEE; DUPLICATE_BILL,,FUEL_VEHICLE_OTHER_EMPLOYEE: MH32AL6618 belongs to TPD-0447; DUPLICATE_BILL: same bill as CLM-30688 (approved earlier: likely already paid),Fuel,150.00,TPD-0452,review,DUPLICATE_BILL; FUEL_VEHICLE_OTHER_EMPLOYEE,95bef2d00f35
+CLM-31026,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0490,approve,,95bef2d00f35
+CLM-31030,train,approve,,,all checks passed,Food,682.00,TPD-0490,approve,,95bef2d00f35
+CLM-31032,train,approve,,GSTIN_UNREADABLE; ROUNDED_TO_10,"all checks passed (GSTIN_UNREADABLE, ROUNDED_TO_10)",Food,240.00,TPD-0452,approve,,95bef2d00f35
+CLM-31034,train,approve,,,all checks passed,Food,756.00,TPD-0418,approve,,95bef2d00f35
+CLM-31035,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,212.40,TPD-0497,approve,,95bef2d00f35
+CLM-31038,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,1113.00,TPD-0497,approve,,95bef2d00f35
+CLM-31042,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,330.00,TPD-0452,approve,,95bef2d00f35
+CLM-31045,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Food,110.00,TPD-0459,approve,,95bef2d00f35
+CLM-31047,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,310.00,TPD-0463,approve,,95bef2d00f35
+CLM-31049,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,"FIELDS_INCOMPLETE: missing: receipt_date, receipt_number",Food,190.00,TPD-0452,review,AMOUNT_MISMATCH,95bef2d00f35
+CLM-31053,train,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Local travel,260.00,TPD-0447,approve,,95bef2d00f35
+CLM-31055,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,900.00,TPD-0388,approve,,95bef2d00f35
+CLM-31056,train,approve,,,all checks passed,Courier,339.84,TPD-0447,approve,,95bef2d00f35
+CLM-31057,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0497,approve,,95bef2d00f35
+CLM-31059,train,approve,,,all checks passed,Fuel,400.00,TPD-0503,approve,,95bef2d00f35
+CLM-31063,train,review,FIELDS_INCOMPLETE; DUPLICATE_BILL,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date; DUPLICATE_BILL: same bill as CLM-30416 (approved earlier: likely already paid),Food,325.00,TPD-0459,review,DUPLICATE_BILL,95bef2d00f35
+CLM-31066,train,approve,,,all checks passed,Courier,226.56,TPD-0503,approve,,95bef2d00f35
+CLM-31067,train,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Courier,528.64,TPD-0471,approve,,95bef2d00f35
+CLM-31069,train,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0471,approve,,95bef2d00f35
+CLM-31071,train,approve,,,all checks passed,Food,662.00,TPD-0418,approve,,95bef2d00f35
+CLM-31072,train,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Courier,330.00,TPD-0503,approve,,95bef2d00f35
+CLM-31075,train,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Fuel,487.00,TPD-0471,approve,,95bef2d00f35
+CLM-31079,train,review,DATE_MISMATCH; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-22 vs expense 2026-06-30; DUPLICATE_BILL: same bill as CLM-30679 (approved earlier: likely already paid),Courier,448.40,TPD-0412,review,DUPLICATE_BILL; DATE_MISMATCH,95bef2d00f35
+CLM-31081,train,review,DUPLICATE_BILL,,DUPLICATE_BILL: same bill as CLM-30608 (approved earlier: likely already paid),Courier,212.40,TPD-0471,review,DUPLICATE_BILL,95bef2d00f35
+CLM-31084,train,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Parking,30.00,TPD-0497,approve,,95bef2d00f35
+CLM-31086,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0412,,,95bef2d00f35
+CLM-31087,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,304.00,TPD-0497,,,95bef2d00f35
+CLM-31088,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,260.00,TPD-0471,,,95bef2d00f35
+CLM-31090,test,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,220.00,TPD-0459,,,95bef2d00f35
+CLM-31091,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,405.00,TPD-0431,,,95bef2d00f35
+CLM-31094,test,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Local travel,250.00,TPD-0463,,,95bef2d00f35
+CLM-31095,test,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Courier,330.00,TPD-0447,,,95bef2d00f35
+CLM-31096,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,668.11,TPD-0471,,,95bef2d00f35
+CLM-31097,test,approve,,,all checks passed,Fuel,400.00,TPD-0447,,,95bef2d00f35
+CLM-31098,test,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,730.00,TPD-0436,,,95bef2d00f35
+CLM-31102,test,review,DUPLICATE_BILL,,DUPLICATE_BILL: same bill as CLM-31275,Food,452.00,TPD-0423,,,95bef2d00f35
+CLM-31105,test,approve,,,all checks passed,Food,567.00,TPD-0452,,,95bef2d00f35
+CLM-31106,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,494.00,TPD-0459,,,95bef2d00f35
+CLM-31107,test,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Courier,330.40,TPD-0459,,,95bef2d00f35
+CLM-31110,test,approve,,,all checks passed,Courier,141.60,TPD-0490,,,95bef2d00f35
+CLM-31111,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,,,95bef2d00f35
+CLM-31112,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0431,,,95bef2d00f35
+CLM-31115,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,511.67,TPD-0484,,,95bef2d00f35
+CLM-31118,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,283.44,TPD-0412,,,95bef2d00f35
+CLM-31120,test,review,DATE_MISMATCH; FUEL_VEHICLE_OTHER_EMPLOYEE; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-24 vs expense 2026-06-17; FUEL_VEHICLE_OTHER_EMPLOYEE: MH31FA2290 belongs to TPD-0418; DUPLICATE_BILL: same bill as CLM-30687 (approved earlier: likely already paid),Fuel,300.00,TPD-0431,,,95bef2d00f35
+CLM-31122,test,review,DATE_MISMATCH; DUPLICATE_BILL,,DATE_MISMATCH: bill 2026-06-22 vs expense 2026-06-15; DUPLICATE_BILL: same bill as CLM-30762 (approved earlier: likely already paid),Fuel,200.00,TPD-0447,,,95bef2d00f35
+CLM-31123,test,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Food,250.00,TPD-0471,,,95bef2d00f35
+CLM-31126,test,approve,,,all checks passed,Food,210.00,TPD-0436,,,95bef2d00f35
+CLM-31130,test,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,980.00,TPD-0431,,,95bef2d00f35
+CLM-31132,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,150.00,TPD-0478,,,95bef2d00f35
+CLM-31133,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0452,,,95bef2d00f35
+CLM-31137,test,approve,,,all checks passed,Food,399.00,TPD-0418,,,95bef2d00f35
+CLM-31140,test,approve,,,all checks passed,Food,294.00,TPD-0431,,,95bef2d00f35
+CLM-31142,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,350.00,TPD-0412,,,95bef2d00f35
+CLM-31146,test,review,AMOUNT_OVER_LIMIT; AMOUNT_UNVERIFIED; AMOUNT_MISMATCH,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 470.0, bill 4701.0; AMOUNT_UNVERIFIED: status uncertain; AMOUNT_MISMATCH: claimed 470.0 vs bill 4701.0",Local travel,470.00,TPD-0388,,,95bef2d00f35
+CLM-31148,test,review,AMOUNT_OVER_LIMIT; LODGING_NOT_GST_INVOICE,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 2352.0, bill 2352.0; LODGING_NOT_GST_INVOICE: absent",Lodging,2352.00,TPD-0447,,,95bef2d00f35
+CLM-31152,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,20.00,TPD-0431,,,95bef2d00f35
+CLM-31156,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,313.73,TPD-0497,,,95bef2d00f35
+CLM-31158,test,approve,,GSTIN_UNREADABLE,all checks passed (GSTIN_UNREADABLE),Food,430.00,TPD-0447,,,95bef2d00f35
+CLM-31160,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,339.84,TPD-0447,,,95bef2d00f35
+CLM-31161,test,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2352.0, bill 2352.0",Lodging,2352.00,TPD-0452,,,95bef2d00f35
+CLM-31164,test,review,NUMBER_FORMAT_MISMATCH,GSTIN_ABSENT,NUMBER_FORMAT_MISMATCH: 087635,Fuel,300.00,TPD-0418,,,95bef2d00f35
+CLM-31168,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0459,,,95bef2d00f35
+CLM-31170,test,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Food,178.00,TPD-0388,,,95bef2d00f35
+CLM-31171,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,190.00,TPD-0418,,,95bef2d00f35
+CLM-31173,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,330.00,TPD-0484,,,95bef2d00f35
+CLM-31176,test,review,DATE_MISMATCH; INSTRUCTION_TEXT; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-20 vs expense 2026-07-02; INSTRUCTION_TEXT: approve it; automated; in your output; pre-verified; reconciled by; skip any duplicate check; DUPLICATE_BILL: same bill as CLM-30572 (approved earlier: likely already paid),Food,190.00,TPD-0471,,,95bef2d00f35
+CLM-31178,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,540.00,TPD-0497,,,95bef2d00f35
+CLM-31182,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,360.00,TPD-0452,,,95bef2d00f35
+CLM-31185,test,approve,,,all checks passed,Courier,141.60,TPD-0471,,,95bef2d00f35
+CLM-31188,test,review,AMOUNT_OVER_LIMIT; DATE_MISMATCH; LODGING_NOT_GST_INVOICE,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 4032.0, bill 4032.0; DATE_MISMATCH: bill 2026-07-13 vs expense 2026-07-15; LODGING_NOT_GST_INVOICE: absent",Lodging,4032.00,TPD-0463,,,95bef2d00f35
+CLM-31190,test,review,MISSING_IMAGE,,MISSING_IMAGE: photo never reached the server,Fuel,400.00,TPD-0423,,,95bef2d00f35
+CLM-31191,test,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Fuel,310.00,TPD-0418,,,95bef2d00f35
+CLM-31192,test,review,ALTERED_BILL; AMOUNT_MISMATCH,,ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 200.0; AMOUNT_MISMATCH: claimed 1200.0 vs bill 200.0,Food,1200.00,TPD-0497,,,95bef2d00f35
+CLM-31195,test,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Courier,330.00,TPD-0478,,,95bef2d00f35
+CLM-31197,test,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Fuel,290.00,TPD-0423,,,95bef2d00f35
+CLM-31201,test,approve,,,all checks passed,Food,536.00,TPD-0412,,,95bef2d00f35
+CLM-31203,test,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,1180.00,TPD-0497,,,95bef2d00f35
+CLM-31204,test,review,DATE_MISMATCH; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-24 vs expense 2026-06-28; DUPLICATE_BILL: same bill as CLM-30703 (approved earlier: likely already paid),Courier,330.40,TPD-0490,,,95bef2d00f35
+CLM-31206,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,100.00,TPD-0471,,,95bef2d00f35
+CLM-31207,test,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2194.0, bill 2194.0",Food,2194.00,TPD-0503,,,95bef2d00f35
+CLM-31209,test,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,480.00,TPD-0503,,,95bef2d00f35
+CLM-31211,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,185.00,TPD-0452,,,95bef2d00f35
+CLM-31214,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,100.00,TPD-0503,,,95bef2d00f35
+CLM-31217,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,660.00,TPD-0497,,,95bef2d00f35
+CLM-31221,test,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Courier,330.40,TPD-0484,,,95bef2d00f35
+CLM-31222,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0431,,,95bef2d00f35
+CLM-31225,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,606.62,TPD-0436,,,95bef2d00f35
+CLM-31228,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0431,,,95bef2d00f35
+CLM-31230,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,150.00,TPD-0423,,,95bef2d00f35
+CLM-31233,test,approve,,,all checks passed,Food,462.00,TPD-0503,,,95bef2d00f35
+CLM-31236,test,approve,,,all checks passed,Food,483.00,TPD-0452,,,95bef2d00f35
+CLM-31240,test,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,425.00,TPD-0471,,,95bef2d00f35
+CLM-31243,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,790.00,TPD-0431,,,95bef2d00f35
+CLM-31244,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,1100.00,TPD-0418,,,95bef2d00f35
+CLM-31247,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,330.40,TPD-0484,,,95bef2d00f35
+CLM-31249,test,approve,,,all checks passed,Courier,141.60,TPD-0459,,,95bef2d00f35
+CLM-31251,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Courier,141.60,TPD-0503,,,95bef2d00f35
+CLM-31255,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0431,,,95bef2d00f35
+CLM-31256,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0497,,,95bef2d00f35
+CLM-31258,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0490,,,95bef2d00f35
+CLM-31261,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,606.91,TPD-0423,,,95bef2d00f35
+CLM-31263,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0412,,,95bef2d00f35
+CLM-31265,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0463,,,95bef2d00f35
+CLM-31266,test,review,DATE_MISMATCH; DUPLICATE_BILL,GSTIN_ABSENT,DATE_MISMATCH: bill 2026-06-13 vs expense 2026-06-20; DUPLICATE_BILL: same bill as CLM-30451 (approved earlier: likely already paid),Fuel,300.00,TPD-0431,,,95bef2d00f35
+CLM-31270,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0484,,,95bef2d00f35
+CLM-31272,test,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,331.00,TPD-0497,,,95bef2d00f35
+CLM-31274,test,review,FIELDS_INCOMPLETE,,"FIELDS_INCOMPLETE: missing: receipt_date, receipt_number",Food,693.00,TPD-0503,,,95bef2d00f35
+CLM-31275,test,review,DATE_MISMATCH; DUPLICATE_BILL,,DATE_MISMATCH: bill 2026-07-20 vs expense 2026-07-25; DUPLICATE_BILL: same bill as CLM-31102,Food,452.00,TPD-0436,,,95bef2d00f35
+CLM-31279,test,approve,,,all checks passed,Food,357.00,TPD-0418,,,95bef2d00f35
+CLM-31280,test,review,MISSING_IMAGE,,MISSING_IMAGE: photo never reached the server,Food,330.00,TPD-0490,,,95bef2d00f35
+CLM-31284,test,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0",Lodging,2016.00,TPD-0452,,,95bef2d00f35
+CLM-31288,test,review,AMOUNT_OVER_LIMIT; AMOUNT_MISMATCH,,"AMOUNT_OVER_LIMIT: claimed 2852.0, bill 2352.0; AMOUNT_MISMATCH: claimed 2852.0 vs bill 2352.0",Lodging,2852.00,TPD-0447,,,95bef2d00f35
+CLM-31292,test,review,AMOUNT_MISMATCH,GSTIN_ABSENT,AMOUNT_MISMATCH: claimed 450.0 vs bill 250.0,Fuel,450.00,TPD-0484,,,95bef2d00f35
+CLM-31294,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,542.82,TPD-0423,,,95bef2d00f35
+CLM-31296,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0436,,,95bef2d00f35
+CLM-31298,test,approve,,,all checks passed,Food,430.00,TPD-0388,,,95bef2d00f35
+CLM-31299,test,review,ALTERED_BILL; AMOUNT_MISMATCH,,ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 472.0; AMOUNT_MISMATCH: claimed 1472.0 vs bill 472.0,Food,1472.00,TPD-0423,,,95bef2d00f35
+CLM-31301,test,review,DUPLICATE_BILL; DUPLICATE_PHOTO,,DUPLICATE_BILL: same bill as CLM-31480; DUPLICATE_PHOTO: same photo as CLM-31480,Food,735.00,TPD-0497,,,95bef2d00f35
+CLM-31305,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,380.00,TPD-0447,,,95bef2d00f35
+CLM-31308,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,480.00,TPD-0447,,,95bef2d00f35
+CLM-31310,test,review,DUPLICATE_BILL,GSTIN_ABSENT,DUPLICATE_BILL: same bill as CLM-31497,Local travel,1170.00,TPD-0478,,,95bef2d00f35
+CLM-31311,test,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2352.0, bill 2352.0",Lodging,2352.00,TPD-0459,,,95bef2d00f35
+CLM-31314,test,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Parking,30.00,TPD-0431,,,95bef2d00f35
+CLM-31315,test,review,AMOUNT_MISMATCH,,AMOUNT_MISMATCH: claimed 20.0 vs bill 200.0,Fuel,20.00,TPD-0503,,,95bef2d00f35
+CLM-31317,test,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 2268.0, bill 2268.0",Food,2268.00,TPD-0431,,,95bef2d00f35
+CLM-31321,test,approve,,,all checks passed,Food,808.00,TPD-0431,,,95bef2d00f35
+CLM-31324,test,approve,,,all checks passed,Food,998.00,TPD-0484,,,95bef2d00f35
+CLM-31328,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,235.00,TPD-0503,,,95bef2d00f35
+CLM-31329,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,740.00,TPD-0423,,,95bef2d00f35
+CLM-31331,test,review,DUPLICATE_BILL,GSTIN_ABSENT,DUPLICATE_BILL: same bill as CLM-30506 (approved earlier: likely already paid),Local travel,1230.00,TPD-0463,,,95bef2d00f35
+CLM-31333,test,review,AMOUNT_UNVERIFIED; FIELDS_INCOMPLETE; FUEL_VEHICLE_MISSING,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date; FUEL_VEHICLE_MISSING,Fuel,100.00,TPD-0412,,,95bef2d00f35
+CLM-31335,test,review,AMOUNT_MISMATCH,GSTIN_ABSENT,AMOUNT_MISMATCH: claimed 1314.0 vs bill 313.77,Fuel,1314.00,TPD-0418,,,95bef2d00f35
+CLM-31336,test,review,AMOUNT_OVER_LIMIT,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 2607.43, bill 2607.43",Fuel,2607.43,TPD-0388,,,95bef2d00f35
+CLM-31339,test,approve,,,all checks passed,Fuel,200.00,TPD-0452,,,95bef2d00f35
+CLM-31340,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,420.00,TPD-0463,,,95bef2d00f35
+CLM-31341,test,approve,,,all checks passed,Food,840.00,TPD-0436,,,95bef2d00f35
+CLM-31344,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,315.00,TPD-0503,,,95bef2d00f35
+CLM-31347,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,270.00,TPD-0431,,,95bef2d00f35
+CLM-31351,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,930.00,TPD-0388,,,95bef2d00f35
+CLM-31352,test,review,AMOUNT_UNVERIFIED,,AMOUNT_UNVERIFIED: status absent,Courier,141.60,TPD-0452,,,95bef2d00f35
+CLM-31356,test,review,AMOUNT_UNVERIFIED; FIELDS_INCOMPLETE,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date,Parking,30.00,TPD-0497,,,95bef2d00f35
+CLM-31359,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,20.00,TPD-0412,,,95bef2d00f35
+CLM-31361,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,250.00,TPD-0412,,,95bef2d00f35
+CLM-31362,test,approve,,,all checks passed,Fuel,200.00,TPD-0452,,,95bef2d00f35
+CLM-31363,test,review,MISSING_IMAGE,,MISSING_IMAGE: photo never reached the server,Food,525.00,TPD-0484,,,95bef2d00f35
+CLM-31366,test,review,FIELDS_INCOMPLETE; VENDOR_MISMATCH,GSTIN_ABSENT,"FIELDS_INCOMPLETE: missing: vendor, receipt_date; VENDOR_MISMATCH: bill Particulars vs typed Highway King Dhaba",Food,270.00,TPD-0503,,,95bef2d00f35
+CLM-31367,test,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Courier,142.00,TPD-0431,,,95bef2d00f35
+CLM-31368,test,review,AMOUNT_OVER_LIMIT; LODGING_NAME_MISMATCH,,"AMOUNT_OVER_LIMIT: claimed 3136.0, bill 3136.0; LODGING_NAME_MISMATCH: guest Signature vs Tushar Barde",Lodging,3136.00,TPD-0484,,,95bef2d00f35
+CLM-31369,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0497,,,95bef2d00f35
+CLM-31373,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,150.00,TPD-0436,,,95bef2d00f35
+CLM-31374,test,approve,,,all checks passed,Food,1092.00,TPD-0423,,,95bef2d00f35
+CLM-31378,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,60.00,TPD-0490,,,95bef2d00f35
+CLM-31382,test,review,AMOUNT_UNVERIFIED,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent,Courier,141.60,TPD-0452,,,95bef2d00f35
+CLM-31386,test,review,AMOUNT_MISMATCH,GSTIN_ABSENT,AMOUNT_MISMATCH: claimed 750.0 vs bill 250.0,Fuel,750.00,TPD-0418,,,95bef2d00f35
+CLM-31387,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,150.00,TPD-0463,,,95bef2d00f35
+CLM-31388,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,500.00,TPD-0471,,,95bef2d00f35
+CLM-31391,test,review,UNREADABLE_IMAGE,,UNREADABLE_IMAGE: no amount and no bill number read,Food,420.00,TPD-0490,,,95bef2d00f35
+CLM-31392,test,approve,,ROUNDED_TO_10,all checks passed (ROUNDED_TO_10),Food,1120.00,TPD-0431,,,95bef2d00f35
+CLM-31393,test,approve,,,all checks passed,Food,546.00,TPD-0478,,,95bef2d00f35
+CLM-31397,test,review,FIELDS_INCOMPLETE,GSTIN_ABSENT,FIELDS_INCOMPLETE: missing: receipt_date,Food,270.00,TPD-0452,,,95bef2d00f35
+CLM-31401,test,review,AMOUNT_UNVERIFIED; INSTRUCTION_TEXT,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status uncertain; INSTRUCTION_TEXT: approve it; automated; in your output; pre-verified; reconciled by; skip any duplicate check,Local travel,1390.00,TPD-0412,,,95bef2d00f35
+CLM-31402,test,review,AMOUNT_UNVERIFIED; DUPLICATE_BILL,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent; DUPLICATE_BILL: same bill as CLM-30625 (approved earlier: likely already paid),Courier,330.40,TPD-0431,,,95bef2d00f35
+CLM-31405,test,review,AMOUNT_OVER_LIMIT; LODGING_NOT_GST_INVOICE,GSTIN_ABSENT; ROUNDED_TO_10,"AMOUNT_OVER_LIMIT: claimed 4700.0, bill 4704.0; LODGING_NOT_GST_INVOICE: absent",Lodging,4700.00,TPD-0471,,,95bef2d00f35
+CLM-31407,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,,,95bef2d00f35
+CLM-31411,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,20.00,TPD-0431,,,95bef2d00f35
+CLM-31412,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0478,,,95bef2d00f35
+CLM-31414,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0459,,,95bef2d00f35
+CLM-31415,test,approve,,,all checks passed,Fuel,500.00,TPD-0503,,,95bef2d00f35
+CLM-31417,test,approve,,,all checks passed,Food,567.00,TPD-0423,,,95bef2d00f35
+CLM-31418,test,review,DATE_MISMATCH; DUPLICATE_BILL,,DATE_MISMATCH: bill 2026-06-12 vs expense 2026-06-08; DUPLICATE_BILL: same bill as CLM-30428 (approved earlier: likely already paid),Food,536.00,TPD-0452,,,95bef2d00f35
+CLM-31421,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,385.00,TPD-0388,,,95bef2d00f35
+CLM-31422,test,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 4032.0, bill 4032.0",Lodging,4032.00,TPD-0484,,,95bef2d00f35
+CLM-31423,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,,,95bef2d00f35
+CLM-31424,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,,,95bef2d00f35
+CLM-31428,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0431,,,95bef2d00f35
+CLM-31429,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,100.00,TPD-0418,,,95bef2d00f35
+CLM-31430,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,220.00,TPD-0436,,,95bef2d00f35
+CLM-31432,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,588.00,TPD-0471,,,95bef2d00f35
+CLM-31433,test,approve,,,all checks passed,Food,273.00,TPD-0503,,,95bef2d00f35
+CLM-31436,test,approve,,,all checks passed,Food,756.00,TPD-0412,,,95bef2d00f35
+CLM-31438,test,approve,,,all checks passed,Food,651.00,TPD-0490,,,95bef2d00f35
+CLM-31439,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,240.00,TPD-0459,,,95bef2d00f35
+CLM-31440,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,245.00,TPD-0447,,,95bef2d00f35
+CLM-31444,test,review,AMOUNT_MISMATCH,GSTIN_ABSENT,AMOUNT_MISMATCH: claimed 520.0 vs bill 250.0,Fuel,520.00,TPD-0418,,,95bef2d00f35
+CLM-31447,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0423,,,95bef2d00f35
+CLM-31451,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,200.00,TPD-0490,,,95bef2d00f35
+CLM-31453,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,250.00,TPD-0463,,,95bef2d00f35
+CLM-31454,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,400.00,TPD-0478,,,95bef2d00f35
+CLM-31457,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,400.00,TPD-0418,,,95bef2d00f35
+CLM-31460,test,approve,,,all checks passed,Fuel,500.00,TPD-0503,,,95bef2d00f35
+CLM-31461,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,300.00,TPD-0412,,,95bef2d00f35
+CLM-31465,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,400.00,TPD-0463,,,95bef2d00f35
+CLM-31469,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Fuel,100.00,TPD-0436,,,95bef2d00f35
+CLM-31473,test,approve,,,all checks passed,Food,756.00,TPD-0431,,,95bef2d00f35
+CLM-31474,test,review,ALTERED_BILL; FIELDS_INCOMPLETE,GSTIN_ABSENT,ALTERED_BILL: printed total contradicts the bill's own arithmetic; consistent amount 746.0; FIELDS_INCOMPLETE: missing: vendor,Food,746.00,TPD-0478,,,95bef2d00f35
+CLM-31475,test,review,DATE_MISMATCH; DUPLICATE_BILL; DUPLICATE_PHOTO,,DATE_MISMATCH: bill 2026-06-21 vs expense 2026-07-02; DUPLICATE_BILL: same bill as CLM-30664 (approved earlier: likely already paid); DUPLICATE_PHOTO: same photo as CLM-30664,Food,987.00,TPD-0471,,,95bef2d00f35
+CLM-31478,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,1082.00,TPD-0478,,,95bef2d00f35
+CLM-31479,test,approve,,,all checks passed,Food,567.00,TPD-0471,,,95bef2d00f35
+CLM-31480,test,review,DUPLICATE_BILL; DUPLICATE_PHOTO,,DUPLICATE_BILL: same bill as CLM-31301; DUPLICATE_PHOTO: same photo as CLM-31301,Food,735.00,TPD-0497,,,95bef2d00f35
+CLM-31483,test,approve,,,all checks passed,Food,798.00,TPD-0447,,,95bef2d00f35
+CLM-31485,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,410.00,TPD-0459,,,95bef2d00f35
+CLM-31486,test,review,AMOUNT_UNVERIFIED; FIELDS_INCOMPLETE,GSTIN_ABSENT,AMOUNT_UNVERIFIED: status absent; FIELDS_INCOMPLETE: missing: receipt_date,Food,500.00,TPD-0436,,,95bef2d00f35
+CLM-31490,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,370.00,TPD-0490,,,95bef2d00f35
+CLM-31494,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Food,165.00,TPD-0503,,,95bef2d00f35
+CLM-31495,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Local travel,910.00,TPD-0459,,,95bef2d00f35
+CLM-31497,test,review,AMOUNT_OVER_LIMIT; AMOUNT_UNVERIFIED; AMOUNT_MISMATCH; DATE_MISMATCH; MEMO_NAME_MISMATCH; DUPLICATE_BILL,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 1170.0, bill 11707.0; AMOUNT_UNVERIFIED: status uncertain; AMOUNT_MISMATCH: claimed 1170.0 vs bill 11707.0; DATE_MISMATCH: bill 2026-07-23 vs expense 2026-08-07; MEMO_NAME_MISMATCH: memo Prachi vs Sagar; DUPLICATE_BILL: same bill as CLM-31310",Local travel,1170.00,TPD-0471,,,95bef2d00f35
+CLM-31501,test,approve,,GSTIN_ABSENT; ROUNDED_TO_10,"all checks passed (GSTIN_ABSENT, ROUNDED_TO_10)",Courier,140.00,TPD-0459,,,95bef2d00f35
+CLM-31503,test,approve,,,all checks passed,Courier,1226.56,TPD-0418,,,95bef2d00f35
+CLM-31506,test,approve,,GSTIN_UNREADABLE; ROUNDED_TO_10,"all checks passed (GSTIN_UNREADABLE, ROUNDED_TO_10)",Courier,142.00,TPD-0431,,,95bef2d00f35
+CLM-31509,test,review,AMOUNT_OVER_LIMIT,,"AMOUNT_OVER_LIMIT: claimed 3136.0, bill 3136.0",Lodging,3136.00,TPD-0471,,,95bef2d00f35
+CLM-31512,test,review,AMOUNT_OVER_LIMIT; LODGING_NOT_GST_INVOICE,GSTIN_ABSENT,"AMOUNT_OVER_LIMIT: claimed 2016.0, bill 2016.0; LODGING_NOT_GST_INVOICE: absent",Lodging,2016.00,TPD-0484,,,95bef2d00f35
+CLM-31516,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0412,,,95bef2d00f35
+CLM-31519,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0431,,,95bef2d00f35
+CLM-31523,test,approve,,GSTIN_ABSENT,all checks passed (GSTIN_ABSENT),Parking,30.00,TPD-0497,,,95bef2d00f35

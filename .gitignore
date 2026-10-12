@@ -1,0 +1,26 @@
+# Python / tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Secrets (an example file may be committed)
+.env
+.env.*
+!.env.example
+
+# Model weights and caches: never committed (PaddleOCR-VL is downloaded from Hugging Face at run time)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+.cache/
+
+# Upload bundle for Kaggle, rebuilt with scripts/make_kaggle_zip.sh
+kaggle/*.zip

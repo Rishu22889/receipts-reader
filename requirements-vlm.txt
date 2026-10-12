@@ -1,0 +1,5 @@
+# Optional: read receipts live with PaddleOCR-VL (TARANG_VLM=live). Needs a CUDA GPU; see kaggle/README.md.
+-r requirements.txt
+torch>=2.4
+transformers>=5.19
+accelerate>=1.0
